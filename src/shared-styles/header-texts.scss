@@ -1,0 +1,23 @@
+@font-face {
+  font-family: IRANYekan;
+  src: url("../assets/fonts/IRANYekan.ttf");
+}
+
+@mixin headerText($position,$width,$height,$left){
+  position: $position;
+  width: $width;
+  height: $height;
+  left: $left;
+  top: 37px;
+
+  font-family: IRANYekan, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #FFFFFF;
+}

@@ -1,0 +1,5 @@
+@import '../../../../shared-styles/header-texts';
+
+.contact-us{
+  @include headerText(absolute,70px,24px,17%);
+}

@@ -1,9 +1,17 @@
-import './App.css';
+import React from 'react';
+import {Component} from 'react';
+import Header from "./components/header/header-wrapper";
 
-function App() {
-  return (
+class RoshanWebsite extends Component {
 
-  );
+  render() {
+
+    return(
+        <div>
+            <Header/>
+        </div>
+    )
+  }
 }
 
-export default App;
+export default RoshanWebsite;

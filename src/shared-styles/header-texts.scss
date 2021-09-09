@@ -3,11 +3,12 @@
   src: url("../assets/fonts/IRANYekan.ttf");
 }
 
-@mixin headerText($position,$width,$height,$left){
+@mixin headerText($position,$width,$height,$left,$right){
   position: $position;
   width: $width;
   height: $height;
   left: $left;
+  right: $right;
   top: 37px;
 
   font-family: IRANYekan, serif;

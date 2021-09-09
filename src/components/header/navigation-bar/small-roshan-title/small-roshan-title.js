@@ -1,13 +1,14 @@
 import React from 'react';
 import {Component} from 'react';
+import './small-roshan-title.scss'
 
 class SmallRoshanTitle extends Component {
 
     render() {
         return(
-            <div className="header-wrapper">
-
-            </div>
+            <p className='small-roshan-title'>
+                روشن
+            </p>
         )
     }
 }

@@ -2,7 +2,7 @@
 
 .work-with-us a{
   text-decoration: none;
-  margin-left: 200px;
+  margin-left: 150px;
   @include headerText();
 }
 
@@ -10,8 +10,23 @@
   margin-top: 20px;
 }
 
+@media screen and (max-width: 800px){
+  .work-with-us a{
+    margin-left: 70px;
+    font-size: 13px;
+  }
+}
+
+
+@media screen and (max-width: 400px){
+  .work-with-us a{
+    margin-left: 0;
+  }
+}
+
 @media screen and (max-width: 700px){
   .work-with-us a{
     margin-left: 20px;
+    font-size: 10px;
   }
 }

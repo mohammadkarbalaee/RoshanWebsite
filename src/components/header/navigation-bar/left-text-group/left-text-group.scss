@@ -5,3 +5,10 @@
   flex: 75%;
   order:1;
 }
+
+@media screen and (max-width: 200px){
+  .left-text-group{
+    justify-content: center;
+  }
+}
+

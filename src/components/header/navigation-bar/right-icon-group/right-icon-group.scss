@@ -4,3 +4,10 @@
   justify-content: right;
   flex-direction: row;
 }
+
+@media screen and (max-width: 200px){
+  .right-icon-group{
+    flex-direction: row;
+    justify-content: center;
+  }
+}

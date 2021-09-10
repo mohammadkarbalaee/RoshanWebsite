@@ -2,7 +2,7 @@ import React from 'react';
 import {Component} from 'react';
 import './header-wrapper.scss'
 import Navbar from "./navigation-bar/navbar";
-import MainBackround from "./main-background/main-backround";
+import RoshanEarthBackground from "./roshan-earth-background/roshan-earth-background";
 
 class Header extends Component {
 
@@ -10,7 +10,7 @@ class Header extends Component {
         return(
             <div className="header-wrapper">
                <Navbar/>
-                <MainBackround/>
+                <RoshanEarthBackground/>
             </div>
         )
     }

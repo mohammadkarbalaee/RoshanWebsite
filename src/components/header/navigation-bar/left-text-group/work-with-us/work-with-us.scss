@@ -1,5 +1,17 @@
 @import '../../../../../shared-styles/header-texts';
 
+.work-with-us a{
+  text-decoration: none;
+  margin-left: 200px;
+  @include headerText();
+}
+
 .work-with-us{
-  @include headerText(absolute,80px,24px,100px);
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 700px){
+  .work-with-us a{
+    margin-left: 20px;
+  }
 }

@@ -6,9 +6,11 @@ class SmallRoshanTitle extends Component {
 
     render() {
         return(
-            <p className='small-roshan-title'>
-                روشن
-            </p>
+            <div className='small-roshan-title'>
+                <p>
+                    روشن
+                </p>
+            </div>
         )
     }
 }

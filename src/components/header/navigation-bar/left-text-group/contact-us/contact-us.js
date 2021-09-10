@@ -6,9 +6,11 @@ class ContactUs extends Component {
 
     render() {
         return(
-            <p className='contact-us'>
-                تماس با ما
-            </p>
+            <div className='contact-us'>
+                <a href='/'>
+                    تماس با ما
+                </a>
+            </div>
         )
     }
 }

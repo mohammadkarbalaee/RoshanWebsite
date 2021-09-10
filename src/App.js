@@ -1,13 +1,15 @@
 import React from 'react';
 import {Component} from 'react';
 import Header from "./components/header/header-wrapper";
+import './App.css'
+
 
 class RoshanWebsite extends Component {
 
   render() {
 
     return(
-        <div>
+        <div className='roshan-website'>
             <Header/>
         </div>
     )
@@ -15,3 +17,4 @@ class RoshanWebsite extends Component {
 }
 
 export default RoshanWebsite;
+

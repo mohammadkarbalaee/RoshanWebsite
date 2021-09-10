@@ -9,8 +9,8 @@ class DoubleTextGroup extends Component {
     render() {
         return(
             <div className='left-text-group'>
-                <WorkWithUs/>
                 <ContactUs/>
+                <WorkWithUs/>
             </div>
         )
     }

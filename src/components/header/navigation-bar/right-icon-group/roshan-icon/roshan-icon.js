@@ -7,7 +7,9 @@ class RoshanIcon extends Component {
 
     render() {
         return(
-            <RoshanSVG className='roshan-icon'/>
+            <div className='roshan-icon'>
+                <RoshanSVG />
+            </div>
         )
     }
 }

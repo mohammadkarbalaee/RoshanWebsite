@@ -1,7 +1,7 @@
 .left-text-group{
-  position: absolute;
-  width: 186px;
-  height: 24px;
-  left: 100px;
-  top: 37px;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  flex: 75%;
+  order:1;
 }

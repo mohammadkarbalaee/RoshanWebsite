@@ -6,9 +6,11 @@ class WorkWithUs extends Component {
 
     render() {
         return(
-            <p className="work-with-us">
-                همکاری با ما
-            </p>
+            <div className="work-with-us">
+                <a href='/'>
+                    همکاری با ما
+                </a>
+            </div>
         )
     }
 }

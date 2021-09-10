@@ -1,5 +1,11 @@
 @import '../../../../../shared-styles/header-texts';
 
+.contact-us a{
+  text-decoration: none;
+  margin-left: 30px;
+  @include headerText();
+}
+
 .contact-us{
-  @include headerText(absolute,70px,24px,223px);
+  margin-top: 20px;
 }

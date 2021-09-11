@@ -28,3 +28,191 @@
   left:750px;
   position: absolute;
 }
+
+
+@media screen and (max-width: 1400px){
+
+  .earth-background .big-title{
+    left:600px;
+  }
+
+  .earth-background .description{
+    left:470px;
+  }
+
+  .earth-background .mouse{
+    left:660px;
+  }
+}
+
+@media screen and (max-width: 1200px){
+
+  .earth-background .big-title{
+    left:400px;
+  }
+
+  .earth-background .description{
+    left:270px;
+  }
+
+  .earth-background .mouse{
+    left:460px;
+  }
+}
+
+@media screen and (max-width: 850px){
+
+  .earth-background .big-title{
+    height: 40px;
+    left:300px;
+  }
+
+  .earth-background .description{
+    height: 21px;
+    left:170px;
+  }
+
+  .earth-background .mouse{
+    height: 25px;
+    left:360px;
+  }
+}
+
+@media screen and (max-width: 700px){
+
+  .earth-background .big-title{
+    top: 365px;
+    height: 35px;
+  }
+
+  .earth-background .description{
+    height: 19px;
+    left:170px;
+  }
+
+  .earth-background .mouse{
+    height: 22px;
+    left:340px;
+    top: 550px;
+  }
+}
+
+@media screen and (max-width: 600px){
+
+  .earth-background .big-title{
+    top: 372px;
+    height: 30px;
+    left: 250px;
+  }
+
+  .earth-background .description{
+    height: 17px;
+    left:130px;
+  }
+
+  .earth-background .mouse{
+    height: 20px;
+    left:290px;
+    top: 550px;
+  }
+}
+
+@media screen and (max-width: 500px){
+
+  .earth-background .big-title{
+    top: 379px;
+    height: 30px;
+    left: 200px;
+  }
+
+  .earth-background .description{
+    height: 17px;
+    left:82px;
+  }
+
+  .earth-background .mouse{
+    height: 20px;
+    left:240px;
+    top: 550px;
+  }
+}
+
+@media screen and (max-width: 450px){
+
+  .earth-background .big-title{
+    height: 30px;
+    left: 170px;
+  }
+
+  .earth-background .description{
+    height: 15px;
+    left:75px;
+  }
+
+  .earth-background .mouse{
+    height: 20px;
+    left:210px;
+  }
+}
+
+@media screen and (max-width: 400px){
+
+  .earth-background .big-title{
+    height: 27px;
+    left: 160px;
+  }
+
+  .earth-background .description{
+    height: 15px;
+    left:60px;
+  }
+
+  .earth-background .mouse{
+    height: 20px;
+    left:200px;
+  }
+}
+
+
+
+@media screen and (max-width: 370px){
+
+  .earth-background .big-title{
+    height: 25px;
+    top:385px;
+    left: 145px;
+  }
+
+  .earth-background .description{
+    height: 13px;
+    top:460px;
+    left:55px;
+  }
+
+  .earth-background .mouse{
+    height: 20px;
+    left:170px;
+    top: 540px;
+  }
+}
+
+@media screen and (max-width: 320px){
+
+  .earth-background .big-title{
+    height: 25px;
+    top:390px;
+    left: 120px;
+  }
+
+  .earth-background .description{
+    height: 13px;
+    top:460px;
+    left:35px;
+  }
+
+  .earth-background .mouse{
+    height: 20px;
+    left:150px;
+    top: 540px;
+  }
+}

@@ -1,0 +1,33 @@
+@mixin header-mediaquery(
+  $max-width,
+  $height-title,
+  $top-title,
+  $left-title,
+  $height-description,
+  $top-description,
+  $left-description,
+  $height-mouse,
+  $top-mouse,
+  $left-mouse,
+){
+  @media screen and (max-width: $max-width){
+
+    .earth-background .big-title{
+      height: $height-title;
+      top: $top-title;
+      left: $left-title;
+    }
+
+    .earth-background .description{
+      height: $height-description;
+      top: $top-description;
+      left: $left-description;
+    }
+
+    .earth-background .mouse{
+      height: $height-mouse;
+      top: $top-mouse;
+      left: $left-mouse;
+    }
+  }
+}

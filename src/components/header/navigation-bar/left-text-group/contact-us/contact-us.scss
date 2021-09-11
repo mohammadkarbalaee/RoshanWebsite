@@ -10,21 +10,21 @@
   margin-top: 20px;
 }
 
-@media screen and (max-width: 800px){
+@media only screen and (max-width: 800px){
   .contact-us a{
     margin-left: 25px;
     font-size: 13px;
   }
 }
 
-@media screen and (max-width: 700px){
+@media only screen and (max-width: 700px){
   .contact-us a{
     margin-left: 20px;
     font-size: 10px;
   }
 }
 
-@media screen and (max-width: 400px){
+@media only screen and (max-width: 400px){
   .contact-us a{
     margin-left: 10px;
   }

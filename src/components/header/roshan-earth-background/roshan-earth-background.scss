@@ -1,5 +1,30 @@
-.earth-background img{
+.earth-background .background{
   height: auto;
-  width: 100%;
-  float:start;
+  width:auto;
+  float: left;
+  position: relative;
+}
+
+.earth-background .big-title{
+  height: auto;
+  width:auto;
+  top:350px;
+  left:45%;
+  position: absolute;
+}
+
+.earth-background .description{
+  height: auto;
+  width:auto;
+  top:430px;
+  left:36%;
+  position: absolute;
+}
+
+.earth-background .mouse{
+  height: auto;
+  width:auto;
+  top:600px;
+  left:49%;
+  position: absolute;
 }

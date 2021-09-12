@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.611c881b.chunk.css",
+    "main.css": "/website/static/css/main.22b21dcb.chunk.css",
     "main.js": "/website/static/js/main.54c24214.chunk.js",
     "main.js.map": "/website/static/js/main.54c24214.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.7db0d5cf.js",
@@ -10,7 +10,7 @@
     "static/js/3.56857703.chunk.js": "/website/static/js/3.56857703.chunk.js",
     "static/js/3.56857703.chunk.js.map": "/website/static/js/3.56857703.chunk.js.map",
     "index.html": "/website/index.html",
-    "static/css/main.611c881b.chunk.css.map": "/website/static/css/main.611c881b.chunk.css.map",
+    "static/css/main.22b21dcb.chunk.css.map": "/website/static/css/main.22b21dcb.chunk.css.map",
     "static/js/2.81282337.chunk.js.LICENSE.txt": "/website/static/js/2.81282337.chunk.js.LICENSE.txt",
     "static/media/small-roshan-title.scss": "/website/static/media/IRANYekan.8d30b4f4.ttf",
     "static/media/background.aa12a3be.svg": "/website/static/media/background.aa12a3be.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.7db0d5cf.js",
     "static/js/2.81282337.chunk.js",
-    "static/css/main.611c881b.chunk.css",
+    "static/css/main.22b21dcb.chunk.css",
     "static/js/main.54c24214.chunk.js"
   ]
 }

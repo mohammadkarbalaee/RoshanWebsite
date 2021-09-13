@@ -1,5 +1,13 @@
 @import "./src/shared-styles/header-mediaqueries";
 
+.earth-background .background-mobile{
+  display: none;
+  height: auto;
+  width:auto;
+  float: left;
+  position: relative;
+}
+
 .earth-background .background{
   height: auto;
   width:auto;
@@ -23,6 +31,14 @@
   position: absolute;
 }
 
+.earth-background .description-mobile{
+  display: none;
+  height: auto;
+  top:440px;
+  left:540px;
+  position: absolute;
+}
+
 .earth-background .mouse{
   height: auto;
   width:auto;
@@ -39,6 +55,85 @@
 @include header-mediaquery(600px,30px,372px,250px,17px,440px,130px,20px,550px,290px,)
 @include header-mediaquery(500px,30px,379px,200px,17px,440px,82px,20px,550px,240px,)
 @include header-mediaquery(450px,30px,379px,170px,15px,440px,75px,20px,550px,210px,)
-@include header-mediaquery(400px,27px,379px,160px,15px,440px,60px,20px,550px,200px,)
-@include header-mediaquery(370px,25px,385px,145px,13px,460px,55px,20px,540px,170px,)
-@include header-mediaquery(320px,25px,390px,120px,13px,460px,35px,20px,540px,150px,)
+
+
+@media screen and (max-width: 400px){
+  .earth-background .background-mobile{
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    width:100%;
+  }
+  .earth-background .big-title{
+    display: none;
+  }
+  .earth-background .background{
+    display: none;
+  }
+  .earth-background .description{
+    display: none;
+  }
+
+  .earth-background .description-mobile{
+    display: flex;
+    height: 50px;
+    top:280px;
+    left:85px;
+  }
+}
+@media screen and (max-width: 390px){
+  .earth-background .description-mobile{
+    display: flex;
+    height: 47px;
+    top:260px;
+    left:85px;
+  }
+}
+@media screen and (max-width: 380px){
+  .earth-background .description-mobile{
+    display: flex;
+    height: 45px;
+    top:270px;
+    left:85px;
+  }
+}
+@media screen and (max-width: 370px){
+  .earth-background .description-mobile{
+    display: flex;
+    height: 45px;
+    top:270px;
+    left:80px;
+  }
+}
+@media screen and (max-width: 360px){
+  .earth-background .description-mobile{
+    display: flex;
+    height: 45px;
+    top:265px;
+    left:80px;
+  }
+}
+@media screen and (max-width: 350px){
+  .earth-background .description-mobile{
+    display: flex;
+    height: 45px;
+    top:263px;
+    left:73px;
+  }
+}
+@media screen and (max-width: 340px){
+  .earth-background .description-mobile{
+    display: flex;
+    height: 45px;
+    top:260px;
+    left:70px;
+  }
+}
+@media screen and (max-width: 320px){
+  .earth-background .description-mobile{
+    display: flex;
+    height: 45px;
+    top:240px;
+    left:55px;
+  }
+}

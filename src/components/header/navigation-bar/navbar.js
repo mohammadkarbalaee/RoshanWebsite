@@ -3,6 +3,7 @@ import {Component} from 'react';
 import DoubleTextGroup from "./left-text-group/left-text-group";
 import IconTextGroup from "./right-icon-group/right-icon-group";
 import './navbar.scss'
+import CompactGroup from "./compact-group/compact-group";
 
 class Navbar extends Component {
     render() {
@@ -10,6 +11,7 @@ class Navbar extends Component {
             <div className='navbar'>
                 <DoubleTextGroup/>
                 <IconTextGroup/>
+                <CompactGroup/>
             </div>
         )
     }

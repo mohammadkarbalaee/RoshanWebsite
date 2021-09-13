@@ -1,0 +1,18 @@
+.compact-group {
+  display: none;
+  justify-content: left;
+  flex-direction: row;
+  flex: 10%;
+  order:1;
+}
+
+.compact-group .icon{
+  height: 60px;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+@media screen and (max-width: 400px){
+  .compact-group{
+    display: flex;
+  }
+}

@@ -5,3 +5,9 @@
   flex: 60%;
   order:1;
 }
+
+@media screen and (max-width: 400px){
+  .left-text-group{
+    display: none;
+  }
+}

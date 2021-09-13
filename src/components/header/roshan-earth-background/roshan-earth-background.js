@@ -17,7 +17,6 @@ class RoshanEarthBackground extends Component {
                 <img className='big-title' src={roshanBigTitle} alt={'fail'}/>
                 <img className='description' src={description} alt={'fail'}/>
                 <img className='description-mobile' src={descriptionMobile} alt={'fail'}/>
-                <img className='mouse' src={mouse} alt={'fail'}/>
             </div>
         )
     }

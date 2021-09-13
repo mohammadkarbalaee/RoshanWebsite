@@ -3,6 +3,7 @@
 .work-with-us a{
   text-decoration: none;
   margin-left: 150px;
+  justify-content: left;
   @include headerText();
 }
 
@@ -18,9 +19,16 @@
   }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
+  .work-with-us a{
+    margin-left: 50px;
+    font-size: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 400px){
   .work-with-us a{
     margin-left: 10px;
-    font-size: 10px;
   }
 }

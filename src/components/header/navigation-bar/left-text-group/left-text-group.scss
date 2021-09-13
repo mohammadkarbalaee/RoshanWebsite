@@ -1,14 +1,7 @@
-.left-text-group{
+.left-text-group {
   display: flex;
   justify-content: left;
   flex-direction: row;
-  flex: 75%;
+  flex: 60%;
   order:1;
 }
-
-@media screen and (max-width: 200px){
-  .left-text-group{
-    justify-content: center;
-  }
-}
-

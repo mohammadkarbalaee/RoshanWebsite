@@ -3,11 +3,5 @@
   height: 80px;
   flex-direction: row;
   display: flex;
-}
-
-@media screen and (max-width: 200px){
-  .navbar{
-    flex-direction: column;
-    justify-content: center;
-  }
+  justify-content: center;
 }

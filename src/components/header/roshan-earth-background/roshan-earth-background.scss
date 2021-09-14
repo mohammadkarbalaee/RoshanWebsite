@@ -1,145 +1,16 @@
-@import "./src/shared-styles/header-mediaqueries";
+@import "./src/shared-styles/mobile-mediaqueries-header";
 
-.earth-background .background-mobile{
+.earth-background .mobile-background{
   display: none;
   height: auto;
   width:auto;
   float: left;
   position: relative;
 }
-
-#lottie{
-  position: absolute;
-}
-
-.earth-background .background{
-  height: auto;
-  width:auto;
+.earth-background .web-background{
+  width:100%;
   float: left;
   position: relative;
 }
-.earth-background .mouse-animation{
-  position: absolute;
-}
-.earth-background .big-title{
-  height: auto;
-  width:auto;
-  top:350px;
-  left:680px;
-  position: absolute;
-}
 
-.earth-background .description{
-  height: auto;
-  width:auto;
-  top:440px;
-  left:540px;
-  position: absolute;
-}
-
-.earth-background .description-mobile{
-  display: none;
-  height: auto;
-  top:440px;
-  left:540px;
-  position: absolute;
-}
-
-.earth-background .mouse{
-  height: auto;
-  width:auto;
-  top:600px;
-  left:750px;
-  position: absolute;
-}
-
-
-@include header-mediaquery(1400px,auto,350px,600px,auto,440px,470px,auto,600px,660px,)
-@include header-mediaquery(1200px,auto,350px,400px,auto,440px,270px,auto,600px,460px,)
-@include header-mediaquery(850px,40px,350px,300px,21px,440px,170px,25px,600px,360px,)
-@include header-mediaquery(700px,35px,365px,300px,19px,440px,170px,22px,550px,340px,)
-@include header-mediaquery(600px,30px,372px,250px,17px,440px,130px,20px,550px,290px,)
-@include header-mediaquery(500px,30px,379px,200px,17px,440px,82px,20px,550px,240px,)
-@include header-mediaquery(450px,30px,379px,170px,15px,440px,75px,20px,550px,210px,)
-
-
-@media screen and (max-width: 400px){
-  .earth-background .background-mobile{
-    margin-top: 100px;
-    position: relative;
-    display: flex;
-    width:100%;
-  }
-  .earth-background .big-title{
-    display: none;
-  }
-  .earth-background .background{
-    display: none;
-  }
-  .earth-background .description{
-    display: none;
-  }
-
-  .earth-background .description-mobile{
-    display: flex;
-    height: 50px;
-    top:280px;
-    left:85px;
-  }
-}
-@media screen and (max-width: 390px){
-  .earth-background .description-mobile{
-    display: flex;
-    height: 47px;
-    top:260px;
-    left:85px;
-  }
-}
-@media screen and (max-width: 380px){
-  .earth-background .description-mobile{
-    display: flex;
-    height: 45px;
-    top:270px;
-    left:85px;
-  }
-}
-@media screen and (max-width: 370px){
-  .earth-background .description-mobile{
-    display: flex;
-    height: 45px;
-    top:270px;
-    left:80px;
-  }
-}
-@media screen and (max-width: 360px){
-  .earth-background .description-mobile{
-    display: flex;
-    height: 45px;
-    top:265px;
-    left:80px;
-  }
-}
-@media screen and (max-width: 350px){
-  .earth-background .description-mobile{
-    display: flex;
-    height: 45px;
-    top:263px;
-    left:73px;
-  }
-}
-@media screen and (max-width: 340px){
-  .earth-background .description-mobile{
-    display: flex;
-    height: 45px;
-    top:260px;
-    left:70px;
-  }
-}
-@media screen and (max-width: 320px){
-  .earth-background .description-mobile{
-    display: flex;
-    height: 45px;
-    top:240px;
-    left:55px;
-  }
-}
+@include mobile-media-queries-header()

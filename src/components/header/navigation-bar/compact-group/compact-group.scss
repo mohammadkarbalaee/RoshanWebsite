@@ -5,10 +5,18 @@
   order:1;
 }
 
+.compact-group button{
+  background-color: transparent;
+  border-color: transparent;
+}
+.compact-group #hidden{
+  display: none;
+}
+
 .compact-group .icon{
   float: left;
   height: 50px;
-  padding-left: 25px;
+  padding-left: 10px;
   padding-top: 20px;
 }
 @media screen and (max-width: 400px){

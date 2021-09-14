@@ -1,31 +1,28 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.89b61bee.chunk.css",
-    "main.js": "/website/static/js/main.3f76878f.chunk.js",
-    "main.js.map": "/website/static/js/main.3f76878f.chunk.js.map",
-    "runtime-main.js": "/website/static/js/runtime-main.0683d597.js",
-    "runtime-main.js.map": "/website/static/js/runtime-main.0683d597.js.map",
-    "static/js/2.baa39c4e.chunk.js": "/website/static/js/2.baa39c4e.chunk.js",
-    "static/js/2.baa39c4e.chunk.js.map": "/website/static/js/2.baa39c4e.chunk.js.map",
-    "static/js/3.ec329ef0.chunk.js": "/website/static/js/3.ec329ef0.chunk.js",
-    "static/js/3.ec329ef0.chunk.js.map": "/website/static/js/3.ec329ef0.chunk.js.map",
+    "main.css": "/website/static/css/main.733bce69.chunk.css",
+    "main.js": "/website/static/js/main.6c4994b8.chunk.js",
+    "main.js.map": "/website/static/js/main.6c4994b8.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.4c5bc0ae.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.4c5bc0ae.js.map",
+    "static/js/2.cf3c4b35.chunk.js": "/website/static/js/2.cf3c4b35.chunk.js",
+    "static/js/2.cf3c4b35.chunk.js.map": "/website/static/js/2.cf3c4b35.chunk.js.map",
+    "static/js/3.efc674f5.chunk.js": "/website/static/js/3.efc674f5.chunk.js",
+    "static/js/3.efc674f5.chunk.js.map": "/website/static/js/3.efc674f5.chunk.js.map",
     "index.html": "/website/index.html",
-    "static/css/main.89b61bee.chunk.css.map": "/website/static/css/main.89b61bee.chunk.css.map",
-    "static/js/2.baa39c4e.chunk.js.LICENSE.txt": "/website/static/js/2.baa39c4e.chunk.js.LICENSE.txt",
+    "static/css/main.733bce69.chunk.css.map": "/website/static/css/main.733bce69.chunk.css.map",
+    "static/js/2.cf3c4b35.chunk.js.LICENSE.txt": "/website/static/js/2.cf3c4b35.chunk.js.LICENSE.txt",
     "static/media/small-roshan-title.scss": "/website/static/media/IRANYekan.b916444e.ttf",
-    "static/media/background-mobile.6c4c4102.png": "/website/static/media/background-mobile.6c4c4102.png",
-    "static/media/background.aa12a3be.svg": "/website/static/media/background.aa12a3be.svg",
     "static/media/close-icon.425a19c1.svg": "/website/static/media/close-icon.425a19c1.svg",
-    "static/media/description-mobile.44379760.svg": "/website/static/media/description-mobile.44379760.svg",
-    "static/media/description.df869e68.svg": "/website/static/media/description.df869e68.svg",
     "static/media/equals-icon.a0de4dbf.svg": "/website/static/media/equals-icon.a0de4dbf.svg",
-    "static/media/roshan-big-title.355fb3f4.svg": "/website/static/media/roshan-big-title.355fb3f4.svg",
-    "static/media/roshan-icon.6845a55f.svg": "/website/static/media/roshan-icon.6845a55f.svg"
+    "static/media/mobile-background.95447ad0.svg": "/website/static/media/mobile-background.95447ad0.svg",
+    "static/media/roshan-icon.6845a55f.svg": "/website/static/media/roshan-icon.6845a55f.svg",
+    "static/media/web-background.6f17f5e5.svg": "/website/static/media/web-background.6f17f5e5.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0683d597.js",
-    "static/js/2.baa39c4e.chunk.js",
-    "static/css/main.89b61bee.chunk.css",
-    "static/js/main.3f76878f.chunk.js"
+    "static/js/runtime-main.4c5bc0ae.js",
+    "static/js/2.cf3c4b35.chunk.js",
+    "static/css/main.733bce69.chunk.css",
+    "static/js/main.6c4994b8.chunk.js"
   ]
 }

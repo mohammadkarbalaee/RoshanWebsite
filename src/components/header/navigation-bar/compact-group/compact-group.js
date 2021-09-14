@@ -5,22 +5,12 @@ import { ReactComponent as CloseIcon } from '../../../../assets/images/close-ico
 
 class CompactGroup extends Component {
 
-    state = {
-        isOpen:false,
-    }
-
-    toggle = () => {
-        this.setState({
-            isOpen: !this.state.isOpen
-        })
-    };
-
     render() {
         return(
             <div className='compact-group'>
-                <button onClick={this.toggle}>
-                    <EqualsIcon className='icon' id={this.state.isOpen ? 'hidden' : ''}/>
-                    <CloseIcon className='icon' id={this.state.isOpen ? '' : 'hidden'}/>
+                <button onClick={this.props.toggle}>
+                    <EqualsIcon className='icon' id={this.props.isOpen ? 'hidden' : ''}/>
+                    <CloseIcon className='icon' id={this.props.isOpen ? '' : 'hidden'}/>
                 </button>
             </div>
         )

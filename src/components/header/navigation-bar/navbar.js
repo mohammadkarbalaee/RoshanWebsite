@@ -11,7 +11,7 @@ class Navbar extends Component {
             <div className='navbar'>
                 <DoubleTextGroup/>
                 <IconTextGroup/>
-                <CompactGroup/>
+                <CompactGroup toggle={this.props.toggle} isOpen={this.props.isOpen}/>
             </div>
         )
     }

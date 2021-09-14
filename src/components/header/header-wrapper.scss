@@ -3,3 +3,12 @@
   flex-direction: column;
   justify-content: center;
 }
+
+#compact-menu{
+  margin-top: 60px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

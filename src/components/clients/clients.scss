@@ -2,4 +2,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.footer{
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  flex-direction: row;
+}
+#space{
+  height: 200px;
+}
+
+#space-bottom{
+  height: 50px;
+}
+
+#space-row{
+  width: 100px;
 }

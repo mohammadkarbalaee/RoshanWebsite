@@ -8,13 +8,19 @@
   position: relative;
 }
 
+#lottie{
+  position: absolute;
+}
+
 .earth-background .background{
   height: auto;
   width:auto;
   float: left;
   position: relative;
 }
-
+.earth-background .mouse-animation{
+  position: absolute;
+}
 .earth-background .big-title{
   height: auto;
   width:auto;

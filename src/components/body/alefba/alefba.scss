@@ -1,0 +1,34 @@
+#alefba{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#alefba #web{
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+
+#alefba #web #text{
+  height: 800px;
+}
+
+#alefba #web #image{
+  height: 800px;
+}
+
+#alefba #web #space{
+  width: 700px;
+}
+
+@media screen and (min-width: 500px){
+  #alefba #mobile{
+    display: none;
+  }
+
+  #alefba #web{
+    display: flex;
+  }
+}

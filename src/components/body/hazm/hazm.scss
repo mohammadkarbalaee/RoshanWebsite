@@ -1,0 +1,34 @@
+#hazm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hazm #web{
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+
+#hazm #web #text{
+  height: 800px;
+}
+
+#hazm #web #image{
+  height: 800px;
+}
+
+#hazm #web #space{
+  width: 700px;
+}
+
+@media screen and (min-width: 500px){
+  #hazm #mobile{
+    display: none;
+  }
+
+  #hazm #web{
+    display: flex;
+  }
+}

@@ -1,0 +1,34 @@
+#harf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#harf #web{
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+
+#harf #web #text{
+  height: 800px;
+}
+
+#harf #web #image{
+  height: 800px;
+}
+
+#harf #web #space{
+  width: 700px;
+}
+
+@media screen and (min-width: 500px){
+  #harf #mobile{
+    display: none;
+  }
+
+  #harf #web{
+    display: flex;
+  }
+}

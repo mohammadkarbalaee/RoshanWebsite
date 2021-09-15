@@ -15,37 +15,31 @@ class RoshanWebsite extends Component {
 
     return(
         <FullPage>
-            //header
             <Slide>
                 <div className='roshan-website'>
                     <Header/>
                 </div>
             </Slide>
-            //kashf
             <Slide>
                 <div className='roshan-website'>
                     <Kashf/>
                 </div>
             </Slide>
-            //alefba
             <Slide>
                 <div className='roshan-website'>
                     <Alefba/>
                 </div>
             </Slide>
-            //harf
             <Slide>
                 <div className='roshan-website'>
                     <Harf/>
                 </div>
             </Slide>
-            //hazm
             <Slide>
                 <div className='roshan-website'>
                     <Hazm/>
                 </div>
             </Slide>
-            //clients
             {/*<Slide>*/}
             {/*    <div className='roshan-website'>*/}
             {/*        <Clients/>*/}

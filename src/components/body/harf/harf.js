@@ -3,6 +3,7 @@ import {ReactComponent as HarfMobile} from "../../../assets/images/mobile-harf.s
 import './harf.scss'
 import {ReactComponent as HarfWebImage} from "../../../assets/images/web-harf-image.svg";
 import {ReactComponent as HarfWebText} from "../../../assets/images/web-harf-text.svg";
+import image from '../../../assets/images/web-harf-image.png'
 
 class Harf extends Component{
     render() {
@@ -10,7 +11,8 @@ class Harf extends Component{
             <div id={'harf'}>
                 <HarfMobile id={'mobile'}/>
                 <div id={'web'}>
-                    <HarfWebImage id={'image'}/>
+                    {/*<HarfWebImage id={'image'}/>*/}
+                    <img src={image} id={'image'} alt={''}/>
                     <div id={'space'}/>
                     <HarfWebText id={'text'}/>
                 </div>

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.8b6a867c.chunk.css",
-    "main.js": "/website/static/js/main.14b41b6f.chunk.js",
-    "main.js.map": "/website/static/js/main.14b41b6f.chunk.js.map",
+    "main.css": "/website/static/css/main.ea850713.chunk.css",
+    "main.js": "/website/static/js/main.4410496b.chunk.js",
+    "main.js.map": "/website/static/js/main.4410496b.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.30b17d2d.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.30b17d2d.js.map",
     "static/js/2.6a8260f1.chunk.js": "/website/static/js/2.6a8260f1.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.bf651504.chunk.js": "/website/static/js/3.bf651504.chunk.js",
     "static/js/3.bf651504.chunk.js.map": "/website/static/js/3.bf651504.chunk.js.map",
     "index.html": "/website/index.html",
-    "static/css/main.8b6a867c.chunk.css.map": "/website/static/css/main.8b6a867c.chunk.css.map",
+    "static/css/main.ea850713.chunk.css.map": "/website/static/css/main.ea850713.chunk.css.map",
     "static/js/2.6a8260f1.chunk.js.LICENSE.txt": "/website/static/js/2.6a8260f1.chunk.js.LICENSE.txt",
     "static/media/small-roshan-title.scss": "/website/static/media/IRANYekan.b916444e.ttf",
     "static/media/close-icon.425a19c1.svg": "/website/static/media/close-icon.425a19c1.svg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.30b17d2d.js",
     "static/js/2.6a8260f1.chunk.js",
-    "static/css/main.8b6a867c.chunk.css",
-    "static/js/main.14b41b6f.chunk.js"
+    "static/css/main.ea850713.chunk.css",
+    "static/js/main.4410496b.chunk.js"
   ]
 }

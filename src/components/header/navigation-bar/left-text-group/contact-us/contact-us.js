@@ -7,9 +7,9 @@ class ContactUs extends Component {
     render() {
         return(
             <div className='contact-us'>
-                <a href='/'>
+                <button onClick={this.props.onClick}>
                     تماس با ما
-                </a>
+                </button>
             </div>
         )
     }

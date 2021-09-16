@@ -6,12 +6,14 @@ import RoshanEarthBackground from "./roshan-earth-background/roshan-earth-backgr
 import WorkWithUs from "./navigation-bar/left-text-group/work-with-us/work-with-us";
 import ContactUs from "./navigation-bar/left-text-group/contact-us/contact-us";
 import HamakariBama from "./navigation-bar/hamkari-bama/hamkari-bama";
+import TamasBama from "./navigation-bar/tamas-bama/tamas-bama";
 
 class Header extends Component {
     state = {
         isOpen:false,
         isHamkariClicked: false,
         isTamasBamaClicked: false,
+        isFirstRender:true,
     }
 
     toggle = () => {
@@ -21,7 +23,6 @@ class Header extends Component {
     };
 
     toggleHamkariBama = () => {
-        console.log(this.state.isHamkariClicked);
         this.toggle();
 
         this.setState({
@@ -38,23 +39,41 @@ class Header extends Component {
     };
 
     reactToToggles = () => {
+        let clicked = this.state.isHamkariClicked || this.state.isTamasBamaClicked;
 
-        console.log(this.state.isHamkariClicked);
+        if(this.state.isFirstRender){
 
-        if(this.state.isHamkariClicked) {
-            return(
-                <HamakariBama/>
-            )
-        } else if (this.state.isOpen) {
+            if(this.state.isTamasBamaClicked){
+                this.state.isFirstRender = !this.state.isFirstRender;
+                this.state.isTamasBamaClicked = !this.state.isTamasBamaClicked;
+                return(
+                    <TamasBama/>
+                )
+            } else if(this.state.isHamkariClicked) {
+                this.state.isFirstRender = !this.state.isFirstRender;
+                this.state.isHamkariClicked = !this.state.isHamkariClicked;
+                return(
+                    <HamakariBama/>
+                )
+            } else if (this.state.isOpen) {
+                return(
+                    <div id={'compact-menu'}>
+                        <ContactUs onClick={this.toggleTamasBama}/>
+                        <WorkWithUs onClick={this.toggleHamkariBama}/>
+                    </div>
+                )
+            } else {
+                return(
+                    <RoshanEarthBackground/>
+                )
+            }
+        } else {
+            this.state.isFirstRender = !this.state.isFirstRender;
             return(
                 <div id={'compact-menu'}>
-                    <ContactUs/>
-                    <WorkWithUs/>
+                    <ContactUs onClick={this.toggleTamasBama}/>
+                    <WorkWithUs onClick={this.toggleHamkariBama}/>
                 </div>
-            )
-        } else {
-            return(
-                <RoshanEarthBackground/>
             )
         }
     }

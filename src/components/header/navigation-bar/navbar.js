@@ -9,7 +9,7 @@ class Navbar extends Component {
     render() {
         return(
             <div className='navbar'>
-                <DoubleTextGroup onHamkariClick={this.props.onHamkariClick} onTamasBamaClick={this.props.onTamasBamaClick}/>
+                <DoubleTextGroup/>
                 <IconTextGroup/>
                 <CompactGroup toggle={this.props.toggle} isOpen={this.props.isOpen}/>
             </div>

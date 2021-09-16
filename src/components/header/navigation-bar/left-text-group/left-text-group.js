@@ -10,7 +10,7 @@ class DoubleTextGroup extends Component {
         return(
             <div className='left-text-group'>
                 <ContactUs/>
-                <WorkWithUs onClick={this.props.onHamkariClick}/>
+                <WorkWithUs/>
             </div>
         )
     }

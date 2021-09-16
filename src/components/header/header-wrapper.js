@@ -7,7 +7,7 @@ import WorkWithUs from "./navigation-bar/left-text-group/work-with-us/work-with-
 import ContactUs from "./navigation-bar/left-text-group/contact-us/contact-us";
 import HamakariBama from "./navigation-bar/hamkari-bama/hamkari-bama";
 import TamasBama from "./navigation-bar/tamas-bama/tamas-bama"
-import BackgroundGradient from "../../assets/images/background-gradient.svg";
+import {ReactComponent as BackgroundGradient} from "../../assets/images/background-gradient.svg";
 
 class Header extends Component {
     state = {
@@ -81,8 +81,8 @@ class Header extends Component {
 
     render() {
         return(
-            <div>
-                <img src={BackgroundGradient} alt={''} id={'background'}/>
+            <div id={'all'}>
+                {/*<BackgroundGradient id={'background'}/>*/}
                 <div className="header-wrapper">
                     <Navbar
                         toggle={this.toggle}

@@ -8,7 +8,7 @@ class Moshtarian extends Component{
     render() {
         return(
             <div>
-                <img src={BackgroundGradient} alt={''} id={'background'}/>
+                {/*<img src={BackgroundGradient} alt={''} id={'background'}/>*/}
                 <div id={'moshtarian'}>
                     <MoshtarianWeb id={'web'}/>
                     <div id={'space'}/>

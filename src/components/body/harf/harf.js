@@ -9,7 +9,7 @@ class Harf extends Component{
     render() {
         return(
             <div>
-                <img src={BackgroundGradient} alt={''} id={'background'}/>
+                {/*<img src={BackgroundGradient} alt={''} id={'background'}/>*/}
                 <div id={'harf'}>
                     <HarfMobile id={'mobile'}/>
                     <div id={'web'}>

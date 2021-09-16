@@ -1,7 +1,7 @@
 import React from 'react';
 import {Component} from 'react';
 import './roshan-earth-background.scss'
-import WebBackground from "../../../assets/images/web-background.svg";
+import WebBackground from "../../../assets/images/simple-background.svg";
 import MobileBackground from "../../../assets/images/mobile-background.svg";
 
 

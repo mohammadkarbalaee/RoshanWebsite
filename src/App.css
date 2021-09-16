@@ -8,3 +8,7 @@ body{
     width:100vm;
     height:100vh;
 }
+
+#id {
+    box-shadow: inset 5em 1em gold;
+}

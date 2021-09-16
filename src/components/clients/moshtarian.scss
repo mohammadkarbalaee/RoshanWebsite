@@ -1,0 +1,19 @@
+#moshtarian #web {
+  height: 60vh;
+  width: 80vw;
+}
+#moshtarian #space {
+  height: 20vh;
+}
+
+#moshtarian #footer {
+  height: 20vh;
+  width: 100vw;
+}
+
+#moshtarian{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}

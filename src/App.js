@@ -7,7 +7,7 @@ import Kashf from "./components/body/kashf/kashf";
 import Alefba from "./components/body/alefba/alefba";
 import Harf from "./components/body/harf/harf";
 import Hazm from "./components/body/hazm/hazm";
-import Clients from "./components/clients/clients";
+import Moshtarian from "./components/clients/moshtarian";
 
 class RoshanWebsite extends Component {
 
@@ -40,11 +40,11 @@ class RoshanWebsite extends Component {
                     <Hazm/>
                 </div>
             </Slide>
-            {/*<Slide>*/}
-            {/*    <div className='roshan-website'>*/}
-            {/*        <Clients/>*/}
-            {/*    </div>*/}
-            {/*</Slide>*/}
+            <Slide>
+                <div className='roshan-website'>
+                    <Moshtarian/>
+                </div>
+            </Slide>
         </FullPage>
     )
   }

@@ -1,18 +1,17 @@
 import React from 'react';
 import {Component} from 'react';
-import './contact-us.scss'
+import './hamkari-bama-button.scss'
 
-class ContactUs extends Component {
-
+class HamkariBamaButton extends Component {
     render() {
         return(
-            <div className='contact-us'>
+            <div className="work-with-us">
                 <button onClick={this.props.onClick}>
-                    تماس با ما
+                    همکاری با ما
                 </button>
             </div>
         )
     }
 }
 
-export default ContactUs;
+export default HamkariBamaButton;

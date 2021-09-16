@@ -1,36 +1,43 @@
 @import '../../../../../shared-styles/header-texts';
 
-.contact-us button{
+.work-with-us button{
   text-decoration: none;
-  margin-left: 30px;
+  margin-left: 150px;
+  justify-content: left;
   @include headerText();
 }
 
-.contact-us{
+.work-with-us{
   margin-top: 20px;
 }
 
-.contact-us button{
+.work-with-us button{
   border-color: transparent;
   background-color: transparent;
 }
 
+.work-with-us button:hover{
+  background-color: #1e252f;
+  border-radius: 50px;
+}
+
 @media only screen and (max-width: 800px){
-  .contact-us button{
-    margin-left: 25px;
+  .work-with-us button{
+    margin-left: 70px;
     font-size: 13px;
   }
 }
 
 @media only screen and (max-width: 700px){
-  .contact-us button{
-    margin-left: 20px;
+  .work-with-us button{
+    margin-left: 50px;
     font-size: 10px;
   }
 }
 
+
 @media only screen and (max-width: 400px){
-  .contact-us button{
+  .work-with-us button{
     margin-left: 10px;
     font-size: 20px;
   }

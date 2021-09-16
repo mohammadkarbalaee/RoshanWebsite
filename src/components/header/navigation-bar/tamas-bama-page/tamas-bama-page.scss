@@ -1,0 +1,27 @@
+.tamas-bama #mobile {
+  height: 90vh;
+  width: 80vw;
+}
+
+.tamas-bama #web{
+  display: none;
+}
+
+.tamas-bama {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 500px){
+  .tamas-bama #mobile {
+    display: none;
+  }
+
+  .tamas-bama #web{
+    display: flex;
+    height: 90vh;
+    width: 80vw;
+  }
+}

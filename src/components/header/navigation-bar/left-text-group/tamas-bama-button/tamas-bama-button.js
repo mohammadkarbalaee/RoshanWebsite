@@ -1,17 +1,18 @@
 import React from 'react';
 import {Component} from 'react';
-import './work-with-us.scss'
+import './tamas-bama-button.scss'
 
-class WorkWithUs extends Component {
+class TamasBamaButton extends Component {
+
     render() {
         return(
-            <div className="work-with-us">
+            <div className='contact-us'>
                 <button onClick={this.props.onClick}>
-                    همکاری با ما
+                    تماس با ما
                 </button>
             </div>
         )
     }
 }
 
-export default WorkWithUs;
+export default TamasBamaButton;

@@ -7,7 +7,7 @@ import Kashf from "./components/body/kashf/kashf";
 import Alefba from "./components/body/alefba/alefba";
 import Harf from "./components/body/harf/harf";
 import Hazm from "./components/body/hazm/hazm";
-import Moshtarian from "./components/clients/moshtarian";
+import Moshtarian from "./components/moshtarian/moshtarian";
 
 class RoshanWebsite extends Component {
 

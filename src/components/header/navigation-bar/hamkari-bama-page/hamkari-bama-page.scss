@@ -1,0 +1,27 @@
+.hamkari-bama #mobile{
+  height: 90vh;
+  width: 80vw;
+}
+
+.hamkari-bama #web{
+  display: none;
+}
+
+.hamkari-bama {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 500px){
+  .hamkari-bama #mobile{
+    display: none;
+  }
+
+  .hamkari-bama #web{
+    display: flex;
+    height: 90vh;
+    width: 80vw;
+  }
+}

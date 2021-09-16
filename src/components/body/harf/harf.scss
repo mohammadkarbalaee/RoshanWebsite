@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 #harf #web{
@@ -11,6 +12,13 @@
   align-items: center;
   display: none;
 }
+
+#background {
+  width: 100vm;
+  height: 100vh;
+  position:absolute;
+}
+
 
 #harf #mobile{
   height: 100vh;

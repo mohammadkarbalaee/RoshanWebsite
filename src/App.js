@@ -15,7 +15,6 @@ class RoshanWebsite extends Component {
 
     return(
             <FullPage>
-
                 <Slide>
                     <div className='roshan-website'>
                         <Header/>

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 #hazm #mobile{
@@ -15,6 +16,13 @@
   align-items: center;
   display: none;
 }
+
+#background {
+  width: 100vm;
+  height: 100vh;
+  position:absolute;
+}
+
 
 #hazm #web #text{
   height: 40vh;

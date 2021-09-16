@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/website/static/css/main.bd93762c.chunk.css",
-    "main.js": "/website/static/js/main.b041ab65.chunk.js",
-    "main.js.map": "/website/static/js/main.b041ab65.chunk.js.map",
+    "main.js": "/website/static/js/main.b5a248e4.chunk.js",
+    "main.js.map": "/website/static/js/main.b5a248e4.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.30b17d2d.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.30b17d2d.js.map",
     "static/js/2.6a8260f1.chunk.js": "/website/static/js/2.6a8260f1.chunk.js",
@@ -26,7 +26,7 @@
     "static/media/web-alefba-image.f6cc2797.svg": "/website/static/media/web-alefba-image.f6cc2797.svg",
     "static/media/web-alefba-text.6a66502e.svg": "/website/static/media/web-alefba-text.6a66502e.svg",
     "static/media/web-background.c11f92b1.svg": "/website/static/media/web-background.c11f92b1.svg",
-    "static/media/web-harf-image.495c35ef.svg": "/website/static/media/web-harf-image.495c35ef.svg",
+    "static/media/web-harf-image.7702d378.svg": "/website/static/media/web-harf-image.7702d378.svg",
     "static/media/web-harf-text.9070b434.svg": "/website/static/media/web-harf-text.9070b434.svg",
     "static/media/web-hazm-image.12abfea2.svg": "/website/static/media/web-hazm-image.12abfea2.svg",
     "static/media/web-hazm-text.514a46e8.svg": "/website/static/media/web-hazm-text.514a46e8.svg",
@@ -37,6 +37,6 @@
     "static/js/runtime-main.30b17d2d.js",
     "static/js/2.6a8260f1.chunk.js",
     "static/css/main.bd93762c.chunk.css",
-    "static/js/main.b041ab65.chunk.js"
+    "static/js/main.b5a248e4.chunk.js"
   ]
 }

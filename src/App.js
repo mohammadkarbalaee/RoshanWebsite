@@ -14,38 +14,39 @@ class RoshanWebsite extends Component {
   render() {
 
     return(
-        <FullPage>
-            <Slide>
-                <div className='roshan-website'>
-                    <Header/>
-                </div>
-            </Slide>
-            <Slide>
-                <div className='roshan-website'>
-                    <Kashf/>
-                </div>
-            </Slide>
-            <Slide>
-                <div className='roshan-website'>
-                    <Alefba/>
-                </div>
-            </Slide>
-            <Slide>
-                <div className='roshan-website'>
-                    <Harf/>
-                </div>
-            </Slide>
-            <Slide>
-                <div className='roshan-website'>
-                    <Hazm/>
-                </div>
-            </Slide>
-            <Slide>
-                <div className='roshan-website'>
-                    <Moshtarian/>
-                </div>
-            </Slide>
-        </FullPage>
+            <FullPage>
+
+                <Slide>
+                    <div className='roshan-website'>
+                        <Header/>
+                    </div>
+                </Slide>
+                <Slide>
+                    <div className='roshan-website'>
+                        <Kashf/>
+                    </div>
+                </Slide>
+                <Slide>
+                    <div className='roshan-website'>
+                        <Alefba/>
+                    </div>
+                </Slide>
+                <Slide>
+                    <div className='roshan-website'>
+                        <Harf/>
+                    </div>
+                </Slide>
+                <Slide>
+                    <div className='roshan-website'>
+                        <Hazm/>
+                    </div>
+                </Slide>
+                <Slide>
+                    <div className='roshan-website'>
+                        <Moshtarian/>
+                    </div>
+                </Slide>
+            </FullPage>
     )
   }
 }

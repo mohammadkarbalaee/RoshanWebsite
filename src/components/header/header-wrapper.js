@@ -6,7 +6,8 @@ import RoshanEarthBackground from "./roshan-earth-background/roshan-earth-backgr
 import WorkWithUs from "./navigation-bar/left-text-group/work-with-us/work-with-us";
 import ContactUs from "./navigation-bar/left-text-group/contact-us/contact-us";
 import HamakariBama from "./navigation-bar/hamkari-bama/hamkari-bama";
-import TamasBama from "./navigation-bar/tamas-bama/tamas-bama";
+import TamasBama from "./navigation-bar/tamas-bama/tamas-bama"
+import BackgroundGradient from "../../assets/images/background-gradient.svg";
 
 class Header extends Component {
     state = {
@@ -80,14 +81,17 @@ class Header extends Component {
 
     render() {
         return(
-            <div className="header-wrapper">
-               <Navbar
-                   toggle={this.toggle}
-                   isOpen={this.state.isOpen}
-                   onHamkariClick={this.toggleHamkariBama}
-                   onTamasBamaClick={this.toggleTamasBama}
-               />
-                {this.reactToToggles()}
+            <div>
+                <img src={BackgroundGradient} alt={''} id={'background'}/>
+                <div className="header-wrapper">
+                    <Navbar
+                        toggle={this.toggle}
+                        isOpen={this.state.isOpen}
+                        onHamkariClick={this.toggleHamkariBama}
+                        onTamasBamaClick={this.toggleTamasBama}
+                    />
+                    {this.reactToToggles()}
+                </div>
             </div>
         )
     }

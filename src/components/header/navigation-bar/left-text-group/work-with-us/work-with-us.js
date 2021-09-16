@@ -6,9 +6,9 @@ class WorkWithUs extends Component {
     render() {
         return(
             <div className="work-with-us">
-                <a href='/'>
+                <button onClick={this.props.onClick}>
                     همکاری با ما
-                </a>
+                </button>
             </div>
         )
     }

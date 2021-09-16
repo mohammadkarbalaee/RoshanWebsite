@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/website/static/css/main.2cddac46.chunk.css",
-    "main.js": "/website/static/js/main.a6fdae39.chunk.js",
-    "main.js.map": "/website/static/js/main.a6fdae39.chunk.js.map",
+    "main.js": "/website/static/js/main.37fdf5f5.chunk.js",
+    "main.js.map": "/website/static/js/main.37fdf5f5.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.86f24065.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.86f24065.js.map",
     "static/js/2.e6bdd750.chunk.js": "/website/static/js/2.e6bdd750.chunk.js",
@@ -13,7 +13,7 @@
     "static/css/main.2cddac46.chunk.css.map": "/website/static/css/main.2cddac46.chunk.css.map",
     "static/js/2.e6bdd750.chunk.js.LICENSE.txt": "/website/static/js/2.e6bdd750.chunk.js.LICENSE.txt",
     "static/media/small-roshan-title.scss": "/website/static/media/IRANYekan.b916444e.ttf",
-    "static/media/background-gradient.cd4edcfb.svg": "/website/static/media/background-gradient.cd4edcfb.svg",
+    "static/media/background-gradient.37ae93ce.svg": "/website/static/media/background-gradient.37ae93ce.svg",
     "static/media/close-icon.425a19c1.svg": "/website/static/media/close-icon.425a19c1.svg",
     "static/media/equals-icon.a0de4dbf.svg": "/website/static/media/equals-icon.a0de4dbf.svg",
     "static/media/mobile-alefba.c6e6c7c1.svg": "/website/static/media/mobile-alefba.c6e6c7c1.svg",
@@ -40,6 +40,6 @@
     "static/js/runtime-main.86f24065.js",
     "static/js/2.e6bdd750.chunk.js",
     "static/css/main.2cddac46.chunk.css",
-    "static/js/main.a6fdae39.chunk.js"
+    "static/js/main.37fdf5f5.chunk.js"
   ]
 }

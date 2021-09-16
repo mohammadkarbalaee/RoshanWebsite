@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.bd93762c.chunk.css",
-    "main.js": "/website/static/js/main.b5a248e4.chunk.js",
-    "main.js.map": "/website/static/js/main.b5a248e4.chunk.js.map",
-    "runtime-main.js": "/website/static/js/runtime-main.30b17d2d.js",
-    "runtime-main.js.map": "/website/static/js/runtime-main.30b17d2d.js.map",
+    "main.css": "/website/static/css/main.7a12187e.chunk.css",
+    "main.js": "/website/static/js/main.3b0d5ae9.chunk.js",
+    "main.js.map": "/website/static/js/main.3b0d5ae9.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.86f24065.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.86f24065.js.map",
     "static/js/2.6a8260f1.chunk.js": "/website/static/js/2.6a8260f1.chunk.js",
     "static/js/2.6a8260f1.chunk.js.map": "/website/static/js/2.6a8260f1.chunk.js.map",
-    "static/js/3.bf651504.chunk.js": "/website/static/js/3.bf651504.chunk.js",
-    "static/js/3.bf651504.chunk.js.map": "/website/static/js/3.bf651504.chunk.js.map",
+    "static/js/3.045fe9fd.chunk.js": "/website/static/js/3.045fe9fd.chunk.js",
+    "static/js/3.045fe9fd.chunk.js.map": "/website/static/js/3.045fe9fd.chunk.js.map",
     "index.html": "/website/index.html",
-    "static/css/main.bd93762c.chunk.css.map": "/website/static/css/main.bd93762c.chunk.css.map",
+    "static/css/main.7a12187e.chunk.css.map": "/website/static/css/main.7a12187e.chunk.css.map",
     "static/js/2.6a8260f1.chunk.js.LICENSE.txt": "/website/static/js/2.6a8260f1.chunk.js.LICENSE.txt",
     "static/media/small-roshan-title.scss": "/website/static/media/IRANYekan.b916444e.ttf",
     "static/media/close-icon.425a19c1.svg": "/website/static/media/close-icon.425a19c1.svg",
     "static/media/equals-icon.a0de4dbf.svg": "/website/static/media/equals-icon.a0de4dbf.svg",
     "static/media/mobile-alefba.c6e6c7c1.svg": "/website/static/media/mobile-alefba.c6e6c7c1.svg",
     "static/media/mobile-background.47300510.svg": "/website/static/media/mobile-background.47300510.svg",
-    "static/media/mobile-hamkari.275485f1.svg": "/website/static/media/mobile-hamkari.275485f1.svg",
+    "static/media/mobile-hamkari.0db44c64.svg": "/website/static/media/mobile-hamkari.0db44c64.svg",
     "static/media/mobile-harf.9443999a.svg": "/website/static/media/mobile-harf.9443999a.svg",
     "static/media/mobile-hazm.5bd14275.svg": "/website/static/media/mobile-hazm.5bd14275.svg",
     "static/media/mobile-kashf.dcd49e88.svg": "/website/static/media/mobile-kashf.dcd49e88.svg",
+    "static/media/mobile-tamas.2c4738f8.svg": "/website/static/media/mobile-tamas.2c4738f8.svg",
     "static/media/moshtarian.f9d8594f.svg": "/website/static/media/moshtarian.f9d8594f.svg",
     "static/media/roshan-icon.6845a55f.svg": "/website/static/media/roshan-icon.6845a55f.svg",
     "static/media/web-alefba-image.f6cc2797.svg": "/website/static/media/web-alefba-image.f6cc2797.svg",
@@ -34,9 +35,9 @@
     "static/media/web-kashf-text.4d954b5c.svg": "/website/static/media/web-kashf-text.4d954b5c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.30b17d2d.js",
+    "static/js/runtime-main.86f24065.js",
     "static/js/2.6a8260f1.chunk.js",
-    "static/css/main.bd93762c.chunk.css",
-    "static/js/main.b5a248e4.chunk.js"
+    "static/css/main.7a12187e.chunk.css",
+    "static/js/main.3b0d5ae9.chunk.js"
   ]
 }

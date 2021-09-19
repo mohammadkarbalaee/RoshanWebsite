@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {ReactComponent as KashfMobile} from "../../../assets/images/mobile-kashf.svg";
-import {ReactComponent as KashfWebText} from "../../../assets/images/web-kashf-text.svg";
+import KashfWebText from "../../jsx-svgs/web-kashf-text";
 import {ReactComponent as KashfWebImage} from "../../../assets/images/web-kashf-image.svg";
 import './kashf.scss'
 

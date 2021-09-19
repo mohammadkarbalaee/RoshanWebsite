@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {ReactComponent as HazmMobile} from "../../../assets/images/mobile-hazm.svg";
 import './hazm.scss'
 import {ReactComponent as HazmWebImage} from "../../../assets/images/web-hazm-image.svg";
-import {ReactComponent as HazmWebText} from "../../../assets/images/web-hazm-text.svg";
+import HazmWebText from "../../../components/jsx-svgs/web-hazm-text";
 
 class Hazm extends Component{
     render() {

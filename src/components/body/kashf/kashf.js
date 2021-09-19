@@ -10,12 +10,16 @@ class Kashf extends Component{
             <div>
                 <div id={'kashf'}>
                     <div id={'mobile'}>
-                        <KashfMobile/>
+                        <KashfMobile onClick={() => {
+                            console.log('works');
+                        }}/>
                     </div>
                     <div id={'web'}>
                         <KashfWebImage id={'image'}/>
                         <div id={'space'}/>
-                        <KashfWebText id={'text'}/>
+                        <KashfWebText id={'text'} onClick={() => {
+                            console.log('works');
+                        }}/>
                     </div>
                 </div>
             </div>

@@ -10,12 +10,16 @@ class Harf extends Component{
             <div>
                 <div id={'harf'}>
                     <div id={'mobile'}>
-                        <HarfMobile/>
+                        <HarfMobile onClick={() => {
+                            console.log('works');
+                        }}/>
                     </div>
                     <div id={'web'}>
                         <HarfWebImage id={'image'}/>
                         <div id={'space'}/>
-                        <HarfWebText id={'text'}/>
+                        <HarfWebText id={'text'} onClick={() => {
+                            console.log('works');
+                        }}/>
                     </div>
                 </div>
             </div>

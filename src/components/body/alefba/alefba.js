@@ -10,10 +10,14 @@ class Alefba extends Component{
             <div>
                 <div id={'alefba'}>
                     <div id={'mobile'}>
-                        <AlefbaMobile/>
+                        <AlefbaMobile onClick={() => {
+                            console.log('works');
+                        }}/>
                     </div>
                     <div id={'web'}>
-                        <AlefbaWebText id={'text'}/>
+                        <AlefbaWebText id={'text'} onClick={() => {
+                            console.log('works');
+                        }}/>
                         <div id={'space'}/>
                         <AlefbaWebImage id={'image'}/>
                     </div>

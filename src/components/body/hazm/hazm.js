@@ -10,10 +10,14 @@ class Hazm extends Component{
             <div>
                 <div id={'hazm'}>
                     <div id={'mobile'}>
-                        <HazmMobile/>
+                        <HazmMobile onClick={() => {
+                            console.log('works');
+                        }}/>
                     </div>
                     <div id={'web'}>
-                        <HazmWebText id={'text'}/>
+                        <HazmWebText id={'text'} onClick={() => {
+                            console.log('works');
+                        }}/>
                         <div id={'space'}/>
                         <HazmWebImage id={'image'}/>
                     </div>

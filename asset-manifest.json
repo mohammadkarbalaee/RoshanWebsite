@@ -1,23 +1,38 @@
 {
   "files": {
     "main.css": "/website/static/css/main.15d17b1f.chunk.css",
-    "main.js": "/website/static/js/main.1c9c8245.chunk.js",
-    "main.js.map": "/website/static/js/main.1c9c8245.chunk.js.map",
-    "runtime-main.js": "/website/static/js/runtime-main.21f629a0.js",
-    "runtime-main.js.map": "/website/static/js/runtime-main.21f629a0.js.map",
-    "static/js/2.a6bbcf82.chunk.js": "/website/static/js/2.a6bbcf82.chunk.js",
-    "static/js/2.a6bbcf82.chunk.js.map": "/website/static/js/2.a6bbcf82.chunk.js.map",
-    "static/js/3.39d035ee.chunk.js": "/website/static/js/3.39d035ee.chunk.js",
-    "static/js/3.39d035ee.chunk.js.map": "/website/static/js/3.39d035ee.chunk.js.map",
+    "main.js": "/website/static/js/main.a458d0b4.chunk.js",
+    "main.js.map": "/website/static/js/main.a458d0b4.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.86f24065.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.86f24065.js.map",
+    "static/js/2.e6bdd750.chunk.js": "/website/static/js/2.e6bdd750.chunk.js",
+    "static/js/2.e6bdd750.chunk.js.map": "/website/static/js/2.e6bdd750.chunk.js.map",
+    "static/js/3.045fe9fd.chunk.js": "/website/static/js/3.045fe9fd.chunk.js",
+    "static/js/3.045fe9fd.chunk.js.map": "/website/static/js/3.045fe9fd.chunk.js.map",
     "index.html": "/website/index.html",
     "static/css/main.15d17b1f.chunk.css.map": "/website/static/css/main.15d17b1f.chunk.css.map",
-    "static/js/2.a6bbcf82.chunk.js.LICENSE.txt": "/website/static/js/2.a6bbcf82.chunk.js.LICENSE.txt",
-    "static/media/small-roshan-title.scss": "/website/static/media/IRANYekan.b916444e.ttf"
+    "static/js/2.e6bdd750.chunk.js.LICENSE.txt": "/website/static/js/2.e6bdd750.chunk.js.LICENSE.txt",
+    "static/media/small-roshan-title.scss": "/website/static/media/IRANYekan.b916444e.ttf",
+    "static/media/close-icon.20012dc4.svg": "/website/static/media/close-icon.20012dc4.svg",
+    "static/media/equals-icon.a0de4dbf.svg": "/website/static/media/equals-icon.a0de4dbf.svg",
+    "static/media/mobile-background.84b90960.svg": "/website/static/media/mobile-background.84b90960.svg",
+    "static/media/mobile-hamkari.bd09f04f.svg": "/website/static/media/mobile-hamkari.bd09f04f.svg",
+    "static/media/mobile-tamas.2c034887.svg": "/website/static/media/mobile-tamas.2c034887.svg",
+    "static/media/roshan-icon.6845a55f.svg": "/website/static/media/roshan-icon.6845a55f.svg",
+    "static/media/simple-background.f083ff20.svg": "/website/static/media/simple-background.f083ff20.svg",
+    "static/media/web-alefba-image.6eb9f021.svg": "/website/static/media/web-alefba-image.6eb9f021.svg",
+    "static/media/web-footer.a9eba186.svg": "/website/static/media/web-footer.a9eba186.svg",
+    "static/media/web-hamkari.d6b2a6b8.svg": "/website/static/media/web-hamkari.d6b2a6b8.svg",
+    "static/media/web-harf-image.81706b37.svg": "/website/static/media/web-harf-image.81706b37.svg",
+    "static/media/web-hazm-image.2d8be307.svg": "/website/static/media/web-hazm-image.2d8be307.svg",
+    "static/media/web-kashf-image.9d9ba6cd.svg": "/website/static/media/web-kashf-image.9d9ba6cd.svg",
+    "static/media/web-moshtarian.f0db4cd7.svg": "/website/static/media/web-moshtarian.f0db4cd7.svg",
+    "static/media/web-tamas.7b3daa09.svg": "/website/static/media/web-tamas.7b3daa09.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.21f629a0.js",
-    "static/js/2.a6bbcf82.chunk.js",
+    "static/js/runtime-main.86f24065.js",
+    "static/js/2.e6bdd750.chunk.js",
     "static/css/main.15d17b1f.chunk.css",
-    "static/js/main.1c9c8245.chunk.js"
+    "static/js/main.a458d0b4.chunk.js"
   ]
 }

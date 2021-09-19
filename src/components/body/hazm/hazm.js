@@ -1,15 +1,17 @@
 import React, {Component} from 'react';
-import {ReactComponent as HazmMobile} from "../../../assets/images/mobile-hazm.svg";
+import HazmMobile from "../../../components/jsx-svgs/mobile/hazm";
 import './hazm.scss'
 import {ReactComponent as HazmWebImage} from "../../../assets/images/web-hazm-image.svg";
-import HazmWebText from "../../../components/jsx-svgs/web-hazm-text";
+import HazmWebText from "../../jsx-svgs/web/web-hazm-text";
 
 class Hazm extends Component{
     render() {
         return(
             <div>
                 <div id={'hazm'}>
-                    <HazmMobile id={'mobile'}/>
+                    <div id={'mobile'}>
+                        <HazmMobile/>
+                    </div>
                     <div id={'web'}>
                         <HazmWebText id={'text'}/>
                         <div id={'space'}/>

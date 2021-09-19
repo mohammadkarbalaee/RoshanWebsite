@@ -1,15 +1,17 @@
 import React, {Component} from 'react';
-import {ReactComponent as HarfMobile} from "../../../assets/images/mobile-harf.svg";
+import HarfMobile from "../../../components/jsx-svgs/mobile/harf";
 import './harf.scss'
 import {ReactComponent as HarfWebImage} from "../../../assets/images/web-harf-image.svg";
-import HarfWebText from "../../jsx-svgs/web-harf-text";
+import HarfWebText from "../../jsx-svgs/web/web-harf-text";
 
 class Harf extends Component{
     render() {
         return(
             <div>
                 <div id={'harf'}>
-                    <HarfMobile id={'mobile'}/>
+                    <div id={'mobile'}>
+                        <HarfMobile/>
+                    </div>
                     <div id={'web'}>
                         <HarfWebImage id={'image'}/>
                         <div id={'space'}/>

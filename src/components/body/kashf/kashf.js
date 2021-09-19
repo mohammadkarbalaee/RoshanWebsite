@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {ReactComponent as KashfMobile} from "../../../assets/images/mobile-kashf.svg";
-import KashfWebText from "../../jsx-svgs/web-kashf-text";
+import KashfMobile from "../../../components/jsx-svgs/mobile/kashf";
+import KashfWebText from "../../jsx-svgs/web/web-kashf-text";
 import {ReactComponent as KashfWebImage} from "../../../assets/images/web-kashf-image.svg";
 import './kashf.scss'
 
@@ -9,7 +9,9 @@ class Kashf extends Component{
         return(
             <div>
                 <div id={'kashf'}>
-                    <KashfMobile id={'mobile'}/>
+                    <div id={'mobile'}>
+                        <KashfMobile/>
+                    </div>
                     <div id={'web'}>
                         <KashfWebImage id={'image'}/>
                         <div id={'space'}/>

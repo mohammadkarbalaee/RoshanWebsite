@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import {ReactComponent as AlefbaMobile} from "../../../assets/images/mobile-alefba.svg";
+import AlefbaMobile from "../../../components/jsx-svgs/mobile/alefba";
 import './alefba.scss'
-import AlefbaWebText from "../../jsx-svgs/web-alefba-text";
+import AlefbaWebText from "../../jsx-svgs/web/web-alefba-text";
 import {ReactComponent as AlefbaWebImage} from "../../../assets/images/web-alefba-image.svg";
 
 class Alefba extends Component{
@@ -9,7 +9,9 @@ class Alefba extends Component{
         return(
             <div>
                 <div id={'alefba'}>
-                    <AlefbaMobile id={'mobile'}/>
+                    <div id={'mobile'}>
+                        <AlefbaMobile/>
+                    </div>
                     <div id={'web'}>
                         <AlefbaWebText id={'text'}/>
                         <div id={'space'}/>

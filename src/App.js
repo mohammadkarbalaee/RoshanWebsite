@@ -1,10 +1,10 @@
 import {FullPage, Slide} from 'react-full-page';
 import Header from "./components/header/header";
-import Kashf from "./components/body/kashf";
-import Alefba from "./components/body/alefba";
-import Harf from "./components/body/harf";
-import Hazm from "./components/body/hazm";
-import Moshtarian from "./components/body/moshtarian/moshtarian";
+import Kashf from "./components/slides/kashf";
+import Alefba from "./components/slides/alefba";
+import Harf from "./components/slides/harf";
+import Hazm from "./components/slides/hazm";
+import Moshtarian from "./components/slides/moshtarian/moshtarian";
 import { Route, Switch } from 'react-router-dom';
 import JoinusPage from "./components/header/join-us-page/joinus-page";
 import ContactUsPage from "./components/header/contact-us-page/contact-us-page";

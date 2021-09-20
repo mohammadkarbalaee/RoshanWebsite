@@ -36,7 +36,6 @@ class Header extends Component {
         }
     }
 
-
     render() {
         return(
             <div id={'all'}>

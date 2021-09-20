@@ -1,5 +1,5 @@
-import DoubleTextGroup from "./left-text-group/links-group";
-import IconTextGroup from "./right-icon-group/roshan-icon-group";
+import DoubleTextGroup from "./links-group/links-group";
+import IconTextGroup from "./roshan-icon-group/roshan-icon-group";
 import './navbar.scss'
 import MenuButtons from "./menu-buttons/menu-buttons";
 

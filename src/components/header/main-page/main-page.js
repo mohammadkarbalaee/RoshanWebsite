@@ -1,10 +1,10 @@
 import React from 'react';
-import './roshan-earth-background.scss'
+import './main-page.scss'
 import WebBackground from "../../../assets/images/simple-background.svg";
 import MobileBackground from "../../../assets/images/mobile-background.svg";
 
 
-function RoshanEarthBackground() {
+function MainPage() {
     return (
         <div className='earth-background'>
             <img className='web-background' src={WebBackground} alt={'fail'}/>
@@ -13,4 +13,4 @@ function RoshanEarthBackground() {
     )
 }
 
-export default RoshanEarthBackground;
+export default MainPage;

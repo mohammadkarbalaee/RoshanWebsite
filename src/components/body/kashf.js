@@ -1,8 +1,7 @@
-import React from 'react';
-import KashfMobile from "../../../components/jsx-svgs/mobile/kashf";
-import KashfWebText from "../../jsx-svgs/web/web-kashf-text";
-import {ReactComponent as KashfWebImage} from "../../../assets/images/web-kashf-image.svg";
-import './kashf.scss'
+import KashfMobile from "../jsx-svgs/mobile/kashf";
+import KashfWebText from "../jsx-svgs/web/web-kashf-text";
+import {ReactComponent as KashfWebImage} from "../../assets/images/web-kashf-image.svg";
+import './slides-style.scss'
 
 function Kashf() {
     return (

@@ -1,8 +1,7 @@
-import React from 'react';
-import HazmMobile from "../../../components/jsx-svgs/mobile/hazm";
-import './hazm.scss'
-import {ReactComponent as HazmWebImage} from "../../../assets/images/web-hazm-image.svg";
-import HazmWebText from "../../jsx-svgs/web/web-hazm-text";
+import HazmMobile from "../jsx-svgs/mobile/hazm";
+import './slides-style.scss'
+import {ReactComponent as HazmWebImage} from "../../assets/images/web-hazm-image.svg";
+import HazmWebText from "../jsx-svgs/web/web-hazm-text";
 
 function Hazm() {
     return (

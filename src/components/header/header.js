@@ -1,10 +1,12 @@
 import React from 'react';
 import {Component} from 'react';
-import './header-wrapper.scss'
+import './header.scss'
 import Navbar from "./navigation-bar/navbar";
-import RoshanEarthBackground from "./roshan-earth-background/roshan-earth-background";
+import MainPage from "./main-page/main-page";
 import HamkariBamaButton from "./navigation-bar/left-text-group/hamkari-bama-button/hamkari-bama-button";
 import TamasBamaButton from "./navigation-bar/left-text-group/tamas-bama-button/tamas-bama-button";
+import JoinusPage from "./join-us-page/joinus-page";
+import ContactusPage from "./contact-us-page/contactus-page";
 
 class Header extends Component {
     state = {
@@ -21,14 +23,16 @@ class Header extends Component {
         if (this.state.isOpen) {
             return (
                 <div id={'compact-menu'}>
-                    <TamasBamaButton onClick={this.toggleTamasBama}/>
-                    <HamkariBamaButton onClick={this.toggleHamkariBama}/>
+                    <TamasBamaButton />
+                    <HamkariBamaButton />
                 </div>
             )
         } else {
-            return (
-                <RoshanEarthBackground/>
-            )
+            switch (this.props.type){
+                case 'main': return (<MainPage/>);
+                case 'contact-us': return (<ContactusPage/>);
+                case 'join-us': return (<JoinusPage/>);
+            }
         }
     }
 

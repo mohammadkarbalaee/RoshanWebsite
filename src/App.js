@@ -1,13 +1,13 @@
 import {FullPage, Slide} from 'react-full-page';
-import Header from "./components/header/header-wrapper";
-import Kashf from "./components/body/kashf/kashf";
-import Alefba from "./components/body/alefba/alefba";
-import Harf from "./components/body/harf/harf";
-import Hazm from "./components/body/hazm/hazm";
-import Moshtarian from "./components/moshtarian/moshtarian";
+import Header from "./components/header/header";
+import Kashf from "./components/body/kashf";
+import Alefba from "./components/body/alefba";
+import Harf from "./components/body/harf";
+import Hazm from "./components/body/hazm";
+import Moshtarian from "./components/body/moshtarian/moshtarian";
 import { Route, Switch } from 'react-router-dom';
-import HamakariBamaPage from "./components/header/navigation-bar/hamkari-bama-page/hamkari-bama-page";
-import TamasBamaPage from "./components/header/navigation-bar/tamas-bama-page/tamas-bama-page";
+import JoinusPage from "./components/header/join-us-page/joinus-page";
+import ContactusPage from "./components/header/contact-us-page/contactus-page";
 
 
 function RoshanWebsite() {
@@ -19,7 +19,7 @@ function RoshanWebsite() {
                     <FullPage>
                         <Slide>
                             <div className='roshan-website'>
-                                <Header/>
+                                <Header type={'main'}/>
                             </div>
                         </Slide>
                         <Slide>
@@ -50,10 +50,10 @@ function RoshanWebsite() {
                     </FullPage>
                 </Route>
                 <Route path={'/contact-us'}>
-                    <TamasBamaPage/>
+                    <Header type={'contact-us'}/>
                 </Route>
                 <Route path={'/join-us'}>
-                    <HamakariBamaPage/>
+                    <Header type={'join-us'}/>
                 </Route>
             </Switch>
         </div>

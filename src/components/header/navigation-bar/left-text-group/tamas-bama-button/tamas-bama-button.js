@@ -1,18 +1,14 @@
 import React from 'react';
-import {Component} from 'react';
 import './tamas-bama-button.scss'
 
-class TamasBamaButton extends Component {
-
-    render() {
-        return(
-            <div className='contact-us'>
-                <button onClick={this.props.onClick}>
-                    تماس با ما
-                </button>
-            </div>
-        )
-    }
+function TamasBamaButton(props) {
+    return (
+        <div className='contact-us'>
+            <button onClick={props.onClick}>
+                تماس با ما
+            </button>
+        </div>
+    )
 }
 
 export default TamasBamaButton;

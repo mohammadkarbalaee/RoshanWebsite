@@ -1,0 +1,59 @@
+@mixin slide-style(
+  $slide-name,
+  $space-between,
+  $image-size-width,
+  $image-size-height,
+){
+  #{$slide-name} {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  #{$slide-name} #mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+  }
+
+  #{$slide-name} #web{
+    margin-top: 200px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+  }
+
+  #{$slide-name} #web #text{
+    height: 40vh;
+    width: 40vw;
+  }
+
+  #background {
+    width: 100vm;
+    height: 100vh;
+    position:absolute;
+  }
+
+
+  #{$slide-name} #web #image{
+    height: $image-size-height;
+    width: $image-size-width;
+  }
+
+  #{$slide-name} #web #space{
+    width: $space-between;
+  }
+
+  @media screen and (min-width: 500px){
+    #{$slide-name} #mobile{
+      display: none;
+    }
+
+    #{$slide-name} #web{
+      display: flex;
+    }
+  }
+}

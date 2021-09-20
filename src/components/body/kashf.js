@@ -1,5 +1,5 @@
 import KashfMobile from "../jsx-svgs/mobile/kashf";
-import KashfWebText from "../jsx-svgs/web/web-kashf-text";
+import KashfWebText from "../jsx-svgs/web/kashf-text";
 import {ReactComponent as KashfWebImage} from "../../assets/images/web-kashf-image.svg";
 import './slides-style.scss'
 

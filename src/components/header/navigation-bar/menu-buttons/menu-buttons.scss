@@ -1,27 +1,27 @@
-.compact-group {
+.menu-buttons {
   display: none;
   width: 60px;
   height: 50px;
   order:1;
 }
 
-.compact-group button{
+.menu-buttons button{
   background-color: transparent;
   border-color: transparent;
 }
 
-.compact-group #hidden{
+.menu-buttons #hidden{
   display: none;
 }
 
-.compact-group .icon{
+.menu-buttons .icon{
   float: left;
   height: 50px;
   padding-left: 10px;
   padding-top: 10px;
 }
 @media screen and (max-width: 400px){
-  .compact-group {
+  .menu-buttons {
     display: flex;
   }
 }

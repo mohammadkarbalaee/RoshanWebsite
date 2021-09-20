@@ -1,14 +1,14 @@
 import React from 'react';
-import {ReactComponent as HamkariMobile} from "../../../assets/images/mobile-hamkari.svg";
-import {ReactComponent as HamkariWeb} from "../../../assets/images/web-hamkari.svg";
+import {ReactComponent as JoinUsMobile} from "../../../assets/images/mobile-join-us.svg";
+import {ReactComponent as JoinUsWeb} from "../../../assets/images/web-join-us.svg";
 import './joinus-page.scss'
 
 class JoinusPage extends React.Component {
     render() {
         return (
-            <div className={'hamkari-bama'}>
-                <HamkariMobile id={'mobile'}/>
-                <HamkariWeb id={'web'}/>
+            <div className={'join-us-page'}>
+                <JoinUsMobile id={'mobile'}/>
+                <JoinUsWeb id={'web'}/>
             </div>
         )
     }

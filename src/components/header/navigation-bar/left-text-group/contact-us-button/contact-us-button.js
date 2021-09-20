@@ -1,7 +1,7 @@
-import './tamas-bama-button.scss';
+import './contact-us-button.scss';
 import {Link} from 'react-router-dom';
 
-function TamasBamaButton() {
+function ContactUsButton() {
     return (
         <div className='contact-us'>
             <Link to={'/contact-us'} id={'button'}>
@@ -11,4 +11,4 @@ function TamasBamaButton() {
     )
 }
 
-export default TamasBamaButton;
+export default ContactUsButton;

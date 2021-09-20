@@ -1,9 +1,9 @@
-import './hamkari-bama-button.scss'
+import './join-us-button.scss'
 import {Link} from 'react-router-dom';
 
-function HamkariBamaButton() {
+function JoinUsButton() {
     return (
-        <div className="work-with-us">
+        <div className="join-us">
             <Link to={'/join-us'} id={'button'}>
                 همکاری با ما
             </Link>
@@ -11,4 +11,4 @@ function HamkariBamaButton() {
     )
 }
 
-export default HamkariBamaButton;
+export default JoinUsButton;

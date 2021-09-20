@@ -1,13 +1,13 @@
 @import "./src/shared-styles/mobile-mediaqueries-header";
 
-.earth-background .mobile-background{
+.all .mobile-background{
   display: none;
   height: 70vh;
   width:auto;
   float: left;
   position: relative;
 }
-.earth-background .web-background{
+.all .web-background{
   width:100%;
   float: left;
   height: 120vh;

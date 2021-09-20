@@ -1,13 +1,13 @@
-.hamkari-bama #mobile{
+.join-us-page #mobile{
   height: 90vh;
   width: 80vw;
 }
 
-.hamkari-bama #web{
+.join-us-page #web{
   display: none;
 }
 
-.hamkari-bama {
+.join-us-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,11 +15,11 @@
 }
 
 @media screen and (min-width: 500px){
-  .hamkari-bama #mobile{
+  .join-us-page #mobile{
     display: none;
   }
 
-  .hamkari-bama #web{
+  .join-us-page #web{
     display: flex;
     height: 90vh;
     width: 80vw;

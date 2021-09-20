@@ -1,15 +1,14 @@
-import React from 'react';
-import DoubleTextGroup from "./left-text-group/left-text-group";
-import IconTextGroup from "./right-icon-group/right-icon-group";
+import DoubleTextGroup from "./left-text-group/links-group";
+import IconTextGroup from "./right-icon-group/roshan-icon-group";
 import './navbar.scss'
-import CompactGroup from "./compact-group/compact-group";
+import MenuButtons from "./menu-buttons/menu-buttons";
 
 function Navbar(props) {
     return (
         <div className='navbar'>
             <DoubleTextGroup />
             <IconTextGroup/>
-            <CompactGroup toggle={props.toggle} isOpen={props.isOpen}/>
+            <MenuButtons toggle={props.toggle} isOpen={props.isOpen}/>
         </div>
     )
 }

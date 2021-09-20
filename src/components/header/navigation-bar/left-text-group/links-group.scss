@@ -1,4 +1,4 @@
-.left-text-group {
+.links-group {
   display: flex;
   flex-direction: row;
   margin-top: 10px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 400px){
-  .left-text-group{
+  .links-group{
     display: none;
   }
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import {ReactComponent as MoshtarianWeb} from "../../../assets/images/web-moshtarian.svg";
+import {ReactComponent as MoshtarianWeb} from "../../../assets/images/web-customers.svg";
 import {ReactComponent as FooterWeb} from "../../../assets/images/web-footer.svg";
 import './moshtarian.scss'
 

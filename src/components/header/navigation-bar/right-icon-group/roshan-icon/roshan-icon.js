@@ -1,4 +1,3 @@
-import React from 'react';
 import './roshan-icon.scss'
 import {ReactComponent as RoshanSVG} from '../../../../../assets/images/roshan-icon.svg';
 

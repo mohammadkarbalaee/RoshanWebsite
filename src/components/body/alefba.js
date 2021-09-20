@@ -1,6 +1,6 @@
 import AlefbaMobile from "../jsx-svgs/mobile/alefba";
 import './slides-style.scss'
-import AlefbaWebText from "../jsx-svgs/web/web-alefba-text";
+import AlefbaWebText from "../jsx-svgs/web/alefba-text";
 import {ReactComponent as AlefbaWebImage} from "../../assets/images/web-alefba-image.svg";
 
 function Alefba() {

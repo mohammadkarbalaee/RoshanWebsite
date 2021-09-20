@@ -1,13 +1,13 @@
-.tamas-bama #mobile {
+.contact-us-page #mobile {
   height: 90vh;
   width: 80vw;
 }
 
-.tamas-bama #web{
+.contact-us-page #web{
   display: none;
 }
 
-.tamas-bama {
+.contact-us-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,11 +15,11 @@
 }
 
 @media screen and (min-width: 500px){
-  .tamas-bama #mobile {
+  .contact-us-page #mobile {
     display: none;
   }
 
-  .tamas-bama #web{
+  .contact-us-page #web{
     display: flex;
     height: 90vh;
     width: 80vw;

@@ -1,43 +1,42 @@
 @import '../../../../../shared-styles/header-texts';
 
-.work-with-us #button{
+.join-us #button{
   text-decoration: none;
   margin-left: 150px;
   justify-content: left;
   @include headerText();
 }
 
-.work-with-us{
+.join-us{
   margin-top: 20px;
 }
 
-.work-with-us #button{
+.join-us #button{
   border-color: transparent;
   background-color: transparent;
 }
 
-.work-with-us #button:hover{
+.join-us #button:hover{
   background-color: #1e252f;
   border-radius: 50px;
 }
 
 @media only screen and (max-width: 800px){
-  .work-with-us #button{
+  .join-us #button{
     margin-left: 70px;
     font-size: 13px;
   }
 }
 
 @media only screen and (max-width: 700px){
-  .work-with-us #button{
+  .join-us #button{
     margin-left: 50px;
     font-size: 10px;
   }
 }
 
-
 @media only screen and (max-width: 400px){
-  .work-with-us #button{
+  .join-us #button{
     margin-left: 10px;
     font-size: 20px;
   }

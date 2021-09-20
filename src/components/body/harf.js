@@ -1,7 +1,7 @@
 import HarfMobile from "../jsx-svgs/mobile/harf";
 import './slides-style.scss'
 import {ReactComponent as HarfWebImage} from "../../assets/images/web-harf-image.svg";
-import HarfWebText from "../jsx-svgs/web/web-harf-text";
+import HarfWebText from "../jsx-svgs/web/harf-text";
 
 function Harf() {
     return (

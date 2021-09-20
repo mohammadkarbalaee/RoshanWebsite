@@ -7,7 +7,7 @@ import Hazm from "./components/body/hazm";
 import Moshtarian from "./components/body/moshtarian/moshtarian";
 import { Route, Switch } from 'react-router-dom';
 import JoinusPage from "./components/header/join-us-page/joinus-page";
-import ContactusPage from "./components/header/contact-us-page/contactus-page";
+import ContactUsPage from "./components/header/contact-us-page/contact-us-page";
 
 
 function RoshanWebsite() {

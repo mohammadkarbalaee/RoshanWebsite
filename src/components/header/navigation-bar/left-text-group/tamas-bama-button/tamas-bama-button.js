@@ -1,12 +1,12 @@
-import React from 'react';
-import './tamas-bama-button.scss'
+import './tamas-bama-button.scss';
+import {Link} from 'react-router-dom';
 
-function TamasBamaButton(props) {
+function TamasBamaButton() {
     return (
         <div className='contact-us'>
-            <button onClick={props.onClick}>
+            <Link to={'/contact-us'} id={'button'}>
                 تماس با ما
-            </button>
+            </Link>
         </div>
     )
 }

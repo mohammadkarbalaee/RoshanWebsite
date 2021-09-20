@@ -1,5 +1,5 @@
 {
-  "homepage": "https://muhammadksht.github.io/website",
+  "homepage": "https://muhammadksht.github.io/",
   "name": "new-roshan-website",
   "version": "0.1.0",
   "private": true,
@@ -8,9 +8,9 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-full-page": "^0.1.12",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
-    "source-map-explorer": "^2.5.2",
-    "web-vitals": "^1.1.2"
+    "source-map-explorer": "^2.5.2"
   },
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",

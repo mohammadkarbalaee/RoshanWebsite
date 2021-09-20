@@ -1,12 +1,12 @@
-import React from 'react';
 import './hamkari-bama-button.scss'
+import {Link} from 'react-router-dom';
 
-function HamkariBamaButton(props) {
+function HamkariBamaButton() {
     return (
         <div className="work-with-us">
-            <button onClick={props.onClick}>
+            <Link to={'/join-us'} id={'button'}>
                 همکاری با ما
-            </button>
+            </Link>
         </div>
     )
 }

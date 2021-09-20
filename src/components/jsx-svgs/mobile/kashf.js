@@ -1,6 +1,10 @@
 import React from "react";
 
 function KashfMobile() {
+    const imageStyle = {
+        mixBlendMode:'lighten',
+    };
+
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -10,6 +14,9 @@ function KashfMobile() {
             fill="none"
             viewBox="0 0 242 509"
         >
+            <g style={imageStyle}>
+                <rect x="25" width="186" height="200" fill="url(#pattern)"/>
+            </g>
             <path
     fill="url(#pattern0)"
     d="M27.478 0.109H213.478V200.109H27.478z"
@@ -66,7 +73,7 @@ function KashfMobile() {
             </a>
             <defs>
                 <pattern
-                    id="pattern0"
+                    id="pattern"
                     width="1"
                     height="1"
                     patternContentUnits="objectBoundingBox"

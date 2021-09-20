@@ -1,58 +1,50 @@
 import {FullPage, Slide} from 'react-full-page';
-import Header from "./components/header/header";
-import Kashf from "./components/slides/kashf";
-import Alefba from "./components/slides/alefba";
-import Harf from "./components/slides/harf";
-import Hazm from "./components/slides/hazm";
-import Moshtarian from "./components/slides/moshtarian/moshtarian";
 import { Route, Switch } from 'react-router-dom';
+import{ Suspense, lazy } from 'react';
+
+import Header from "./components/header/header";
+const Kashf = lazy(() => import("./components/slides/kashf"));
+const Alefba = lazy(() => import("./components/slides/alefba"));
+const Harf = lazy(() => import("./components/slides/harf"));
+const Hazm = lazy(() => import("./components/slides/hazm"));
+const Moshtarian = lazy(() => import("./components/slides/moshtarian/moshtarian"));
 
 function RoshanWebsite() {
 
     return (
         <div>
-            <Switch>
-                <Route path={'/website'} exact>
-                    <FullPage>
-                        <Slide>
-                            <div className='roshan-website'>
+            <Suspense fallback={<div></div>}>
+                <Switch>
+                    <Route path={'/'} exact>
+                        <FullPage>
+                            <Slide>
                                 <Header type={'main'}/>
-                            </div>
-                        </Slide>
-                        <Slide>
-                            <div className='roshan-website'>
+                            </Slide>
+                            <Slide>
                                 <Kashf/>
-                            </div>
-                        </Slide>
-                        <Slide>
-                            <div className='roshan-website'>
+                            </Slide>
+                            <Slide>
                                 <Alefba/>
-                            </div>
-                        </Slide>
-                        <Slide>
-                            <div className='roshan-website'>
+                            </Slide>
+                            <Slide>
                                 <Harf/>
-                            </div>
-                        </Slide>
-                        <Slide>
-                            <div className='roshan-website'>
+                            </Slide>
+                            <Slide>
                                 <Hazm/>
-                            </div>
-                        </Slide>
-                        <Slide>
-                            <div className='roshan-website'>
+                            </Slide>
+                            <Slide>
                                 <Moshtarian/>
-                            </div>
-                        </Slide>
-                    </FullPage>
-                </Route>
-                <Route path={'/contact-us'}>
-                    <Header type={'contact-us'}/>
-                </Route>
-                <Route path={'/join-us'}>
-                    <Header type={'join-us'}/>
-                </Route>
-            </Switch>
+                            </Slide>
+                        </FullPage>
+                    </Route>
+                    <Route path={'/contact-us'}>
+                        <Header type={'contact-us'}/>
+                    </Route>
+                    <Route path={'/join-us'}>
+                        <Header type={'join-us'}/>
+                    </Route>
+                </Switch>
+            </Suspense>
         </div>
     )
 }

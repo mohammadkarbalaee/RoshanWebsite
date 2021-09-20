@@ -1,12 +1,13 @@
-import React from 'react';
+import React, {lazy} from 'react';
 import {Component} from 'react';
 import './header.scss'
 import Navbar from "./navigation-bar/navbar";
 import MainPage from "./main-page/main-page";
 import JoinUsButton from "./navigation-bar/links-group/join-us-button/join-us-button";
 import ContactUsButton from "./navigation-bar/links-group/contact-us-button/contact-us-button";
-import JoinusPage from "./join-us-page/joinus-page";
-import ContactUsPage from "./contact-us-page/contact-us-page";
+
+const JoinusPage = lazy(() => import("./join-us-page/joinus-page"));
+const ContactUsPage = lazy(() => import("./contact-us-page/contact-us-page"));
 
 class Header extends Component {
     state = {

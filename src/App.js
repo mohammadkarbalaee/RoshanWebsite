@@ -6,16 +6,13 @@ import Harf from "./components/slides/harf";
 import Hazm from "./components/slides/hazm";
 import Moshtarian from "./components/slides/moshtarian/moshtarian";
 import { Route, Switch } from 'react-router-dom';
-import JoinusPage from "./components/header/join-us-page/joinus-page";
-import ContactUsPage from "./components/header/contact-us-page/contact-us-page";
-
 
 function RoshanWebsite() {
 
     return (
         <div>
             <Switch>
-                <Route path={'/'} exact>
+                <Route path={'/website'} exact>
                     <FullPage>
                         <Slide>
                             <div className='roshan-website'>

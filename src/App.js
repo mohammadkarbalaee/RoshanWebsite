@@ -32,12 +32,12 @@ function RoshanWebsite() {
                                 {/*<Slide>*/}
                                 {/*    <Alefba/>*/}
                                 {/*</Slide>*/}
-                                <Slide>
-                                    <Harf/>
-                                </Slide>
                                 {/*<Slide>*/}
-                                {/*    <Hazm/>*/}
+                                {/*    <Harf/>*/}
                                 {/*</Slide>*/}
+                                <Slide>
+                                    <Hazm/>
+                                </Slide>
                                 {/*<Slide>*/}
                                 {/*    <Moshtarian/>*/}
                                 {/*</Slide>*/}

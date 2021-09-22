@@ -11,6 +11,19 @@ export const flowerAndFrameAnimation = {
     },
 };
 
+export const backgroundAnimation = {
+    hidden: {
+        opacity: 0
+    },
+    visible: {
+        opacity: 0.4,
+        transition: {
+            delay:2,
+            duration: 0.8
+        }
+    },
+};
+
 export const dotAnimation = {
     hidden: {
         opacity: 0,
@@ -74,6 +87,32 @@ export const textAnimation = {
         transition: {
             delay:1,
             duration: 0.5
+        }
+    },
+};
+
+export const bottomLineAnimation = {
+    hidden: {
+        pathLength:0
+    },
+    visible: {
+        pathLength:1,
+        transition: {
+            delay:1.1,
+            duration: 0.8
+        }
+    },
+};
+
+export const boxAnimation = {
+    hidden: {
+        pathLength:0
+    },
+    visible: {
+        pathLength:1,
+        transition: {
+            delay:1.7,
+            duration: 1.1
         }
     },
 };

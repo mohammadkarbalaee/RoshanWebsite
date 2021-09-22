@@ -1,0 +1,11 @@
+.wrapper #progress-indicator{
+    height: 60vh;
+    width:50vw;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

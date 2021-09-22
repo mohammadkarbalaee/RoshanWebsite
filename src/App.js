@@ -1,6 +1,7 @@
 import {FullPage, Slide} from 'react-full-page';
 import { Route, Switch } from 'react-router-dom';
 import{ Suspense, lazy } from 'react';
+import ProgressIndicator from "./components/progress-indicator";
 
 const Header = lazy(() => import("./components/header/header"));
 const Kashf = lazy(() => import("./components/slides/kashf"));
@@ -9,11 +10,12 @@ const Harf = lazy(() => import("./components/slides/harf"));
 const Hazm = lazy(() => import("./components/slides/hazm"));
 const Moshtarian = lazy(() => import("./components/slides/moshtarian/moshtarian"));
 
+
 function RoshanWebsite() {
 
     return (
         <div>
-            <Suspense fallback={<div></div>}>
+            <Suspense fallback={<ProgressIndicator/>}>
                 <Switch>
                     <Route path={'/website'} exact>
                         <FullPage>

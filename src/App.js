@@ -2,7 +2,7 @@ import {FullPage, Slide} from 'react-full-page';
 import { Route, Switch } from 'react-router-dom';
 import{ Suspense, lazy } from 'react';
 
-import Header from "./components/header/header";
+const Header = lazy(() => import("./components/header/header"));
 const Kashf = lazy(() => import("./components/slides/kashf"));
 const Alefba = lazy(() => import("./components/slides/alefba"));
 const Harf = lazy(() => import("./components/slides/harf"));
@@ -15,7 +15,7 @@ function RoshanWebsite() {
         <div>
             <Suspense fallback={<div></div>}>
                 <Switch>
-                    <Route path={'/'} exact>
+                    <Route path={'/website'} exact>
                         <FullPage>
                             <Slide>
                                 <Header type={'main'}/>

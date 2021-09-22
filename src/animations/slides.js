@@ -13,6 +13,7 @@ export const flowerAndFrameAnimation = {
 
 export const backgroundAnimation = {
     hidden: {
+        x:-20,
         opacity: 0
     },
     visible: {
@@ -26,6 +27,7 @@ export const backgroundAnimation = {
 
 export const aboutAnimation = {
     hidden: {
+        x:-20,
         opacity: 0
     },
     visible: {
@@ -53,7 +55,6 @@ export const dotAnimation = {
 export const mainLineAnimation = {
     hidden: {
         pathLength:0,
-
     },
     visible: {
         pathLength:1,
@@ -106,6 +107,7 @@ export const textAnimation = {
 
 export const bottomLineAnimation = {
     hidden: {
+        x:-25,
         pathLength:0
     },
     visible: {
@@ -119,6 +121,7 @@ export const bottomLineAnimation = {
 
 export const boxAnimation = {
     hidden: {
+        x:-20,
         pathLength:0
     },
     visible: {

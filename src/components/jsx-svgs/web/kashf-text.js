@@ -10,7 +10,7 @@ import {
     bottomLineAnimation,
     boxAnimation,
     aboutAnimation,
-} from '../../../animations/kashf';
+} from '../../../animations/slides';
 
 const KashfWebText = () => {
     return (

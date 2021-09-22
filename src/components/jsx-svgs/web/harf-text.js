@@ -6,11 +6,14 @@ import {
     polygonAnimation,
     dotAnimation,
     textAnimation,
+} from '../../../animations/kashf';
+
+import {
     backgroundAnimationHarf,
     bottomLineAnimationHarf,
     boxAnimationHarf,
     aboutAnimationHarf,
-} from '../../../animations/slides';
+} from '../../../animations/harf';
 
 function HarfWebText() {
     return (

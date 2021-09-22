@@ -9,7 +9,7 @@ import {
     bottomLineAnimation,
     boxAnimation,
     aboutAnimation,
-} from '../../../animations/slides';
+} from '../../../animations/kashf';
 import {motion} from 'framer-motion';
 
 function KashfMobile() {

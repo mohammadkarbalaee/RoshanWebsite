@@ -10,7 +10,7 @@ import {
     bottomLineAnimation,
     boxAnimation,
     aboutAnimation,
-} from '../../../animations/slides';
+} from '../../../animations/kashf';
 
 function HarfMobile() {
     return (

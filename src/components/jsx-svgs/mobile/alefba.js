@@ -6,7 +6,7 @@ import {
     polygonAnimation,
     dotAnimation,
     textAnimation,
-} from '../../../animations/slides';
+} from '../../../animations/kashf';
 
 import {
     backgroundAnimationMobile,

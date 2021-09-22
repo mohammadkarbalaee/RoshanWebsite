@@ -24,23 +24,23 @@ function RoshanWebsite() {
                         <Route path={'/website'} exact>
                             <FullPage>
                                 <Slide>
-                                    <Header type={'main'}/>
-                                </Slide>
-                                <Slide>
                                     <Kashf/>
                                 </Slide>
-                                <Slide>
-                                    <Alefba/>
-                                </Slide>
-                                <Slide>
-                                    <Harf/>
-                                </Slide>
-                                <Slide>
-                                    <Hazm/>
-                                </Slide>
-                                <Slide>
-                                    <Moshtarian/>
-                                </Slide>
+                                {/*<Slide>*/}
+                                {/*    <Header type={'main'}/>*/}
+                                {/*</Slide>*/}
+                                {/*<Slide>*/}
+                                {/*    <Alefba/>*/}
+                                {/*</Slide>*/}
+                                {/*<Slide>*/}
+                                {/*    <Harf/>*/}
+                                {/*</Slide>*/}
+                                {/*<Slide>*/}
+                                {/*    <Hazm/>*/}
+                                {/*</Slide>*/}
+                                {/*<Slide>*/}
+                                {/*    <Moshtarian/>*/}
+                                {/*</Slide>*/}
                             </FullPage>
                         </Route>
                         <Route path={'/contact-us'}>

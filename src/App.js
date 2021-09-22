@@ -31,18 +31,18 @@ function RoshanWebsite() {
                                 {/*<Slide>*/}
                                 {/*    <Header type={'main'}/>*/}
                                 {/*</Slide>*/}
-                                {/*<Slide>*/}
-                                {/*    <Kashf/>*/}
-                                {/*</Slide>*/}
+                                <Slide>
+                                    <Kashf/>
+                                </Slide>
                                 {/*<Slide>*/}
                                 {/*    <Alefba/>*/}
                                 {/*</Slide>*/}
                                 {/*<Slide>*/}
                                 {/*    <Harf/>*/}
                                 {/*</Slide>*/}
-                                <Slide>
-                                    <Hazm/>
-                                </Slide>
+                                {/*<Slide>*/}
+                                {/*    <Hazm/>*/}
+                                {/*</Slide>*/}
                                 {/*<Slide>*/}
                                 {/*    <Moshtarian/>*/}
                                 {/*</Slide>*/}

@@ -3,7 +3,7 @@ import {ReactComponent as JoinUsMobile} from "../../../assets/images/mobile-join
 import {ReactComponent as JoinUsWeb} from "../../../assets/images/web-join-us.svg";
 import './joinus-page.scss'
 import {motion} from 'framer-motion';
-import headerAnimation from "../../../animations/header-animations";
+import headerAnimation from "../../../animations/header";
 
 class JoinusPage extends React.Component {
     render() {

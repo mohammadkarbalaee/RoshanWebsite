@@ -3,7 +3,7 @@ import './main-page.scss'
 import WebBackground from "../../../assets/images/web-background.svg";
 import MobileBackground from "../../../assets/images/mobile-background.svg";
 import {motion} from 'framer-motion';
-import headerAnimation from "../../../animations/header-animations";
+import headerAnimation from "../../../animations/header";
 
 
 function MainPage() {

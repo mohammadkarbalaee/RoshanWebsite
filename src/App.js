@@ -23,12 +23,12 @@ function RoshanWebsite() {
                     <Switch location={location} key={location.key}>
                         <Route path={'/website'} exact>
                             <FullPage>
-                                <Slide>
-                                    <Kashf/>
-                                </Slide>
                                 {/*<Slide>*/}
                                 {/*    <Header type={'main'}/>*/}
                                 {/*</Slide>*/}
+                                <Slide>
+                                    <Kashf/>
+                                </Slide>
                                 {/*<Slide>*/}
                                 {/*    <Alefba/>*/}
                                 {/*</Slide>*/}

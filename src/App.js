@@ -26,12 +26,12 @@ function RoshanWebsite() {
                                 {/*<Slide>*/}
                                 {/*    <Header type={'main'}/>*/}
                                 {/*</Slide>*/}
-                                <Slide>
-                                    <Kashf/>
-                                </Slide>
                                 {/*<Slide>*/}
-                                {/*    <Alefba/>*/}
+                                {/*    <Kashf/>*/}
                                 {/*</Slide>*/}
+                                <Slide>
+                                    <Alefba/>
+                                </Slide>
                                 {/*<Slide>*/}
                                 {/*    <Harf/>*/}
                                 {/*</Slide>*/}

@@ -16,7 +16,7 @@ export const backgroundAnimation = {
         opacity: 0
     },
     visible: {
-        opacity: 0.4,
+        opacity: 0.3,
         transition: {
             delay:2,
             duration: 0.8

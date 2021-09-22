@@ -1,15 +1,18 @@
 import {motion} from 'framer-motion';
 import {
         flowerAndFrameAnimation,
-        mainLineAnimation,
-        subLineAnimation,
-        polygonAnimation,
-        dotAnimation,
-        textAnimation,
         backgroundAnimation,
         bottomLineAnimation,
         boxAnimation,
         aboutAnimation,
+} from '../../../animations/alefba';
+
+import {
+    mainLineAnimation,
+    subLineAnimation,
+    polygonAnimation,
+    dotAnimation,
+    textAnimation,
 } from '../../../animations/kashf';
 
 function AlefbaWebText() {

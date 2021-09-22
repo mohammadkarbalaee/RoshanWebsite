@@ -24,6 +24,19 @@ export const backgroundAnimation = {
     },
 };
 
+export const aboutAnimation = {
+    hidden: {
+        opacity: 0
+    },
+    visible: {
+        opacity: 1,
+        transition: {
+            delay:2,
+            duration: 0.6
+        }
+    },
+};
+
 export const dotAnimation = {
     hidden: {
         opacity: 0,

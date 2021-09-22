@@ -53,7 +53,7 @@ const KashfWebText = () => {
             */}
             <motion.path
                 stroke="#7000FF"
-                d="M426.12 37.882H276.86L250.303 59.5"
+                d="M250.303 59.5 L 276.86 37.882 L 426.12 37.882"
                 variants={mainLineAnimation}
                 initial={"hidden"}
                 animate={"visible"}

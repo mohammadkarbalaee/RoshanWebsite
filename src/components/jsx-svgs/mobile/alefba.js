@@ -54,7 +54,7 @@ function AlefbaMobile() {
                 variants={mainLineAnimation}
                 initial={"hidden"}
                 animate={"visible"}
-                stroke="#FF6200" d="M241 310.27H127.572l-20.181 16.427"/>
+                stroke="#FF6200" d="M107.391 326.697 L 127.572 310.27 L 241 310.27"/>
             <motion.path
                 variants={subLineAnimation}
                 initial={"hidden"}

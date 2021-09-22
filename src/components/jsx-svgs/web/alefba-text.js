@@ -58,7 +58,7 @@ function AlefbaWebText() {
                 variants={mainLineAnimation}
                 initial={"hidden"}
                 animate={"visible"}
-                stroke="#FF6200" d="M437.12 37.882H287.86L261.302 59.5"/>
+                stroke="#FF6200" d="M261.302 59.5 L 287.86 37.882 L 437.12 37.882"/>
             <motion.path
                 variants={subLineAnimation}
                 initial={"hidden"}

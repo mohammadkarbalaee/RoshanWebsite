@@ -41,7 +41,7 @@ function HarfWebText() {
                 variants={mainLineAnimation}
                 initial={"hidden"}
                 animate={"visible"}
-                stroke="#26FF7B" d="M429.12 37.882H279.86L253.303 59.5"/>
+                stroke="#26FF7B" d="M253.303 59.5 L 279.86 37.882 L 429.12 37.882"/>
             <motion.path
                 variants={subLineAnimation}
                 initial={"hidden"}

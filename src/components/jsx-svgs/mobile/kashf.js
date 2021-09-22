@@ -73,7 +73,7 @@ function KashfMobile() {
             */}
             <motion.path
                 stroke="#7000FF"
-                d="M241 289.283H127.572l-20.181 16.428"
+                d="M107.391 305.711 L 127.572 289.283 L 241 289.283"
                 variants={mainLineAnimation}
                 initial={"hidden"}
                 animate={"visible"}

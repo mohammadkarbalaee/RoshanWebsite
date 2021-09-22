@@ -79,7 +79,8 @@ function HazmMobile() {
                 variants={mainLineAnimation}
                 initial={"hidden"}
                 animate={"visible"}
-                stroke='#0089FF' d='M242 257.768H128.572l-20.181 16.427'/>
+                reverse={true}
+                stroke='#0089FF' d='M108.391 274.195 L 128.572 257.768 L 242 257.768'/>
             <motion.path
                 variants={subLineAnimation}
                 initial={"hidden"}

@@ -41,7 +41,7 @@ function HazmWebText() {
                 variants={mainLineAnimation}
                 initial={"hidden"}
                 animate={"visible"}
-                stroke="#0089FF" d="M423.12 37.882H273.86L247.302 59.5"/>
+                stroke="#0089FF" d="M247.302 59.5 L 273.86 37.882 L 423.12 37.882"/>
             <motion.path
                 variants={subLineAnimation}
                 initial={"hidden"}

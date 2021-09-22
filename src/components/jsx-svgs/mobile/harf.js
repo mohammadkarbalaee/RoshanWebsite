@@ -78,7 +78,7 @@ function HarfMobile() {
                 variants={mainLineAnimation}
                 initial={"hidden"}
                 animate={"visible"}
-                stroke="#26FF7B" d="M244 225.032H130.572l-20.181 16.428"/>
+                stroke="#26FF7B" d="M110.391 241.46 L 130.572 225.032 L 244 225.032"/>
             <motion.path
                 variants={subLineAnimation}
                 initial={"hidden"}

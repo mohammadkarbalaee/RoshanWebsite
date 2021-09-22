@@ -8,14 +8,10 @@ function Alefba() {
         <div>
             <div id={'alefba'}>
                 <div id={'mobile'}>
-                    <AlefbaMobile onClick={() => {
-                        console.log('works');
-                    }}/>
+                    <AlefbaMobile/>
                 </div>
                 <div id={'web'}>
-                    <AlefbaWebText id={'text'} onClick={() => {
-                        console.log('works');
-                    }}/>
+                    <AlefbaWebText id={'text'}/>
                     <div id={'space'}/>
                     <AlefbaWebImage id={'image'}/>
                 </div>

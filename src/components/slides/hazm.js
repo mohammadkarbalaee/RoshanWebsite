@@ -8,14 +8,10 @@ function Hazm() {
         <div>
             <div id={'hazm'}>
                 <div id={'mobile'}>
-                    <HazmMobile onClick={() => {
-                        console.log('works');
-                    }}/>
+                    <HazmMobile/>
                 </div>
                 <div id={'web'}>
-                    <HazmWebText id={'text'} onClick={() => {
-                        console.log('works');
-                    }}/>
+                    <HazmWebText id={'text'}/>
                     <div id={'space'}/>
                     <HazmWebImage id={'image'}/>
                 </div>

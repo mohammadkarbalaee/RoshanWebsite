@@ -8,16 +8,12 @@ function Kashf() {
         <div>
             <div id={'kashf'}>
                 <div id={'mobile'}>
-                    <KashfMobile onClick={() => {
-                        console.log('works');
-                    }}/>
+                    <KashfMobile/>
                 </div>
                 <div id={'web'}>
                     <KashfWebImage id={'image'}/>
                     <div id={'space'}/>
-                    <KashfWebText id={'text'} onClick={() => {
-                        console.log('works');
-                    }}/>
+                    <KashfWebText id={'text'}/>
                 </div>
             </div>
         </div>

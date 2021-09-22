@@ -8,16 +8,12 @@ function Harf() {
         <div>
             <div id={'harf'}>
                 <div id={'mobile'}>
-                    <HarfMobile onClick={() => {
-                        console.log('works');
-                    }}/>
+                    <HarfMobile/>
                 </div>
                 <div id={'web'}>
                     <HarfWebImage id={'image'}/>
                     <div id={'space'}/>
-                    <HarfWebText id={'text'} onClick={() => {
-                        console.log('works');
-                    }}/>
+                    <HarfWebText id={'text'} />
                 </div>
             </div>
         </div>

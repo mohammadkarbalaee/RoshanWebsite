@@ -1,7 +1,7 @@
 import React from 'react';
 import './main-page.scss'
-import WebBackground from "../../../assets/images/web-background.svg";
-import MobileBackground from "../../../assets/images/mobile-background.svg";
+import {ReactComponent as WebBackground} from "../../../assets/images/web-background.svg";
+import {ReactComponent as Description} from "../../../assets/images/description.svg";
 import {motion} from 'framer-motion';
 import headerAnimation from "../../../animations/header";
 
@@ -14,8 +14,8 @@ function MainPage() {
             animate={headerAnimation.animate}
             transition={headerAnimation.transition}
         >
-            <img className='web-background' src={WebBackground} alt={'fail'}/>
-            <img className='mobile-background' src={MobileBackground} alt={'fail'}/>
+            <WebBackground className='web-background'/>
+            <Description className='description'/>
         </motion.div>
     )
 }

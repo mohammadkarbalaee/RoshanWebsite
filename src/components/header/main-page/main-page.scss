@@ -1,4 +1,3 @@
-@import "./src/shared-styles/mobile-mediaqueries-header";
 
 .all .mobile-background{
   display: none;
@@ -10,8 +9,73 @@
 .all .web-background{
   width:100%;
   float: left;
-  height: 120vh;
+  height: 100%;
   position: relative;
 }
 
-@include mobile-media-queries-header()
+.all {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all .description {
+  top:27%;
+  height: 40vh;
+  width: 25vw;
+  position: absolute;
+}
+
+
+@media only screen and (max-width: 800px){
+  .all .description {
+    height: 45vh;
+    width: 30vw;
+    top:23%;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .all .description {
+    top:20%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .all .description {
+    top:17%;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .all .description {
+    height: 50vh;
+    width: 35vw;
+    top:10%;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .all .description {
+    top:5%;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .all .description {
+    top:3%;
+  }
+}
+
+@media only screen and (max-width: 300px){
+  .all .description {
+    top:2%;
+  }
+}
+
+@media only screen and (max-width: 250px){
+  .all .description {
+    top:0;
+  }
+}

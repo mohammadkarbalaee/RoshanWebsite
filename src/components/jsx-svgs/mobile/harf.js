@@ -15,6 +15,8 @@ import {
     aboutAnimationHarf,
 } from '../../../animations/harf';
 
+import {waveAnimation} from "../../../animations/harf-image";
+
 function HarfMobile() {
     return (
         <svg
@@ -117,20 +119,29 @@ function HarfMobile() {
     fill="#26FF7B"
     d="M111.033 243.426a2.659 2.659 0 100-5.318 2.659 2.659 0 000 5.318z"
     />
-            <path
+            <motion.path
+                variants={waveAnimation}
+                initial={"hidden"}
+                animate={"visible"}
     stroke="url(#paint0_linear)"
     strokeLinecap="round"
     strokeLinejoin="round"
     strokeWidth="2"
     d="M246.939 73.158c-4.078-3.512-44.789-.772-48.562-.861-3.773 0-5.924-9.57-8.774-9.57-2.849 0-9.196 12.978-12.477 12.454-4.254-1.094-4.254-25.65-8.117-25.65-5.287-.395-4.088 34.343-8.489 34.054-3.813 0-4.544-61.561-9.302-61.561-7.052-.071-5.831 86.995-14.027 86.976-8.41-.173.269-106.636-9.939-107.44-10.329-1.781-8.166 76.249-20.676 74.532-9.939-1.282-13.497-19.102-19.387-20.109C82.494 55.281 74.215 70 50.434 72.297c-11.56 1.117-11.736 1.572-49.373 1.365"
     />
-            <path
+            <motion.path
+                variants={waveAnimation}
+                initial={"hidden"}
+                animate={"visible"}
     stroke="url(#paint1_linear)"
     strokeLinecap="round"
     strokeWidth="2"
     d="M1.06 65.85h26.054"
     />
-            <path
+            <motion.path
+                variants={waveAnimation}
+                initial={"hidden"}
+                animate={"visible"}
     stroke="url(#paint2_linear)"
     strokeLinecap="round"
     strokeWidth="2"

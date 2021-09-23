@@ -1,6 +1,6 @@
 // import {FullPage, Slide} from 'react-full-page';
 import {Route, Switch} from 'react-router-dom';
-import {lazy, Suspense} from 'react';
+import {Component, lazy, Suspense} from 'react';
 import ProgressIndicator from "./components/progress-indicator";
 import {Fullpage, Slide,} from 'fullpage-react';
 
@@ -12,19 +12,27 @@ const Hazm = lazy(() => import("./components/slides/hazm"));
 const Moshtarian = lazy(() => import("./components/slides/moshtarian/moshtarian"));
 
 
-function RoshanWebsite() {
+class RoshanWebsite extends Component {
 
-    const fullPageOptions = {
-        scrollSensitivity: 1,
-        touchSensitivity: 1,
-        scrollSpeed: 600,
-        hideScrollBars: true,
-        enableArrowKeys: true,
-    };
+    state = {
+        fake:false,
+    }
 
-    fullPageOptions.slides = [
+    render() {
+
+        const fullPageOptions = {
+            scrollSensitivity: 1,
+            touchSensitivity: 1,
+            scrollSpeed: 600,
+            hideScrollBars: true,
+            enableArrowKeys: true,
+            enableChildReRendering:true,
+            activeSlide:0,
+        };
+
+        fullPageOptions.slides = [
             <Slide>
-                <Header type={'main'}/>
+                <Header type={'main'} fake={this.state.isOpen}/>
             </Slide>,
             <Slide>
                 <Kashf/>
@@ -38,52 +46,57 @@ function RoshanWebsite() {
             <Slide>
                 <Hazm/>
             </Slide>,
-            <Slide>
+            <Slide>c
                 <Moshtarian/>
             </Slide>
-    ];
+        ];
 
-    const onSlideChangeStart = () => {
-        console.log('yep');
-    };
+        const onSlideChangeStart = () => {
+            fullPageOptions.activeSlide = 3;
 
-    return (
-        <div>
-            <Suspense fallback={<ProgressIndicator/>}>
-                <Switch>
-                    <Route path={'/website'} exact>
-                        <Fullpage {...fullPageOptions} onSlideChangeStart={this.onSlideChangeStart}/>
-                        {/*<FullPage>*/}
-                        {/*    <Slide>*/}
-                        {/*        <Header type={'main'}/>*/}
-                        {/*    </Slide>*/}
-                        {/*    <Slide>*/}
-                        {/*        <Kashf/>*/}
-                        {/*    </Slide>*/}
-                        {/*    <Slide>*/}
-                        {/*        <Alefba/>*/}
-                        {/*    </Slide>*/}
-                        {/*    <Slide>*/}
-                        {/*        <Harf/>*/}
-                        {/*    </Slide>*/}
-                        {/*    <Slide>*/}
-                        {/*        <Hazm/>*/}
-                        {/*    </Slide>*/}
-                        {/*    <Slide>*/}
-                        {/*        <Moshtarian/>*/}
-                        {/*    </Slide>*/}
-                        {/*</FullPage>*/}
-                    </Route>
-                    <Route path={'/contact-us'}>
-                        <Header type={'contact-us'}/>
-                    </Route>
-                    <Route path={'/join-us'}>
-                        <Header type={'join-us'}/>
-                    </Route>
-                </Switch>
-            </Suspense>
-        </div>
-    )
+            this.setState({
+                fake: !this.state.fake,
+            });
+        };
+
+        return (
+            <div>
+                <Suspense fallback={<ProgressIndicator/>}>
+                    <Switch>
+                        <Route path={'/website'} exact>
+                            <Fullpage {...fullPageOptions} onSlideChangeStart={onSlideChangeStart} key={this.state.fake}/>
+                            {/*<FullPage>*/}
+                            {/*    <Slide>*/}
+                            {/*        <Header type={'main'}/>*/}
+                            {/*    </Slide>*/}
+                            {/*    <Slide>*/}
+                            {/*        <Kashf/>*/}
+                            {/*    </Slide>*/}
+                            {/*    <Slide>*/}
+                            {/*        <Alefba/>*/}
+                            {/*    </Slide>*/}
+                            {/*    <Slide>*/}
+                            {/*        <Harf/>*/}
+                            {/*    </Slide>*/}
+                            {/*    <Slide>*/}
+                            {/*        <Hazm/>*/}
+                            {/*    </Slide>*/}
+                            {/*    <Slide>*/}
+                            {/*        <Moshtarian/>*/}
+                            {/*    </Slide>*/}
+                            {/*</FullPage>*/}
+                        </Route>
+                        <Route path={'/contact-us'}>
+                            <Header type={'contact-us'}/>
+                        </Route>
+                        <Route path={'/join-us'}>
+                            <Header type={'join-us'}/>
+                        </Route>
+                    </Switch>
+                </Suspense>
+            </div>
+        )
+    }
 }
 
 export default RoshanWebsite;

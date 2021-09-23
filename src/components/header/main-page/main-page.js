@@ -5,7 +5,6 @@ import MobileBackground from "../../../assets/images/mobile-background.svg";
 import {motion} from 'framer-motion';
 import {backgroundAnimation,descriptionAnimation} from "../../../animations/main-page";
 
-
 function MainPage() {
     return (
         <div className='all'>

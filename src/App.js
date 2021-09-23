@@ -27,24 +27,23 @@ class RoshanWebsite extends Component {
             hideScrollBars: true,
             enableArrowKeys: true,
             enableChildReRendering:true,
-            activeSlide:0,
         };
 
         fullPageOptions.slides = [
             <Slide>
-                <Header type={'main'} fake={this.state.isOpen}/>
+                <Header type={'main'} key={this.state.fake}/>
             </Slide>,
             <Slide>
-                <Kashf/>
+                <Kashf key={this.state.fake}/>
             </Slide>,
             <Slide>
-                <Alefba/>
+                <Alefba key={this.state.fake}/>
             </Slide>,
             <Slide>
-                <Harf/>
+                <Harf key={this.state.fake}/>
             </Slide>,
             <Slide>
-                <Hazm/>
+                <Hazm key={this.state.fake}/>
             </Slide>,
             <Slide>c
                 <Moshtarian/>
@@ -64,27 +63,7 @@ class RoshanWebsite extends Component {
                 <Suspense fallback={<ProgressIndicator/>}>
                     <Switch>
                         <Route path={'/website'} exact>
-                            <Fullpage {...fullPageOptions} onSlideChangeStart={onSlideChangeStart} key={this.state.fake}/>
-                            {/*<FullPage>*/}
-                            {/*    <Slide>*/}
-                            {/*        <Header type={'main'}/>*/}
-                            {/*    </Slide>*/}
-                            {/*    <Slide>*/}
-                            {/*        <Kashf/>*/}
-                            {/*    </Slide>*/}
-                            {/*    <Slide>*/}
-                            {/*        <Alefba/>*/}
-                            {/*    </Slide>*/}
-                            {/*    <Slide>*/}
-                            {/*        <Harf/>*/}
-                            {/*    </Slide>*/}
-                            {/*    <Slide>*/}
-                            {/*        <Hazm/>*/}
-                            {/*    </Slide>*/}
-                            {/*    <Slide>*/}
-                            {/*        <Moshtarian/>*/}
-                            {/*    </Slide>*/}
-                            {/*</FullPage>*/}
+                            <Fullpage {...fullPageOptions} onSlideChangeStart={onSlideChangeStart}/>
                         </Route>
                         <Route path={'/contact-us'}>
                             <Header type={'contact-us'}/>

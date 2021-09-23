@@ -3,16 +3,16 @@ import './contact-us-page.scss';
 import {ReactComponent as ContactUsMobile} from "../../../assets/images/mobile-contact-us.svg";
 import {ReactComponent as ContactUsWeb} from "../../../assets/images/web-contact-us.svg";
 import {motion} from 'framer-motion';
-import headerAnimation from "../../../animations/header";
+import {backgroundAnimation} from "../../../animations/main-page";
 
 class ContactUsPage extends React.Component {
     render() {
         return (
             <motion.div
                 className={'contact-us-page'}
-                initial={headerAnimation.initial}
-                animate={headerAnimation.animate}
-                transition={headerAnimation.transition}
+                initial={backgroundAnimation.initial}
+                animate={backgroundAnimation.animate}
+                transition={backgroundAnimation.transition}
             >
                 <ContactUsMobile id={'mobile'}/>
                 <ContactUsWeb id={'web'}/>

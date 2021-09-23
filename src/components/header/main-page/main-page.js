@@ -1,22 +1,31 @@
 import React from 'react';
 import './main-page.scss'
-import {ReactComponent as WebBackground} from "../../../assets/images/web-background.svg";
-import {ReactComponent as Description} from "../../../assets/images/description.svg";
+import WebBackground from "../../../assets/images/web-background.svg";
+import Description from "../../../assets/images/description.svg";
 import {motion} from 'framer-motion';
-import headerAnimation from "../../../animations/header";
+import {backgroundAnimation,descriptionAnimation} from "../../../animations/main-page";
 
 
 function MainPage() {
     return (
-        <motion.div
-            className='all'
-            initial={headerAnimation.initial}
-            animate={headerAnimation.animate}
-            transition={headerAnimation.transition}
-        >
-            <WebBackground className='web-background'/>
-            <Description className='description'/>
-        </motion.div>
+        <div className='all'>
+            <motion.img
+                src={WebBackground}
+                alt={'failed'}
+                className='web-background'
+                initial={backgroundAnimation.initial}
+                animate={backgroundAnimation.animate}
+                transition={backgroundAnimation.transition}
+            />
+            <motion.img
+                src={Description}
+                 alt={'failed'}
+                 className='description'
+                initial={descriptionAnimation.initial}
+                animate={descriptionAnimation.animate}
+                transition={descriptionAnimation.transition}
+            />
+        </div>
     )
 }
 

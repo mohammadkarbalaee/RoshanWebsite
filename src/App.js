@@ -44,7 +44,7 @@ class RoshanWebsite extends Component {
                 <Hazm key={this.state.fake}/>
             </Slide>,
             <Slide>c
-                <Customers/>
+                <Customers key={this.state.fake}/>
             </Slide>
         ];
 

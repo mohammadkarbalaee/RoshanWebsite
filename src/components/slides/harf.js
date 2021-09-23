@@ -1,6 +1,6 @@
 import HarfMobile from "../jsx-svgs/mobile/harf";
 import './slides-style.scss'
-import {ReactComponent as HarfWebImage} from "../../assets/images/web-harf-image.svg";
+import HarfWebImage from "../jsx-svgs/web/harf-image";
 import HarfWebText from "../jsx-svgs/web/harf-text";
 
 function Harf() {
@@ -11,7 +11,9 @@ function Harf() {
                     <HarfMobile/>
                 </div>
                 <div id={'web'}>
-                    <HarfWebImage id={'image'}/>
+                    <div id={'image'}>
+                        <HarfWebImage />
+                    </div>
                     <div id={'space-between'}/>
                     <HarfWebText id={'text'} />
                 </div>

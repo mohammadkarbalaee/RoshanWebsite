@@ -46,6 +46,9 @@
 
 
   #{$slide-name} #web #image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: $image-size-height;
     width: $image-size-width;
   }

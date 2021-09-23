@@ -1,0 +1,13 @@
+@mixin mobile-media-queries-header(){
+  @media screen and (max-width: 500px){
+    .all .mobile-background{
+      position: relative;
+      display: flex;
+      width:100%;
+    }
+
+    .all .web-background{
+      display: none;
+    }
+  }
+}

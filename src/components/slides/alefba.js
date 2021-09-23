@@ -1,7 +1,7 @@
 import AlefbaMobile from "../jsx-svgs/mobile/alefba";
 import './slides-style.scss'
 import AlefbaWebText from "../jsx-svgs/web/alefba-text";
-import {ReactComponent as AlefbaWebImage} from "../../assets/images/web-alefba-image.svg";
+import AlefbaWebImage from "../jsx-svgs/web/alefba-image";
 
 function Alefba() {
     return (
@@ -13,7 +13,9 @@ function Alefba() {
                 <div id={'web'}>
                     <AlefbaWebText id={'text'}/>
                     <div id={'space-between'}/>
-                    <AlefbaWebImage id={'image'}/>
+                    <div id={'image'}>
+                        <AlefbaWebImage />
+                    </div>
                 </div>
             </div>
         </div>

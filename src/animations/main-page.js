@@ -7,6 +7,7 @@ export const backgroundAnimation = {
     },
     transition:{
         delay: 1,
+        repeat: Infinity,
         default: { duration: 2 },
     }
 };
@@ -20,6 +21,7 @@ export const descriptionAnimation = {
     },
     transition:{
         delay: 1,
+        repeat: Infinity,
         default: { duration: 4},
     }
 };

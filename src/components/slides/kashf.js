@@ -1,6 +1,6 @@
 import KashfMobile from "../jsx-svgs/mobile/kashf";
 import KashfWebText from "../jsx-svgs/web/kashf-text";
-import {ReactComponent as KashfWebImage} from "../../assets/images/web-kashf-image.svg";
+import KashfWebImage from "../jsx-svgs/web/kashf-image";
 import './slides-style.scss'
 
 function Kashf() {
@@ -11,7 +11,9 @@ function Kashf() {
                     <KashfMobile/>
                 </div>
                 <div id={'web'}>
-                    <KashfWebImage id={'image'}/>
+                    <div id={'image'}>
+                        <KashfWebImage />
+                    </div>
                     <div id={'space-between'}/>
                     <KashfWebText id={'text'}/>
                 </div>

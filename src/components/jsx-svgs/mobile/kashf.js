@@ -12,6 +12,7 @@ import {
 } from '../../../animations/kashf';
 
 import {flowerAnimation} from '../../../animations/kashf-image';
+
 import {motion} from 'framer-motion';
 
 function KashfMobile() {

@@ -12,7 +12,7 @@ function Harf() {
                 </div>
                 <div id={'web'}>
                     <HarfWebImage id={'image'}/>
-                    <div id={'space'}/>
+                    <div id={'space-between'}/>
                     <HarfWebText id={'text'} />
                 </div>
             </div>

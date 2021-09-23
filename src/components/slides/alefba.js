@@ -12,7 +12,7 @@ function Alefba() {
                 </div>
                 <div id={'web'}>
                     <AlefbaWebText id={'text'}/>
-                    <div id={'space'}/>
+                    <div id={'space-between'}/>
                     <AlefbaWebImage id={'image'}/>
                 </div>
             </div>

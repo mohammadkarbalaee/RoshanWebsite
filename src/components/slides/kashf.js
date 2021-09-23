@@ -12,7 +12,7 @@ function Kashf() {
                 </div>
                 <div id={'web'}>
                     <KashfWebImage id={'image'}/>
-                    <div id={'space'}/>
+                    <div id={'space-between'}/>
                     <KashfWebText id={'text'}/>
                 </div>
             </div>

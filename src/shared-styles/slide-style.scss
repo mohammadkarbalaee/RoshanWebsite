@@ -1,6 +1,9 @@
 @mixin slide-style(
   $slide-name,
   $space-between,
+  $space-top,
+  $text-size-width,
+  $text-size-height,
   $image-size-width,
   $image-size-height,
 ){
@@ -15,20 +18,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:100vh;
+    height: 100vh;
   }
 
   #{$slide-name} #web{
-    margin-top: 200px;
+    margin-top:$space-top;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     display: none;
   }
 
   #{$slide-name} #web #text{
-    height: 30vh;
-    width: 30vw;
+    height: $text-size-height;
+    width: $text-size-width;
+  }
+
+  #{$slide-name} #web #space-between{
+    width: $space-between;
   }
 
   #background {
@@ -41,10 +48,6 @@
   #{$slide-name} #web #image{
     height: $image-size-height;
     width: $image-size-width;
-  }
-
-  #{$slide-name} #web #space{
-    width: $space-between;
   }
 
   @media screen and (min-width: 500px){

@@ -1,4 +1,3 @@
-// import {FullPage, Slide} from 'react-full-page';
 import {Route, Switch} from 'react-router-dom';
 import {Component, lazy, Suspense} from 'react';
 import ProgressIndicator from "./components/progress-indicator";
@@ -23,10 +22,9 @@ class RoshanWebsite extends Component {
         const fullPageOptions = {
             scrollSensitivity: 1,
             touchSensitivity: 1,
-            scrollSpeed: 600,
+            scrollSpeed: 700,
             hideScrollBars: true,
             enableArrowKeys: true,
-            enableChildReRendering:true,
         };
 
         fullPageOptions.slides = [

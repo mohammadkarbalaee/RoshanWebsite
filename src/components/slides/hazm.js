@@ -12,7 +12,7 @@ function Hazm() {
                 </div>
                 <div id={'web'}>
                     <HazmWebText id={'text'}/>
-                    <div id={'space'}/>
+                    <div id={'space-between'}/>
                     <HazmWebImage id={'image'}/>
                 </div>
             </div>

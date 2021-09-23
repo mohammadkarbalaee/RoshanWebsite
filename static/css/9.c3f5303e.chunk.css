@@ -1,2 +1,0 @@
-#customers #web{display:none;height:60vh;width:80vw}#customers #mobile{display:flex;height:95vh}#customers #space{height:20vh}#customers #footer{height:20vh;width:100vw}#background{width:100vm;height:100vh;position:absolute}#customers{display:flex;justify-content:space-between;align-items:center;flex-direction:column;position:relative}@media screen and (min-width:500px){#customers #mobile{display:none}#customers #web{display:flex}}
-/*# sourceMappingURL=9.c3f5303e.chunk.css.map */

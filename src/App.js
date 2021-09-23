@@ -8,7 +8,7 @@ const Kashf = lazy(() => import("./components/slides/kashf"));
 const Alefba = lazy(() => import("./components/slides/alefba"));
 const Harf = lazy(() => import("./components/slides/harf"));
 const Hazm = lazy(() => import("./components/slides/hazm"));
-const Moshtarian = lazy(() => import("./components/slides/moshtarian/moshtarian"));
+const Customers = lazy(() => import("./components/slides/customers/customers"));
 
 
 class RoshanWebsite extends Component {
@@ -44,7 +44,7 @@ class RoshanWebsite extends Component {
                 <Hazm key={this.state.fake}/>
             </Slide>,
             <Slide>c
-                <Moshtarian/>
+                <Customers key={this.state.fake}/>
             </Slide>
         ];
 

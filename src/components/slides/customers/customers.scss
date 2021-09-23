@@ -1,12 +1,19 @@
-#moshtarian #web {
+#customers #web {
+  display: none;
   height: 60vh;
   width: 80vw;
 }
-#moshtarian #space {
+
+#customers #mobile {
+  display: flex;
+  height: 95vh;
+}
+
+#customers #space {
   height: 20vh;
 }
 
-#moshtarian #footer {
+#customers #footer {
   height: 20vh;
   width: 100vw;
 }
@@ -17,10 +24,21 @@
   position:absolute;
 }
 
-#moshtarian{
+#customers{
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
   position: relative;
 }
+
+@media screen and (min-width: 500px){
+  #customers #mobile{
+    display: none;
+  }
+
+  #customers #web{
+    display: flex;
+  }
+}
+

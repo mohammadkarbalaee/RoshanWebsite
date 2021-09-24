@@ -16,6 +16,7 @@ class RoshanWebsite extends Component {
 
     state = {
         fake:false,
+        scrollsQuantity: 0,
     }
 
     render() {
@@ -23,14 +24,14 @@ class RoshanWebsite extends Component {
         const fullPageOptions = {
             scrollSensitivity: 1,
             touchSensitivity: 0.5,
-            scrollSpeed: isMobile ? 100 : 500,
+            scrollSpeed: isMobile ? 100 : 1000,
             hideScrollBars: true,
             enableArrowKeys: true,
         };
 
         fullPageOptions.slides = [
             <Slide>
-                <Header type={'main'} key={this.state.fake}/>
+                <Header type={'main'} key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
             </Slide>,
             <Slide>
                 <Kashf key={this.state.fake}/>
@@ -50,10 +51,9 @@ class RoshanWebsite extends Component {
         ];
 
         const onSlideChangeStart = () => {
-            fullPageOptions.activeSlide = 3;
-
             this.setState({
                 fake: !this.state.fake,
+                scrollsQuantity: this.state.scrollsQuantity + 1,
             });
         };
 

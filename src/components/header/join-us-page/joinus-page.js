@@ -3,16 +3,16 @@ import {ReactComponent as JoinUsMobile} from "../../../assets/images/mobile-join
 import {ReactComponent as JoinUsWeb} from "../../../assets/images/web-join-us.svg";
 import './joinus-page.scss'
 import {motion} from 'framer-motion';
-import {backgroundAnimation} from "../../../animations/main-page";
+import {startingAnimation} from "../../../animations/main-page";
 
 class JoinusPage extends React.Component {
     render() {
         return (
             <motion.div
                 className={'join-us-page'}
-                initial={backgroundAnimation.initial}
-                animate={backgroundAnimation.animate}
-                transition={backgroundAnimation.transition}
+                initial={startingAnimation.initial}
+                animate={startingAnimation.animate}
+                transition={startingAnimation.transition}
             >
                 <JoinUsMobile id={'mobile'}/>
                 <JoinUsWeb id={'web'}/>

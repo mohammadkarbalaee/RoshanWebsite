@@ -1,4 +1,4 @@
-export const backgroundAnimation = {
+export const startingAnimation = {
     initial: {
         opacity: 0
     },
@@ -6,22 +6,18 @@ export const backgroundAnimation = {
         opacity: 1
     },
     transition:{
-        delay: 1,
-        repeat: Infinity,
-        default: { duration: 2 },
+        default: { duration: 3 },
     }
 };
 
-export const descriptionAnimation = {
+export const scrollDownAnimation = {
     initial: {
-        opacity: 0
-    },
-    animate: {
         opacity: 1,
     },
+    animate: {
+        opacity: 0,
+    },
     transition:{
-        delay: 1,
-        repeat: Infinity,
-        default: { duration: 4},
+        default: { duration: 0.3},
     }
 };

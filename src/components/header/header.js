@@ -30,7 +30,7 @@ class Header extends Component {
             )
         } else {
             switch (this.props.type){
-                case 'main': return (<MainPage/>);
+                case 'main': return (<MainPage scrollQuantity={this.props.scrollQuantity}/>);
                 case 'contact-us': return (<ContactUsPage/>);
                 case 'join-us': return (<JoinusPage/>);
             }

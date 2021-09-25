@@ -1,0 +1,46 @@
+diff --git a/node_modules/fullpage-react/lib/components/Fullpage.js b/node_modules/fullpage-react/lib/components/Fullpage.js
+index e337850..764db55 100644
+--- a/node_modules/fullpage-react/lib/components/Fullpage.js
++++ b/node_modules/fullpage-react/lib/components/Fullpage.js
+@@ -36,6 +36,7 @@ function generateState(activeSlide = 0) {
+ }
+ 
+ class Fullpage extends React.Component {
++
+   constructor(props) {
+     super(props);
+     const p = this.props;
+@@ -430,6 +431,10 @@ class Fullpage extends React.Component {
+     });
+   }
+ 
++  getActiveSlide() {
++    return this.state;
++  };
++
+   render() {
+     const s = this.state;
+     const p = this.props;
+@@ -596,4 +601,6 @@ function determineVerticalRoot() {
+   // safari, chrome ios etc
+   return document.body;
+ }
++
++export const { getActiveSlide } = new Fullpage();
+ export default Fullpage;
+diff --git a/node_modules/fullpage-react/lib/index.js b/node_modules/fullpage-react/lib/index.js
+index f35eb7e..dbfac7e 100644
+--- a/node_modules/fullpage-react/lib/index.js
++++ b/node_modules/fullpage-react/lib/index.js
+@@ -1,9 +1,11 @@
+ import Fullpage from './components/Fullpage';
++import {getActiveSlide} from './components/Fullpage';
+ import Slide from './components/Slide';
+ import HorizontalSlider from './components/HorizontalSlider';
+ 
+ export {
+   Fullpage,
+   Slide,
++    getActiveSlide,
+   HorizontalSlider
+ };

@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "framer-motion": "^4.1.17",
-    "fullpage-react": "^3.1.0",
+    "fullpage-react": "https://github.com/muhammadksht/fullpage-react/tarball/master",
     "lottie-react": "^2.1.0",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",

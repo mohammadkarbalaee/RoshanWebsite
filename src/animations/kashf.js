@@ -1,12 +1,14 @@
 export const flowerAndFrameAnimation = {
     hidden: {
-        opacity: 0
+        opacity: 0,
+        x:30,
     },
     visible: {
         opacity: 1,
+        x:0,
         transition: {
-            delay:1,
-            duration: 0.8
+            delay:0.8,
+            duration: 0.5
         }
     },
 };
@@ -18,8 +20,8 @@ export const backgroundAnimation = {
     visible: {
         opacity: 0.3,
         transition: {
-            delay:2,
-            duration: 0.8
+            delay:1,
+            duration: 0.7
         }
     },
 };
@@ -31,8 +33,8 @@ export const aboutAnimation = {
     visible: {
         opacity: 1,
         transition: {
-            delay:2,
-            duration: 0.6
+            delay:1,
+            duration: 0.5
         }
     },
 };
@@ -58,7 +60,8 @@ export const mainLineAnimation = {
     visible: {
         pathLength:1,
         transition: {
-            duration: 1.5
+            delay:0.7,
+            duration: 0.7
         }
     },
 };
@@ -70,8 +73,8 @@ export const subLineAnimation = {
     visible: {
         pathLength:1,
         transition: {
-            delay:0.5,
-            duration: 1
+            delay:1,
+            duration: 0.5
         }
     },
 };
@@ -83,8 +86,8 @@ export const polygonAnimation = {
     visible: {
         pathLength:1,
         transition: {
-            delay:1,
-            duration: 0.8
+            delay:0.5,
+            duration: 0.5
         }
     },
 };
@@ -92,14 +95,14 @@ export const polygonAnimation = {
 export const textAnimation = {
     hidden: {
         opacity: 0,
-        x:20,
+        x:25,
     },
     visible: {
         opacity: 1,
         x:0,
         transition: {
             delay:1,
-            duration: 0.5
+            duration: 0.3
         }
     },
 };
@@ -111,8 +114,8 @@ export const bottomLineAnimation = {
     visible: {
         pathLength:1,
         transition: {
-            delay:1.1,
-            duration: 0.8
+            delay:0.7,
+            duration: 0.7
         }
     },
 };
@@ -124,8 +127,8 @@ export const boxAnimation = {
     visible: {
         pathLength:1,
         transition: {
-            delay:1.7,
-            duration: 1.1
+            delay:1,
+            duration: 0.9
         }
     },
 };

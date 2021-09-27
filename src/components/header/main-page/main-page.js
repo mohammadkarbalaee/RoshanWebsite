@@ -6,8 +6,8 @@ import MobileBackground from "../../jsx-svgs/mobile/background";
 function MainPage(props) {
     return (
         <div className='all'>
-            <WebBackground className='web-background'/>
-            <MobileBackground className='mobile-background'/>
+            <WebBackground className='web-background' status={props.scrollQuantity}/>
+            <MobileBackground className='mobile-background' status={props.scrollQuantity}/>
         </div>
     )
 }

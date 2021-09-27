@@ -6,7 +6,7 @@ export const startingAnimation = {
         opacity: 1
     },
     transition:{
-        default: { duration: 2 },
+        default: { duration: 3 },
     }
 };
 

@@ -4,6 +4,13 @@
   width: 80vw;
 }
 
+#customers #web-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 #customers #mobile {
   display: flex;
   height: 95vh;

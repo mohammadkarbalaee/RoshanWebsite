@@ -2,7 +2,6 @@ import {Route, Switch} from 'react-router-dom';
 import {Component, lazy, Suspense} from 'react';
 import ProgressIndicator from "./components/progress-indicator";
 import {Fullpage,Slide} from 'fullpage-react';
-import {isMobile} from 'react-device-detect';
 
 const Header = lazy(() => import("./components/header/header"));
 const Kashf = lazy(() => import("./components/slides/kashf"));
@@ -24,7 +23,7 @@ class RoshanWebsite extends Component {
         const fullPageOptions = {
             scrollSensitivity: 1,
             touchSensitivity: 0.5,
-            scrollSpeed: isMobile ? 100 : 500,
+            scrollSpeed: 700,
             hideScrollBars: true,
             enableArrowKeys: true,
         };

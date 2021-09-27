@@ -1,9 +1,9 @@
 import {motion} from 'framer-motion';
-import {scrollDownAnimation, startingAnimation} from "../../../animations/main-page";
+import {textScrollDownAnimation, startingAnimation} from "../../../animations/main-page";
 const animationChooser = (scrollQuantity) => {
 
     if(scrollQuantity === 1){
-        return scrollDownAnimation;
+        return textScrollDownAnimation;
     } else {
         return startingAnimation;
     }

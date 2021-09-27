@@ -1,6 +1,6 @@
 import {motion} from 'framer-motion';
 import {
-        flowerAndFrameAnimation,
+        opacityAnimation,
         backgroundAnimation,
         bottomLineAnimation,
         boxAnimation,
@@ -43,7 +43,7 @@ function AlefbaWebText() {
                 the frame around the flower icon
             */}
             <motion.path
-                variants={flowerAndFrameAnimation}
+                variants={opacityAnimation}
                 initial={"hidden"}
                 animate={"visible"}
                 stroke="#FF6200"
@@ -53,7 +53,7 @@ function AlefbaWebText() {
                 kolahak a
             */}
             <motion.path
-                variants={flowerAndFrameAnimation}
+                variants={opacityAnimation}
                 initial={"hidden"}
                 animate={"visible"}
                 stroke="#FF6200"
@@ -64,7 +64,7 @@ function AlefbaWebText() {
                 daste alef
             */}
             <motion.path
-                variants={flowerAndFrameAnimation}
+                variants={opacityAnimation}
                 initial={"hidden"}
                 animate={"visible"}
                 fill="#FF6200"

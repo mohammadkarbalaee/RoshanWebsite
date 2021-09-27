@@ -11,6 +11,8 @@ import {
     aboutAnimation,
 } from '../../../animations/kashf';
 
+import {opacityAnimation} from '../../../animations/alefba'
+
 import {flowerAnimation} from '../../../animations/kashf-image';
 
 import {motion} from 'framer-motion';
@@ -37,7 +39,7 @@ function KashfMobile() {
     d="M27.478 0.109H213.478V200.109H27.478z"
     />
             <motion.path
-                variants={flowerAndFrameAnimation}
+                variants={opacityAnimation}
                 initial={"hidden"}
                 animate={"visible"}
     stroke="#7000FF"

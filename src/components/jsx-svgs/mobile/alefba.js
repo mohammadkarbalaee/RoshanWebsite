@@ -1,6 +1,5 @@
 import {motion} from 'framer-motion'
 import {
-    flowerAndFrameAnimation,
     mainLineAnimation,
     subLineAnimation,
     polygonAnimation,
@@ -9,6 +8,7 @@ import {
 } from '../../../animations/kashf';
 
 import {
+    opacityAnimation,
     backgroundAnimationMobile,
     bottomLineAnimationMobile,
     boxAnimationMobile,
@@ -42,14 +42,14 @@ function AlefbaMobile() {
             />
 
             <motion.path
-                variants={flowerAndFrameAnimation}
+                variants={opacityAnimation}
                 initial={"hidden"}
                 animate={"visible"}
     stroke="#FF6200"
     d="M241 299v7h-6.087M219.087 306H213v-7M234.913 278H241v7M213 285v-7h6.087"
     />
             <motion.path
-                variants={flowerAndFrameAnimation}
+                variants={opacityAnimation}
                 initial={"hidden"}
                 animate={"visible"}
     stroke="#FF6200"
@@ -57,7 +57,7 @@ function AlefbaMobile() {
     d="M230.733 284.942h-4.355c-1.341 0-2.489 0-3.112 1.867"
     />
             <motion.path
-                variants={flowerAndFrameAnimation}
+                variants={opacityAnimation}
                 initial={"hidden"}
                 animate={"visible"}
     fill="#FF6200"
@@ -122,14 +122,14 @@ function AlefbaMobile() {
                 />
             </a>
             <motion.path
-                variants={flowerAndFrameAnimation}
+                variants={opacityAnimation}
                 initial={"hidden"}
                 animate={"visible"}
     fill="#FF6200"
     d="M128.256 180.456c-.689.121-1.026.643-1.692.969-3.222 1.591-6.68 1.965-10.196 2.007-1.445.015-2.979-.162-4.285.404-3.853 1.676-7.867 1.771-12.055.522-1.584-.471-2.722-.065-3.839 1.502-2.09 2.926-5.124 2.845-8.006 2.896-4.338.081-8.705-.101-13.06-.171-.092-.003-.2-.053-.27-.003-2.287 1.725-4.91 2.151-7.468 2.883-2.14.613-4.083 2.241-6.258 2.544-6.56.913-13.195 1.39-20.238 2.08-.999-4.721-1.962-8.922-2.768-13.148-3.486-18.404-16.01-87.552-19.451-105.97a34.967 34.967 0 01-.496-4.136c-.161-2.561.732-4.144 2.216-4.592 5.06-1.543 10.114-3.073 15.336-3.972 3.318-.57 6.75.912 9.984-.087 4.4-1.373 9.019-1.441 13.706-.914 5.926-.859 11.754-2.8 17.77-2.627 6.746.193 12.582-3.67 19.217-3.823 3.277-.076 6.365-1.458 9.397-3.012l22.456 126.648z"
     />
             <motion.path
-                variants={flowerAndFrameAnimation}
+                variants={opacityAnimation}
                 initial={"hidden"}
                 animate={"visible"}
     stroke="#FF6200"

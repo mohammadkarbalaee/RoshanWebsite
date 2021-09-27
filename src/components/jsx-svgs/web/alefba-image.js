@@ -1,6 +1,6 @@
 import {motion} from 'framer-motion'
 import {waveAnimation} from "../../../animations/harf-image";
-import {flowerAndFrameAnimation} from "../../../animations/kashf";
+import {opacityAnimation} from "../../../animations/alefba";
 function AlefbaWebImage() {
     return (
         <svg
@@ -9,14 +9,14 @@ function AlefbaWebImage() {
             xmlns="http://www.w3.org/2000/svg"
         >
             <motion.path
-                variants={flowerAndFrameAnimation}
+                variants={opacityAnimation}
                 initial={"hidden"}
                 animate={"visible"}
                 d="M113.19 182.49c-.696.122-1.037.651-1.71.98-3.26 1.61-6.756 1.987-10.312 2.03-1.462.015-3.013-.164-4.333.408-3.897 1.695-7.956 1.792-12.192.528-1.602-.476-2.753-.065-3.882 1.52-2.113 2.958-5.182 2.876-8.097 2.928-4.387.082-8.803-.102-13.208-.173-.093-.003-.201-.054-.273-.002-2.313 1.744-4.965 2.175-7.552 2.914-2.165.62-4.13 2.267-6.33 2.574-6.634.923-13.344 1.405-20.466 2.104-1.01-4.776-1.984-9.024-2.8-13.297-3.524-18.612-16.19-88.542-19.67-107.17a35.37 35.37 0 01-.502-4.182c-.163-2.59.74-4.19 2.241-4.644 5.118-1.56 10.228-3.108 15.509-4.017 3.356-.576 6.826.923 10.097-.088 4.45-1.388 9.12-1.458 13.86-.924 5.994-.869 11.887-2.832 17.972-2.657 6.822.196 12.724-3.71 19.434-3.866 3.314-.077 6.437-1.475 9.504-3.046l22.709 128.08z"
                 fill="#FF6200"
             />
             <motion.path
-                variants={flowerAndFrameAnimation}
+                variants={opacityAnimation}
                 initial={"hidden"}
                 animate={"visible"}
                 d="M159.42 43.047l21.011-3.69 3.715 20.983m15.082 85.206l3.714 20.984-21.011 3.69"

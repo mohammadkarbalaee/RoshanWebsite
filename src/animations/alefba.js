@@ -1,4 +1,4 @@
-export const flowerAndFrameAnimation = {
+export const opacityAnimation = {
     hidden: {
         opacity: 0
     },

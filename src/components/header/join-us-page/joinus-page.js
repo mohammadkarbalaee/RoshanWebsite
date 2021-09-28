@@ -4,6 +4,19 @@ import {ReactComponent as JoinUsWeb} from "../../../assets/images/web-join-us.sv
 import './joinus-page.scss'
 import {motion} from 'framer-motion';
 import {startingAnimation} from "../../../animations/main-page";
+import {isMobile} from "react-device-detect";
+
+const returnBasedOneDevice = () => {
+    if(isMobile){
+        return(
+            <JoinUsMobile id={'mobile'}/>
+        )
+    } else {
+        return(
+            <JoinUsWeb id={'web'}/>
+        )
+    }
+};
 
 class JoinusPage extends React.Component {
     render() {
@@ -14,8 +27,7 @@ class JoinusPage extends React.Component {
                 animate={startingAnimation.animate}
                 transition={startingAnimation.transition}
             >
-                <JoinUsMobile id={'mobile'}/>
-                <JoinUsWeb id={'web'}/>
+                {returnBasedOneDevice()}
             </motion.div>
         )
     }

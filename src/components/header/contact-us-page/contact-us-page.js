@@ -4,6 +4,19 @@ import {ReactComponent as ContactUsMobile} from "../../../assets/images/mobile-c
 import {ReactComponent as ContactUsWeb} from "../../../assets/images/web-contact-us.svg";
 import {motion} from 'framer-motion';
 import {startingAnimation} from "../../../animations/main-page";
+import {isMobile} from "react-device-detect";
+
+const returnBasedOneDevice = () => {
+    if(isMobile){
+        return(
+            <ContactUsMobile id={'mobile'}/>
+        )
+    } else {
+        return(
+            <ContactUsWeb id={'web'}/>
+        )
+    }
+};
 
 class ContactUsPage extends React.Component {
     render() {
@@ -14,8 +27,7 @@ class ContactUsPage extends React.Component {
                 animate={startingAnimation.animate}
                 transition={startingAnimation.transition}
             >
-                <ContactUsMobile id={'mobile'}/>
-                <ContactUsWeb id={'web'}/>
+                {returnBasedOneDevice()}
             </motion.div>
         )
     }

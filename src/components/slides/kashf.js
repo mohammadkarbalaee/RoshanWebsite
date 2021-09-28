@@ -24,8 +24,6 @@ const returnBasedOneDevice = () => {
     }
 };
 
-
-
 function Kashf() {
     return (
         <div>

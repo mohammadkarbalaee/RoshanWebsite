@@ -5,6 +5,7 @@ export const to = {
     visible: {
         opacity:1,
         transition: {
+            delay:1.5,
             duration: 0.5
         }
     },
@@ -18,7 +19,7 @@ export const ra = {
     visible: {
         opacity: 1,
         transition: {
-            delay:0.5,
+            delay:2,
             duration: 0.5
         }
     },
@@ -32,7 +33,7 @@ export const man = {
     visible: {
         opacity:1,
         transition: {
-            delay:1,
+            delay:2.5,
             duration: 0.5
         }
     },
@@ -45,7 +46,7 @@ export const chasm = {
     visible: {
         opacity: 1,
         transition: {
-            delay:1.5,
+            delay:3,
             duration: 0.5
         }
     },

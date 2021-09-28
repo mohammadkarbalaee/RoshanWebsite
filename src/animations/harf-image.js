@@ -5,6 +5,7 @@ export const waveAnimation = {
     visible: {
         pathLength:1,
         transition: {
+            delay:1.5,
             duration: 4
         }
     },

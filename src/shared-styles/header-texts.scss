@@ -1,0 +1,12 @@
+@font-face {
+  font-family: IRANYekan;
+  src: url("../assets/fonts/IRANYekan.ttf");
+}
+
+@mixin headerText(){
+  font-family: IRANYekan, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #FFFFFF;
+}

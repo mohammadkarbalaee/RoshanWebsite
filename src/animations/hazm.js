@@ -22,7 +22,7 @@ export const boxAnimationHazm = {
     visible: {
         pathLength:1,
         transition: {
-            delay:3.6,
+            delay:3.9,
             duration: 1.1
         }
     },
@@ -37,7 +37,7 @@ export const backgroundAnimationHazm = {
     visible: {
         opacity: 0.3,
         transition: {
-            delay:3.6,
+            delay:3.9,
             duration: 0.8
         }
     },
@@ -52,7 +52,7 @@ export const aboutAnimationHazm = {
     visible: {
         opacity: 1,
         transition: {
-            delay:3.6,
+            delay:3.9,
             duration: 0.6
         }
     },
@@ -81,7 +81,7 @@ export const boxAnimationHazmMobile = {
     visible: {
         pathLength:1,
         transition: {
-            delay:3.6,
+            delay:3.9,
             duration: 1.1
         }
     },
@@ -95,7 +95,7 @@ export const backgroundAnimationHazmMobile = {
     visible: {
         opacity: 0.3,
         transition: {
-            delay:3.6,
+            delay:3.9,
             duration: 0.8
         }
     },
@@ -109,7 +109,7 @@ export const aboutAnimationHazmMobile = {
     visible: {
         opacity: 1,
         transition: {
-            delay:3.6,
+            delay:3.9,
             duration: 0.6
         }
     },

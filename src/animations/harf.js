@@ -18,7 +18,7 @@ export const boxAnimationHarf = {
     visible: {
         pathLength:1,
         transition: {
-            delay:3.6,
+            delay:3.9,
             duration: 1.1
         }
     },

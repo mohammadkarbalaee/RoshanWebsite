@@ -33,7 +33,7 @@ export const boxAnimation = {
     visible: {
         pathLength:1,
         transition: {
-            delay:3.6,
+            delay:3.9,
             duration: 1.1
         }
     },
@@ -47,7 +47,7 @@ export const backgroundAnimation = {
     visible: {
         opacity: 0.3,
         transition: {
-            delay:3.6,
+            delay:3.9,
             duration: 0.8
         }
     },
@@ -61,7 +61,7 @@ export const aboutAnimation = {
     visible: {
         opacity: 1,
         transition: {
-            delay:3.6,
+            delay:3.9,
             duration: 0.6
         }
     },
@@ -87,7 +87,7 @@ export const aboutAnimationMobile = {
     visible: {
         opacity: 1,
         transition: {
-            delay:3.6,
+            delay:3.9,
             duration: 0.6
         }
     },
@@ -113,7 +113,7 @@ export const boxAnimationMobile = {
     visible: {
         pathLength:1,
         transition: {
-            delay:3.6,
+            delay:3.9,
             duration: 1.1
         }
     },

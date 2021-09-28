@@ -20,7 +20,8 @@ export const textScrollDownAnimation = {
         y:-70,
     },
     transition:{
-        default: { duration: 0.6},
+        delay:0.3,
+        default: { duration: 0.4},
     }
 };
 
@@ -28,13 +29,11 @@ export const textScrollDownAnimation = {
 export const imageScrollDownAnimation = {
     initial: {
         opacity: 1,
-        y:0,
     },
     animate: {
         opacity: 0,
-        y:+70,
     },
     transition:{
-        default: { duration: 0.6},
+        default: { duration: 0.3},
     }
 };

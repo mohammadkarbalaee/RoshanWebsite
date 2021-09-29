@@ -42,10 +42,10 @@ const animationChooser = (scrollQuantity) => {
                 'polygonAnimation': noneAnimation,
                 'dotAnimation': noneAnimation,
                 'textAnimation': noneAnimation,
-                'backgroundAnimation': noneAnimation,
-                'bottomLineAnimation': noneAnimation,
-                'boxAnimation': noneAnimation,
-                'aboutAnimation': noneAnimation,
+                'backgroundAnimationHarf': noneAnimation,
+                'bottomLineAnimationHarf': noneAnimation,
+                'boxAnimationHarf': noneAnimation,
+                'aboutAnimationHarf': noneAnimation,
                 'basicKashfAnimation':noneAnimation,
             };
     }

@@ -1,10 +1,21 @@
 import {motion} from 'framer-motion'
 import {flowerAnimation} from "../../../animations/kashf-image";
+import {noneAnimation} from "../../../animations/main-page";
 
-function HazmWebImage() {
+const animationChooser = (scrollQuantity) => {
+
+    switch (scrollQuantity) {
+        case 4:
+            return flowerAnimation;
+        default:
+            return noneAnimation;
+    }
+};
+
+function HazmWebImage(props) {
         return (
             <motion.svg
-                variants={flowerAnimation}
+                variants={animationChooser(props.status)}
                 initial={"hidden"}
                 animate={"visible"}
                 viewBox="0 0 245 149" xmlns="http://www.w3.org/2000/svg">

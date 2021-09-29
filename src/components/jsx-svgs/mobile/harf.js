@@ -46,10 +46,10 @@ const animationChooser = (scrollQuantity) => {
                 'dotAnimation': noneAnimation,
                 'textAnimation': noneAnimation,
                 'flowerAnimation': noneAnimation,
-                'backgroundAnimation': noneAnimation,
-                'bottomLineAnimation': noneAnimation,
-                'boxAnimation': noneAnimation,
-                'aboutAnimation': noneAnimation,
+                'backgroundAnimationHarf': noneAnimation,
+                'bottomLineAnimationHarf': noneAnimation,
+                'boxAnimationHarf': noneAnimation,
+                'aboutAnimationHarf': noneAnimation,
                 'basicKashfAnimation':noneAnimation,
             };
     }

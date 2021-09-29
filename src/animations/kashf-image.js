@@ -3,11 +3,10 @@ export const flowerAnimation = {
         opacity: 0
     },
     visible: {
-        rotate:360,
         opacity: 1,
         transition: {
-            delay:1.5,
-            duration: 5
+            delay: 0.6,
+            duration: 0.8
         }
     },
 };

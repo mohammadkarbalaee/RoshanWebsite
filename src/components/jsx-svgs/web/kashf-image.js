@@ -1,6 +1,5 @@
 import {flowerAnimation} from '../../../animations/kashf-image';
 import {motion} from 'framer-motion';
-import {opacityAnimation} from '../../../animations/alefba'
 
 function KashfWebImage() {
     const imageStyle = {
@@ -15,7 +14,7 @@ function KashfWebImage() {
         >
             <path fill="url(#prefix__a)" d="M3 0h186v200H3z" />
             <motion.path
-                variants={opacityAnimation}
+                variants={flowerAnimation}
                 initial={"hidden"}
                 animate={"visible"}
                 d="M52.974 14.191l-23.635-4.168-4.168 23.635m138.1-.019l23.635 4.168-4.167 23.635m-19.449 110.3l-4.168 23.636-23.635-4.168m-110.3-19.448l-23.635-4.168 4.168-23.635"

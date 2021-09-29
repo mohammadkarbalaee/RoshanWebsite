@@ -20,7 +20,7 @@ export const backgroundAnimation = {
     visible: {
         opacity: 0.3,
         transition: {
-            delay:3.3,
+            delay:4.3,
             duration: 0.7
         }
     },
@@ -33,7 +33,7 @@ export const aboutAnimation = {
     visible: {
         opacity: 1,
         transition: {
-            delay:3.3,
+            delay:4.3,
             duration: 0.5
         }
     },
@@ -114,7 +114,7 @@ export const bottomLineAnimation = {
     visible: {
         pathLength:1,
         transition: {
-            delay:3,
+            delay:4,
             duration: 0.7
         }
     },
@@ -127,7 +127,7 @@ export const boxAnimation = {
     visible: {
         pathLength:1,
         transition: {
-            delay:3.3,
+            delay:4.3,
             duration: 0.9
         }
     },
@@ -140,6 +140,7 @@ export const basicKashfAnimation = {
     visible: {
         opacity: 1,
         transition: {
+            delay: 1,
             duration: 2
         }
     },

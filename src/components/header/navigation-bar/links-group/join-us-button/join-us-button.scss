@@ -21,6 +21,23 @@
   border-radius: 50px;
 }
 
+@media screen and (max-width: 1400px){
+  .join-us #button{
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .join-us #button{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1000px){
+  .join-us #button{
+    font-size: 14px;
+  }
+}
+
 @media only screen and (max-width: 800px){
   .join-us #button{
     margin-left: 70px;

@@ -11,6 +11,24 @@
   border-radius: 50px;
 }
 
+@media screen and (max-width: 1400px){
+  .roshan-title p{
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .roshan-title p{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1000px){
+  .roshan-title p{
+    font-size: 14px;
+
+  }
+}
+
 @media screen and (max-width: 800px){
   .roshan-title p{
     font-size: 13px;

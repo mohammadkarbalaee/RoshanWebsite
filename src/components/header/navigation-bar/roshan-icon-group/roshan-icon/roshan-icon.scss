@@ -2,14 +2,33 @@
   margin-top: 17px;
   height: 65px;
   width: 65px;
-  margin-right: 130px;
+  margin-right: 110px;
+}
+
+@media screen and (max-width: 1400px){
+  .roshan-icon .icon{
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .roshan-icon .icon{
+    height: 45px;
+    width: 45px;
+  }
+}
+@media screen and (max-width: 1000px){
+  .roshan-icon .icon{
+    height: 35px;
+    width: 35px;
+  }
 }
 
 @media screen and (max-width: 800px){
   .roshan-icon .icon{
     margin-right: 70px;
     margin-top: 23px;
-    height: 25px;
   }
 }
 
@@ -22,6 +41,5 @@
 @media screen and (max-width: 700px){
   .roshan-icon .icon{
     margin-right: 20px;
-    height: 20px;
   }
 }

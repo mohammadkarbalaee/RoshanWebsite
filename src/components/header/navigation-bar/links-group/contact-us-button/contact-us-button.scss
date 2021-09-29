@@ -20,6 +20,23 @@
   border-radius: 50px;
 }
 
+@media screen and (max-width: 1400px){
+  .contact-us #button{
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .contact-us #button{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1000px){
+  .contact-us #button{
+    font-size: 14px;
+  }
+}
+
 @media only screen and (max-width: 800px){
   .contact-us #button{
     margin-left: 25px;

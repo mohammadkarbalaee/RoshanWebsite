@@ -37,3 +37,13 @@ export const imageScrollDownAnimation = {
         default: { duration: 0.3},
     }
 };
+
+
+export const noneAnimation = {
+    initial: {
+    },
+    animate: {
+    },
+    transition:{
+    }
+};

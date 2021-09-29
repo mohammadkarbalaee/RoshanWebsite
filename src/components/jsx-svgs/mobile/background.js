@@ -1,12 +1,15 @@
 import {motion} from 'framer-motion';
-import {textScrollDownAnimation, startingAnimation} from "../../../animations/main-page";
+import {textScrollDownAnimation, startingAnimation, noneAnimation} from "../../../animations/main-page";
 
 const animationChooser = (scrollQuantity) => {
 
-    if(scrollQuantity === 1){
-        return textScrollDownAnimation;
-    } else {
-        return startingAnimation;
+    switch (scrollQuantity) {
+        case 1:
+            return textScrollDownAnimation;
+        case 2:
+            return startingAnimation;
+        default:
+            return noneAnimation;
     }
 };
 

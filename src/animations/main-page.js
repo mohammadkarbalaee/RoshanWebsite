@@ -47,3 +47,16 @@ export const noneAnimation = {
     transition:{
     }
 };
+
+export const noneAnimationAlefba = {
+    hidden: {
+        x:-25,
+    },
+    visible: {
+        x:-26,
+        transition: {
+            duration: 0.1
+        }
+    },
+};
+

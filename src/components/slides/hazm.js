@@ -4,20 +4,20 @@ import HazmWebImage from "../jsx-svgs/web/hazm-image";
 import HazmWebText from "../jsx-svgs/web/hazm-text";
 import {isMobile} from "react-device-detect";
 
-const returnBasedOneDevice = () => {
+const returnBasedOneDevice = (props) => {
     if(isMobile){
         return(
             <div id={'mobile'}>
-                <HazmMobile/>
+                <HazmMobile status={props.scrollQuantity}/>
             </div>
         )
     } else {
         return(
             <div id={'web'}>
-                <HazmWebText id={'text'}/>
+                <HazmWebText id={'text'} status={props.scrollQuantity}/>
                 <div id={'space-between'}/>
                 <div id={'image'}>
-                    <HazmWebImage/>
+                    <HazmWebImage status={props.scrollQuantity}/>
                 </div>
             </div>
         )
@@ -25,11 +25,11 @@ const returnBasedOneDevice = () => {
 };
 
 
-function Hazm() {
+function Hazm(props) {
     return (
         <div>
             <div id={'hazm'}>
-                {returnBasedOneDevice()}
+                {returnBasedOneDevice(props)}
             </div>
         </div>
     )

@@ -4,31 +4,31 @@ import HarfWebImage from "../jsx-svgs/web/harf-image";
 import HarfWebText from "../jsx-svgs/web/harf-text";
 import {isMobile} from "react-device-detect";
 
-const returnBasedOneDevice = () => {
+const returnBasedOneDevice = (props) => {
     if(isMobile){
         return(
             <div id={'mobile'}>
-                <HarfMobile/>
+                <HarfMobile status={props.scrollQuantity}/>
             </div>
         )
     } else {
         return(
             <div id={'web'}>
                 <div id={'image'}>
-                    <HarfWebImage />
+                    <HarfWebImage status={props.scrollQuantity}/>
                 </div>
-                <div id={'space-between'}/>
-                <HarfWebText id={'text'} />
+                <div id={'space-between'} />
+                <HarfWebText id={'text'} status={props.scrollQuantity}/>
             </div>
         )
     }
 };
 
-function Harf() {
+function Harf(props) {
     return (
         <div>
             <div id={'harf'}>
-                {returnBasedOneDevice()}
+                {returnBasedOneDevice(props)}
             </div>
         </div>
     )

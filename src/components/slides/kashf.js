@@ -4,31 +4,31 @@ import KashfWebImage from "../jsx-svgs/web/kashf-image";
 import './slides-style.scss'
 import {isMobile} from "react-device-detect";
 
-const returnBasedOneDevice = () => {
+const returnBasedOneDevice = (props) => {
     if(isMobile){
         return(
             <div id={'mobile'}>
-                <KashfMobile/>
+                <KashfMobile status={props.scrollQuantity}/>
             </div>
         )
     } else {
         return(
             <div id={'web'}>
                 <div id={'image'}>
-                    <KashfWebImage />
+                    <KashfWebImage status={props.scrollQuantity}/>
                 </div>
                 <div id={'space-between'}/>
-                <KashfWebText id={'text'}/>
+                <KashfWebText id={'text'} status={props.scrollQuantity}/>
             </div>
         )
     }
 };
 
-function Kashf() {
+function Kashf(props) {
     return (
         <div>
             <div id={'kashf'}>
-                {returnBasedOneDevice()}
+                {returnBasedOneDevice(props)}
             </div>
         </div>
     )

@@ -34,19 +34,19 @@ class RoshanWebsite extends Component {
                 <Header type={'main'} key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
             </Slide>,
             <Slide>
-                <Kashf key={this.state.fake}/>
+                <Kashf key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
             </Slide>,
             <Slide>
-                <Alefba key={this.state.fake}/>
+                <Alefba key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
             </Slide>,
             <Slide>
-                <Harf key={this.state.fake}/>
+                <Harf key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
             </Slide>,
             <Slide>
-                <Hazm key={this.state.fake}/>
+                <Hazm key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
             </Slide>,
             <Slide>c
-                <Customers key={this.state.fake}/>
+                <Customers key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
             </Slide>
         ];
 

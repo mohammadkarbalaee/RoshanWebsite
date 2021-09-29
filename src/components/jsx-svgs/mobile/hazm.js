@@ -14,8 +14,7 @@ import {
     boxAnimationHazmMobile,
     aboutAnimationHazmMobile,
 } from '../../../animations/hazm';
-
-import {chasm, man, ra, to} from "../../../animations/hazm-image";
+import {noneAnimation} from "../../../animations/main-page";
 
 function HazmMobile() {
     return (
@@ -115,7 +114,7 @@ function HazmMobile() {
     />
             {/*box to*/}
             <motion.path
-                variants={to}
+                variants={noneAnimation}
                 initial={"hidden"}
                 animate={"visible"}
                 fill='#07F'
@@ -125,7 +124,7 @@ function HazmMobile() {
             />
             {/*text to*/}
             <motion.path
-                variants={to}
+                variants={noneAnimation}
                 initial={"hidden"}
                 animate={"visible"}
                 fill='#fff'
@@ -133,7 +132,7 @@ function HazmMobile() {
             />
             {/*box ra*/}
             <motion.path
-                variants={ra}
+                variants={noneAnimation}
                 initial={"hidden"}
                 animate={"visible"}
                 fill='#07F'
@@ -144,7 +143,7 @@ function HazmMobile() {
             {/*text ra*/}
 
             <motion.path
-                variants={ra}
+                variants={noneAnimation}
                 initial={"hidden"}
                 animate={"visible"}
                 fill='#fff'
@@ -152,7 +151,7 @@ function HazmMobile() {
             />
             {/*box man*/}
             <motion.path
-                variants={man}
+                variants={noneAnimation}
                 initial={"hidden"}
                 animate={"visible"}
                 fill='#07F'
@@ -162,7 +161,7 @@ function HazmMobile() {
             />
             {/*text man*/}
             <motion.path
-                variants={man}
+                variants={noneAnimation}
                 initial={"hidden"}
                 animate={"visible"}
                 fill='#fff'
@@ -170,7 +169,7 @@ function HazmMobile() {
             />
             {/*box chashm*/}
             <motion.path
-                variants={chasm}
+                variants={noneAnimation}
                 initial={"hidden"}
                 animate={"visible"}
                 fill='#07F'
@@ -180,7 +179,7 @@ function HazmMobile() {
             />
             {/*text chashm*/}
             <motion.path
-                variants={chasm}
+                variants={noneAnimation}
                 initial={"hidden"}
                 animate={"visible"}
                 fill='#fff'

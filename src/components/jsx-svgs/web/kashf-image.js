@@ -1,7 +1,18 @@
 import {flowerAnimation} from '../../../animations/kashf-image';
 import {motion} from 'framer-motion';
+import {noneAnimation} from "../../../animations/main-page";
 
-function KashfWebImage() {
+const animationChooser = (scrollQuantity) => {
+
+    switch (scrollQuantity) {
+        case 1:
+            return flowerAnimation;
+        default:
+            return noneAnimation;
+    }
+};
+
+function KashfWebImage(props) {
     const imageStyle = {
         mixBlendMode:'lighten',
     };
@@ -14,7 +25,7 @@ function KashfWebImage() {
         >
             <path fill="url(#prefix__a)" d="M3 0h186v200H3z" />
             <motion.path
-                variants={flowerAnimation}
+                variants={animationChooser(props.status)}
                 initial={"hidden"}
                 animate={"visible"}
                 d="M52.974 14.191l-23.635-4.168-4.168 23.635m138.1-.019l23.635 4.168-4.167 23.635m-19.449 110.3l-4.168 23.636-23.635-4.168m-110.3-19.448l-23.635-4.168 4.168-23.635"
@@ -38,7 +49,7 @@ function KashfWebImage() {
                 </pattern>
                 <motion.image
                     id="b"
-                    variants={flowerAnimation}
+                    variants={animationChooser(props.status)}
                     initial={"hidden"}
                     animate={"visible"}
                     width={3840}

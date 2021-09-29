@@ -10,7 +10,7 @@ const textAnimationChooser = (scrollQuantity) => {
     switch (scrollQuantity) {
         case 1:
             return textScrollDownAnimation;
-        case 2:
+        case 0:
             return startingAnimation;
         default:
             return noneAnimation;
@@ -21,7 +21,7 @@ const imageAnimationChooser = (scrollQuantity) => {
     switch (scrollQuantity) {
         case 1:
             return imageScrollDownAnimation;
-        case 2:
+        case 0:
             return startingAnimation;
         default:
             return noneAnimation;

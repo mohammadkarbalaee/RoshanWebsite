@@ -50,7 +50,7 @@ export const noneAnimation = {
 
 export const noneAnimationAlefba = {
     hidden: {
-        x:-25,
+        x:-33,
     },
     visible: {
         transition: {

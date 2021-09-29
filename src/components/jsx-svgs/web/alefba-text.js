@@ -44,8 +44,7 @@ const animationChooser = (scrollQuantity) => {
                 'dotAnimation': noneAnimationAlefba,
                 'textAnimation': noneAnimationAlefba,
                 'backgroundAnimation': noneAnimationAlefba,
-                'bottomLineAnimation': noneAnimationAlefba,
-                'boxAnimation': noneAnimationAlefba,
+                'boxAnimation': noneAnimation,
                 'aboutAnimation': noneAnimationAlefba,
                 'basicKashfAnimation':noneAnimation,
             };
@@ -140,20 +139,11 @@ function AlefbaWebText(props) {
                             opacity="0.3"
                         />
                         <motion.path
+                            d="M189.19 186.5H162.89L123.24 219.5H152.5V251.5H0.5V219.5H116.64"
                             stroke="#FF6200"
                             variants={animationChooser(props.status)['boxAnimation']}
                             initial={"hidden"}
                             animate={"visible"}
-                            d="M154.742 219H184v32H67.856m-6.598 0H32v-32h116.144"
-                        />
-                        <motion.path
-                            stroke="#FF6200"
-                            variants={animationChooser(props.status)['bottomLineAnimation']}
-                            initial={"hidden"}
-                            animate={"visible"}
-                            strokeLinecap="square"
-                            strokeLinejoin="round"
-                            d="M222 185.9h-26.302l-39.648 32.975"
                         />
                         <motion.path
                             fill="#fff"

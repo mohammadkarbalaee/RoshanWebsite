@@ -27,8 +27,8 @@ export const bottomLineAnimation = {
 
 export const boxAnimation = {
     hidden: {
-        x:-20,
-        pathLength:0
+        pathLength:0,
+        x:10,
     },
     visible: {
         pathLength:1,
@@ -47,7 +47,7 @@ export const backgroundAnimation = {
     visible: {
         opacity: 0.3,
         transition: {
-            delay:4.9,
+            delay:5.5,
             duration: 0.8
         }
     },
@@ -61,7 +61,7 @@ export const aboutAnimation = {
     visible: {
         opacity: 1,
         transition: {
-            delay:4.9,
+            delay:5.5,
             duration: 0.6
         }
     },
@@ -74,7 +74,7 @@ export const backgroundAnimationMobile = {
     visible: {
         opacity: 0.3,
         transition: {
-            delay:4.6,
+            delay:5,
             duration: 0.8
         }
     },
@@ -87,7 +87,7 @@ export const aboutAnimationMobile = {
     visible: {
         opacity: 1,
         transition: {
-            delay:4.9,
+            delay:5.5,
             duration: 0.6
         }
     },

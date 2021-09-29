@@ -31,7 +31,7 @@ export const backgroundAnimationHarf = {
     visible: {
         opacity: 0.3,
         transition: {
-            delay:4.9,
+            delay:5.3,
             duration: 0.8
         }
     },
@@ -44,7 +44,7 @@ export const aboutAnimationHarf = {
     visible: {
         opacity: 1,
         transition: {
-            delay:4.9,
+            delay:5.3,
             duration: 0.6
         }
     },

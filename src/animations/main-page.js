@@ -58,3 +58,14 @@ export const noneAnimationAlefba = {
         }
     },
 };
+
+export const noneAnimationHazm = {
+    hidden: {
+        y:+25,
+    },
+    visible: {
+        transition: {
+            duration: 0.1
+        }
+    },
+};

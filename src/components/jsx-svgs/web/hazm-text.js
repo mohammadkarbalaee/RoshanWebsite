@@ -15,7 +15,7 @@ import {
     boxAnimationHazm,
     aboutAnimationHazm,
 } from '../../../animations/hazm';
-import {noneAnimation} from "../../../animations/main-page";
+import {noneAnimation, noneAnimationHazm} from "../../../animations/main-page";
 
 const animationChooser = (scrollQuantity) => {
 
@@ -43,10 +43,10 @@ const animationChooser = (scrollQuantity) => {
                 'polygonAnimation': noneAnimation,
                 'dotAnimation': noneAnimation,
                 'textAnimation': noneAnimation,
-                'backgroundAnimationHazm': noneAnimation,
-                'bottomLineAnimationHazm': noneAnimation,
+                'backgroundAnimationHazm': noneAnimationHazm,
+                'bottomLineAnimationHazm': noneAnimationHazm,
                 'boxAnimationHazm': noneAnimation,
-                'aboutAnimationHazm': noneAnimation,
+                'aboutAnimationHazm': noneAnimationHazm,
                 'basicKashfAnimation':noneAnimation,
             };
     }
@@ -129,17 +129,8 @@ function HazmWebText(props) {
                             variants={animationChooser(props.status)['boxAnimationHazm']}
                             initial={"hidden"}
                             animate={"visible"}
+                            d="M189.19 209.5H162.89L123.24 242.5H152.5V274.5H0.5V242.5H116.64"
                             stroke="#0089FF"
-                            d="M123.742 218H153v32H36.856m-6.599 0H1v-32h116.144"
-                        />
-                        <motion.path
-                            stroke="#0089FF"
-                            strokeLinecap="square"
-                            strokeLinejoin="round"
-                            variants={animationChooser(props.status)['bottomLineAnimationHazm']}
-                            initial={"hidden"}
-                            animate={"visible"}
-                            d="M191 185h-26.302l-39.648 32.975"
                         />
                         <motion.path
                             fill="#fff"

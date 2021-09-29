@@ -15,8 +15,6 @@ export const bottomLineAnimationHazm = {
 
 export const boxAnimationHazm = {
     hidden: {
-        x:+10,
-        y:+25,
         pathLength:0
     },
     visible: {
@@ -31,13 +29,12 @@ export const boxAnimationHazm = {
 export const backgroundAnimationHazm = {
     hidden: {
         opacity: 0,
-        x:+10,
-        y:+25,
+        y:+25
     },
     visible: {
         opacity: 0.3,
         transition: {
-            delay:4.9,
+            delay:5.3,
             duration: 0.8
         }
     },
@@ -46,13 +43,12 @@ export const backgroundAnimationHazm = {
 export const aboutAnimationHazm = {
     hidden: {
         opacity: 0,
-        x:+10,
-        y:+25,
+        y:+25
     },
     visible: {
         opacity: 1,
         transition: {
-            delay:4.9,
+            delay:5.3,
             duration: 0.6
         }
     },

@@ -122,22 +122,13 @@ function HarfWebText(props) {
                             initial={"hidden"}
                             animate={"visible"}
                         />
-                        <motion.path
-                            stroke="#26FF7B"
-                            variants={animationChooser(props.status)['boxAnimationHarf']}
-                            initial={"hidden"}
-                            animate={"visible"}
-                            d="M30.258 219H1v32h116.14m6.598 0h29.258v-32H36.856"
-                        />
-                        <motion.path
-                            stroke="#26FF7B"
-                            strokeLinecap="square"
-                            strokeLinejoin="round"
-                            variants={animationChooser(props.status)['bottomLineAnimationHarf']}
-                            initial={"hidden"}
-                            animate={"visible"}
-                            d="M95.723 186H69.438l-39.623 32.867"
-                        />
+                    <motion.path
+                        d="M95.67 185.5H69.38L29.76 218.37H0.5V250.37H152.5V218.37H36.36"
+                        stroke="#26FF7B"
+                        variants={animationChooser(props.status)['boxAnimationHarf']}
+                        initial={"hidden"}
+                        animate={"visible"}
+                    />
                         <motion.path
                             variants={animationChooser(props.status)['aboutAnimationHarf']}
                             initial={"hidden"}

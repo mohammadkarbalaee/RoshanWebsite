@@ -20,7 +20,7 @@ export const backgroundAnimation = {
     visible: {
         opacity: 0.3,
         transition: {
-            delay:4.3,
+            delay:4.6,
             duration: 0.7
         }
     },
@@ -33,7 +33,7 @@ export const aboutAnimation = {
     visible: {
         opacity: 1,
         transition: {
-            delay:4.3,
+            delay:4.6,
             duration: 0.5
         }
     },

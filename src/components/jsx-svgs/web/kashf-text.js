@@ -151,22 +151,13 @@ const KashfWebText = (props) => {
                               initial={"hidden"}
                               animate={"visible"}
                         />
-                        <motion.path
-                              stroke="#7000FF"
-                              d="M123.742 219H153v32H36.856m-6.599 0H1v-32h116.144"
-                              variants={animationChooser(props.status)['boxAnimation']}
-                              initial={"hidden"}
-                              animate={"visible"}
-                        />
-                        <motion.path
-                            stroke="#7000FF"
-                            strokeLinecap="square"
-                            strokeLinejoin="round"
-                            d="M191 185.9h-26.302l-39.648 32.975"
-                            variants={animationChooser(props.status)['bottomLineAnimation']}
-                            initial={"hidden"}
-                            animate={"visible"}
-                        />
+                    <motion.path
+                        d="M189.19 185.5H162.89L123.24 218.5H152.5V250.5H0.5V218.5H116.64"
+                        stroke="#7000FF"
+                        variants={animationChooser(props.status)['boxAnimation']}
+                        initial={"hidden"}
+                        animate={"visible"}
+                    />
                     {/*
                             about
                         */}

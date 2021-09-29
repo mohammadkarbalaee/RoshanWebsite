@@ -53,7 +53,6 @@ export const noneAnimationAlefba = {
         x:-25,
     },
     visible: {
-        x:-26,
         transition: {
             duration: 0.1
         }

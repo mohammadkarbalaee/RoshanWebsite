@@ -15,7 +15,7 @@ import {
     basicKashfAnimation,
     flowerAndFrameAnimation,
 } from '../../../animations/kashf';
-import {noneAnimationAlefba} from "../../../animations/main-page";
+import {noneAnimation, noneAnimationAlefba} from "../../../animations/main-page";
 
 const animationChooser = (scrollQuantity) => {
 
@@ -47,7 +47,7 @@ const animationChooser = (scrollQuantity) => {
                 'bottomLineAnimation': noneAnimationAlefba,
                 'boxAnimation': noneAnimationAlefba,
                 'aboutAnimation': noneAnimationAlefba,
-                'basicKashfAnimation':noneAnimationAlefba,
+                'basicKashfAnimation':noneAnimation,
             };
     }
 };

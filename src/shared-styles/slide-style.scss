@@ -68,7 +68,7 @@
   }
 
   #{$slide-name} #web-firefox #space-between{
-    width: $space-between * 2;
+    width: $space-between / 2;
   }
 
 
@@ -76,8 +76,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: $image-size-height / 2;
-    width: $image-size-width / 2;
+    height: $image-size-height - 15vh;
+    width: $image-size-width - 15vw;
   }
 
   @media screen and (min-width: 500px){

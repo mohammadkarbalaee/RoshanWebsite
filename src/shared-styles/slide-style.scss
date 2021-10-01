@@ -78,6 +78,15 @@
 
 
   @if($is-alefba-kashf){
+
+    #{$slide-name} #web-firefox #image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: $image-size-height - 17vh;
+      width: $image-size-width - 17vw;
+    }
+
     #{$slide-name} #web-firefox #text {
       height: $text-size-height - 10vh;
       width: $text-size-width - 10vw;
@@ -87,6 +96,14 @@
     #{$slide-name} #web-firefox #text{
       height: $text-size-height;
       width: $text-size-width;
+    }
+
+    #{$slide-name} #web-firefox #image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: $image-size-height - 15vh;
+      width: $image-size-width - 15vw;
     }
   }
 

@@ -1,16 +1,7 @@
 import './main-page.scss'
 import {isMobile} from 'react-device-detect';
-import {lazy} from 'react';
-
-let MobileBackground;
-let WebBackground;
-
-if(isMobile){
-    MobileBackground = lazy(() => import("../../jsx-svgs/mobile/background"));
-} else {
-    WebBackground = lazy(() => import("../../jsx-svgs/web/background"));
-}
-
+import MobileBackground from "../../jsx-svgs/mobile/background";
+import WebBackground from "../../jsx-svgs/web/background";
 
 const returnBasedOneDevice = (props) => {
   if(isMobile){

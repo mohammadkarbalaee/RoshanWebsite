@@ -3,8 +3,8 @@ import {Component, lazy, Suspense} from 'react';
 import ProgressIndicator from "./components/progress-indicator";
 import {Fullpage,Slide} from 'fullpage-react';
 import {isMobile} from "react-device-detect";
-import Header from "./components/header/header";
 
+const Header = lazy(() => import("./components/header/header"));
 const Kashf = lazy(() => import("./components/slides/kashf"));
 const Alefba = lazy(() => import("./components/slides/alefba"));
 const Harf = lazy(() => import("./components/slides/harf"));
@@ -24,7 +24,7 @@ class RoshanWebsite extends Component {
         const fullPageOptions = {
             scrollSensitivity: 1,
             touchSensitivity: 0.5,
-            scrollSpeed: isMobile ? 400 : 700,
+            scrollSpeed: isMobile ? 500 : 1000,
             hideScrollBars: true,
             enableArrowKeys: true,
         };

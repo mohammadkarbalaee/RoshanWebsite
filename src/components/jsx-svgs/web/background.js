@@ -34,10 +34,10 @@ function WebBackground(props) {
     }
     return (
         <svg
-            width={"1280"}
+            width={"280"}
             height={"500"}
             fill="#E5E5E5"
-            viewBox="0 0 1280 500"
+            viewBox="0 350 1280 10"
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
             {...props}

@@ -17,11 +17,11 @@ export const textScrollDownAnimation = {
     },
     animate: {
         opacity: 0,
-        y:-70,
+        y:-150,
     },
     transition:{
-        delay:0.3,
-        default: { duration: 0.4},
+        delay:0.5,
+        default: { duration: 0.5},
     }
 };
 
@@ -34,7 +34,7 @@ export const imageScrollDownAnimation = {
         opacity: 0,
     },
     transition:{
-        default: { duration: 0.3},
+        default: { duration: 0.5},
     }
 };
 

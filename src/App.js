@@ -2,8 +2,9 @@ import {Route, Switch} from 'react-router-dom';
 import React, {Component, lazy, Suspense} from 'react';
 import ProgressIndicator from "./components/progress-indicator";
 import {Fullpage,Slide} from 'fullpage-react';
-import {isMobile} from "react-device-detect";
-import {ReactComponent as FooterWeb} from "./assets/images/web-footer.svg";
+import {FullPage as NormalFullPage,Slide as NormalSlide} from 'react-full-page';
+
+import {isMobile,isChrome,isEdge,isFirefox,isSafari} from "react-device-detect";
 
 const Header = lazy(() => import("./components/header/header"));
 const Kashf = lazy(() => import("./components/slides/kashf"));
@@ -58,12 +59,43 @@ class RoshanWebsite extends Component {
             });
         };
 
+        const browserChooser = (fullPageOptions,onSlideChangeStart) => {
+            if(isChrome || isEdge || isFirefox || isSafari) {
+                return(
+                    <Fullpage {...fullPageOptions} onSlideChangeStart={onSlideChangeStart}/>
+                )
+            } else {
+                return(
+                    <NormalFullPage>
+                        <NormalSlide>
+                            <Header type={'main'} key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
+                        </NormalSlide>
+                        <NormalSlide>
+                            <Kashf key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
+                        </NormalSlide>
+                        <NormalSlide>
+                            <Alefba key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
+                        </NormalSlide>
+                        <NormalSlide>
+                            <Harf key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
+                        </NormalSlide>
+                        <NormalSlide>
+                            <Hazm key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
+                        </NormalSlide>
+                        <NormalSlide>
+                            <Customers key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
+                        </NormalSlide>
+                    </NormalFullPage>
+                )
+            }
+        };
+
         return (
             <div>
                 <Suspense fallback={<ProgressIndicator/>}>
                     <Switch>
                         <Route path={'/website'} exact>
-                            <Fullpage {...fullPageOptions} onSlideChangeStart={onSlideChangeStart}/>
+                            {browserChooser(fullPageOptions,onSlideChangeStart)}
                         </Route>
                         <Route path={'/contact-us'}>
                             <Header type={'contact-us'}/>

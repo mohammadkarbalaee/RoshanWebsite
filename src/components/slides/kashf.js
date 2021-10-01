@@ -2,13 +2,25 @@ import KashfMobile from "../jsx-svgs/mobile/kashf";
 import KashfWebText from "../jsx-svgs/web/kashf-text";
 import KashfWebImage from "../jsx-svgs/web/kashf-image";
 import './slides-style.scss'
-import {isMobile} from "react-device-detect";
+import {isFirefox, isMobile} from "react-device-detect";
 
 const returnBasedOneDevice = (props) => {
     if(isMobile){
         return(
             <div id={'mobile'}>
                 <KashfMobile status={props.scrollQuantity}/>
+            </div>
+        )
+    } else if(isFirefox){
+        return(
+            <div id={'web-firefox'}>
+                <div id={'image'}>
+                    <KashfWebImage status={props.scrollQuantity}/>
+                </div>
+                <div id={'space-between'}/>
+                <div id={'text'}>
+                    <KashfWebText status={props.scrollQuantity}/>
+                </div>
             </div>
         )
     } else {

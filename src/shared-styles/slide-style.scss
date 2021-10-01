@@ -7,6 +7,12 @@
   $image-size-width,
   $image-size-height,
 ){
+  #background {
+    width: 100vm;
+    height: 100vh;
+    position:absolute;
+  }
+
   #{$slide-name} {
     display: flex;
     justify-content: center;
@@ -29,6 +35,14 @@
     display: none;
   }
 
+  #{$slide-name} #web-firefox{
+    margin-top:$space-top;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
   #{$slide-name} #web #text{
     height: $text-size-height;
     width: $text-size-width;
@@ -36,12 +50,6 @@
 
   #{$slide-name} #web #space-between{
     width: $space-between;
-  }
-
-  #background {
-    width: 100vm;
-    height: 100vh;
-    position:absolute;
   }
 
 
@@ -53,12 +61,35 @@
     width: $image-size-width;
   }
 
+
+  #{$slide-name} #web-firefox #text{
+    height: $text-size-height;
+    width: $text-size-width;
+  }
+
+  #{$slide-name} #web-firefox #space-between{
+    width: $space-between * 2;
+  }
+
+
+  #{$slide-name} #web-firefox #image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $image-size-height / 2;
+    width: $image-size-width / 2;
+  }
+
   @media screen and (min-width: 500px){
     #{$slide-name} #mobile{
       display: none;
     }
 
     #{$slide-name} #web{
+      display: flex;
+    }
+
+    #{$slide-name} #web-firefox{
       display: flex;
     }
   }

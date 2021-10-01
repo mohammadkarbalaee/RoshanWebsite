@@ -1,8 +1,9 @@
 import {Route, Switch} from 'react-router-dom';
-import {Component, lazy, Suspense} from 'react';
+import React, {Component, lazy, Suspense} from 'react';
 import ProgressIndicator from "./components/progress-indicator";
 import {Fullpage,Slide} from 'fullpage-react';
 import {isMobile} from "react-device-detect";
+import {ReactComponent as FooterWeb} from "./assets/images/web-footer.svg";
 
 const Header = lazy(() => import("./components/header/header"));
 const Kashf = lazy(() => import("./components/slides/kashf"));
@@ -45,9 +46,9 @@ class RoshanWebsite extends Component {
             <Slide>
                 <Hazm key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
             </Slide>,
-            <Slide>c
+            <Slide>
                 <Customers key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
-            </Slide>
+            </Slide>,
         ];
 
         const onSlideChangeStart = () => {

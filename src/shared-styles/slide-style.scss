@@ -6,6 +6,8 @@
   $text-size-height,
   $image-size-width,
   $image-size-height,
+  $is-alefba-kashf:true,
+
 ){
   #background {
     width: 100vm;
@@ -61,24 +63,33 @@
     width: $image-size-width;
   }
 
-
-  #{$slide-name} #web-firefox #text{
-    height: $text-size-height;
-    width: $text-size-width;
-  }
-
-  #{$slide-name} #web-firefox #space-between{
+  #{$slide-name} #web-firefox #space-between {
     width: $space-between / 2;
   }
 
 
-  #{$slide-name} #web-firefox #image{
+  #{$slide-name} #web-firefox #image {
     display: flex;
     justify-content: center;
     align-items: center;
     height: $image-size-height - 15vh;
     width: $image-size-width - 15vw;
   }
+
+
+  @if($is-alefba-kashf){
+    #{$slide-name} #web-firefox #text {
+      height: $text-size-height - 10vh;
+      width: $text-size-width - 10vw;
+    }
+
+  } @else {
+    #{$slide-name} #web-firefox #text{
+      height: $text-size-height;
+      width: $text-size-width;
+    }
+  }
+
 
   @media screen and (min-width: 500px){
     #{$slide-name} #mobile{

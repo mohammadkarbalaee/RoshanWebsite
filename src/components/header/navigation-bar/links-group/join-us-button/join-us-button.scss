@@ -1,60 +1,9 @@
-@import '../../../../../shared-styles/header-texts';
-
 .join-us #button{
-  text-decoration: none;
-  margin-left: 180px;
-  justify-content: left;
-  @include headerText();
-}
-
-.join-us{
-  margin-top: 20px;
-}
-
-.join-us #button{
-  border-color: transparent;
-  background-color: transparent;
+  height: 3.55vh;
+  width: 5.86vw;
 }
 
 .join-us #button:hover{
   background-color: #1e252f;
   border-radius: 50px;
-}
-
-@media screen and (max-width: 1400px){
-  .join-us #button{
-    font-size: 17px;
-  }
-}
-
-@media screen and (max-width: 1200px){
-  .join-us #button{
-    font-size: 15px;
-  }
-}
-@media screen and (max-width: 1000px){
-  .join-us #button{
-    font-size: 14px;
-  }
-}
-
-@media only screen and (max-width: 800px){
-  .join-us #button{
-    margin-left: 70px;
-    font-size: 13px;
-  }
-}
-
-@media only screen and (max-width: 700px){
-  .join-us #button{
-    margin-left: 50px;
-    font-size: 10px;
-  }
-}
-
-@media only screen and (max-width: 400px){
-  .join-us #button{
-    margin-left: 10px;
-    font-size: 20px;
-  }
 }

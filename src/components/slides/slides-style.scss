@@ -1,16 +1,8 @@
 @import "src/shared-styles/slide-style";
 
-@include slide-style("#alefba",45vw,30vh,30vw,30vh,30vw,30vh,false);
+@include slide-style("#alefba",45vw,30vh,30vw,30vh,30vw,30vh);
 
 @include slide-style("#harf",35vw,30vh,40vw,40vh,40vw,40vh);
 
 @include slide-style("#hazm",35vw,30vh,40vw,40vh,40vw,40vh);
 
-@include slide-style("#kashf",45vw,30vh,30vw,30vh,30vw,30vh,false);
-
-//#web-firefox {
-//  @include slide-style("#harf",35vw,30vh,30vw,30vh,30vw,30vh);
-//
-//  @include slide-style("#hazm",35vw,30vh,30vw,30vh,30vw,30vh);
-//
-//}

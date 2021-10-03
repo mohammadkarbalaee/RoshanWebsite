@@ -1,0 +1,45 @@
+#harf #mobile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#harf #web{
+  margin-top: 32.64vh;
+  flex-direction: row;
+  margin-right: 16.4vw;
+  height: 35vh;
+  width: 68.68vw;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+#harf #web #text{
+  display: flex;
+  justify-content: center;
+  height: 34.73vh;
+  margin-right: 11.75vw;
+  width: 33.44vw;
+}
+
+#harf #web #image{
+  height: 18.34vh;
+  width: 23.6vw;
+}
+#harf #web #space-between{
+  width: 11.75vw;
+}
+
+
+
+@media screen and (min-width: 500px){
+  #harf #mobile{
+    display: none;
+  }
+
+  #harf #web{
+    display: flex;
+  }
+}

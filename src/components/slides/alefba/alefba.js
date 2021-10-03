@@ -1,7 +1,7 @@
-import AlefbaMobile from "../jsx-svgs/mobile/alefba";
+import AlefbaMobile from "../../jsx-svgs/mobile/alefba";
 import './alefba.scss'
-import AlefbaWebText from "../jsx-svgs/web/alefba-text";
-import AlefbaWebImage from "../jsx-svgs/web/alefba-image";
+import AlefbaWebText from "../../jsx-svgs/web/alefba-text";
+import AlefbaWebImage from "../../jsx-svgs/web/alefba-image";
 import {isMobile} from "react-device-detect";
 
 const returnBasedOneDevice = (props) => {

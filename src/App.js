@@ -7,9 +7,9 @@ import {FullPage as NormalFullPage,Slide as NormalSlide} from 'react-full-page';
 import {isMobile,isChrome,isEdge,isFirefox,isSafari} from "react-device-detect";
 
 const Header = lazy(() => import("./components/header/header"));
-const Kashf = lazy(() => import("./components/slides/kashf"));
-const Alefba = lazy(() => import("./components/slides/alefba"));
-const Harf = lazy(() => import("./components/slides/harf"));
+const Kashf = lazy(() => import("./components/slides/kashf/kashf"));
+const Alefba = lazy(() => import("./components/slides/alefba/alefba"));
+const Harf = lazy(() => import("./components/slides/harf/harf"));
 const Hazm = lazy(() => import("./components/slides/hazm"));
 const Customers = lazy(() => import("./components/slides/customers/customers"));
 

@@ -1,6 +1,6 @@
-import KashfMobile from "../jsx-svgs/mobile/kashf";
-import KashfWebText from "../jsx-svgs/web/kashf-text";
-import KashfWebImage from "../jsx-svgs/web/kashf-image";
+import KashfMobile from "../../jsx-svgs/mobile/kashf";
+import KashfWebText from "../../jsx-svgs/web/kashf-text";
+import KashfWebImage from "../../jsx-svgs/web/kashf-image";
 import './kashf.scss'
 import {isMobile} from "react-device-detect";
 

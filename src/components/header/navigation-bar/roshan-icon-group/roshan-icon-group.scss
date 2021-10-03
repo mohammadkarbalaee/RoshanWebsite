@@ -3,12 +3,6 @@
   display: flex;
   justify-content: right;
   flex-direction: row;
-  margin-top: 10px;
-}
-
-@media screen and (max-width: 200px){
-  .roshan-icon-group{
-    flex-direction: row;
-    justify-content: center;
-  }
+  width: 6.9vw;
+  height: 4.2vh;
 }

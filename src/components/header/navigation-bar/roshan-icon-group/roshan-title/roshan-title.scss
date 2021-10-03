@@ -1,53 +1,12 @@
 @import '../../../../../shared-styles/header-texts';
 
-.roshan-title p{
-  margin-right: 15px;
-  margin-top: 18px;
-  @include headerText();
+.roshan-title #title{
+  width: 3.5vw;
+  height: 3.8vh;
+  margin-right: 1.33vw;
 }
 
-.roshan-title p:hover{
+.roshan-title #title:hover{
   background-color: #373b48;
   border-radius: 50px;
-}
-
-@media screen and (max-width: 1400px){
-  .roshan-title p{
-    font-size: 17px;
-  }
-}
-
-@media screen and (max-width: 1200px){
-  .roshan-title p{
-    font-size: 15px;
-  }
-}
-@media screen and (max-width: 1000px){
-  .roshan-title p{
-    font-size: 14px;
-
-  }
-}
-
-@media screen and (max-width: 800px){
-  .roshan-title p{
-    font-size: 13px;
-    margin-top: 20px;
-    margin-right: 10px;
-  }
-}
-
-@media screen and (max-width: 400px){
-  .roshan-title p{
-  }
-}
-
-
-@media screen and (max-width: 700px){
-  .roshan-title p{
-    font-size: 15px;
-    font-weight: bolder;
-    margin-top: 20px;
-    margin-right: 5px;
-  }
 }

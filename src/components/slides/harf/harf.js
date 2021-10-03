@@ -14,9 +14,7 @@ const returnBasedOneDevice = (props) => {
     } else {
         return(
             <div id={'web'}>
-                <div id={'image'}>
-                    <HarfWebImage status={props.scrollQuantity}/>
-                </div>
+                <HarfWebImage id={'image'} status={props.scrollQuantity}/>
                 <div id={'space-between'} />
                 <div id={'text'}>
                     <HarfWebText status={props.scrollQuantity}/>

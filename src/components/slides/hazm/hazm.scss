@@ -1,40 +1,43 @@
-#harf #mobile{
+#hazm #mobile{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-#harf #web{
+#hazm #web{
   margin-top: 32.64vh;
   flex-direction: row;
-  margin-right: 16.4vw;
+  margin-right: 14.77vw;
+  margin-left: 16.71vw;
   height: 35vh;
-  width: 68.68vw;
+  width: 68.44vw;
   justify-content: center;
   align-items: center;
   display: none;
 }
 
-#harf #web #text{
-  display: flex;
-  justify-content: center;
-  height: 39.73vh;
-  margin-right: 12.75vw;
-  width: 33.44vw;
+#hazm #web #text{
+  height: 37.91vh;
+  width: 32.9vw;
 }
 
-#harf #web #image{
-  height: 18.34vh;
-  width: 23.6vw;
+#hazm #web #space-between{
+  width: 17.35vw;
+}
+
+
+#hazm #web #image{
+  height: 20.41vh;
+  width: 19vw;
 }
 
 @media screen and (min-width: 500px){
-  #harf #mobile{
+  #hazm #mobile{
     display: none;
   }
 
-  #harf #web{
+  #hazm #web{
     display: flex;
   }
 }

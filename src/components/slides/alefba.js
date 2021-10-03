@@ -1,8 +1,8 @@
 import AlefbaMobile from "../jsx-svgs/mobile/alefba";
-import './slides-style.scss'
+import './alefba.scss'
 import AlefbaWebText from "../jsx-svgs/web/alefba-text";
 import AlefbaWebImage from "../jsx-svgs/web/alefba-image";
-import {isMobile,isFirefox} from "react-device-detect";
+import {isMobile} from "react-device-detect";
 
 const returnBasedOneDevice = (props) => {
     if(isMobile){
@@ -11,22 +11,12 @@ const returnBasedOneDevice = (props) => {
                 <AlefbaMobile status={props.scrollQuantity}/>
             </div>
         )
-    } else if(isFirefox){
-        return(
-            <div id={'web-firefox'}>
-                <div id={'text'}>
-                    <AlefbaWebText status={props.scrollQuantity}/>
-                </div>
-                <div id={'space-between'}/>
-                <div id={'image'}>
-                    <AlefbaWebImage status={props.scrollQuantity}/>
-                </div>
-            </div>
-        )
     } else {
         return(
             <div id={'web'}>
-                <AlefbaWebText id={'text'} status={props.scrollQuantity}/>
+                <div id={'text'}>
+                    <AlefbaWebText status={props.scrollQuantity}/>
+                </div>
                 <div id={'space-between'}/>
                 <div id={'image'}>
                     <AlefbaWebImage status={props.scrollQuantity}/>

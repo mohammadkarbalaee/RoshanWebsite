@@ -5,6 +5,7 @@ import {Fullpage,Slide} from 'fullpage-react';
 import {FullPage as NormalFullPage,Slide as NormalSlide} from 'react-full-page';
 
 import {isMobile,isOpera} from "react-device-detect";
+import FooterWeb from "./components/slides/footer/footer";
 
 const Header = lazy(() => import("./components/header/header"));
 const Kashf = lazy(() => import("./components/slides/kashf/kashf"));
@@ -33,9 +34,6 @@ class RoshanWebsite extends Component {
 
         fullPageOptions.slides = [
             <Slide>
-                <ProgressIndicator/>
-            </Slide>,
-            <Slide>
                 <Header type={'main'} key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
             </Slide>,
             <Slide>
@@ -53,6 +51,9 @@ class RoshanWebsite extends Component {
             <Slide>
                 <Customers key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
             </Slide>,
+            <Slide>
+                <FooterWeb id={'footer'}/>
+            </Slide>
         ];
 
         const onSlideChangeStart = () => {

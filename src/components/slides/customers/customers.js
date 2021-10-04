@@ -1,5 +1,5 @@
 import React from 'react';
-import {ReactComponent as CustomersWeb} from "../../../assets/images/web-customers.svg";
+import CustomersWeb from "../../jsx-svgs/web/customers";
 import {ReactComponent as CustomersMobile} from "../../../assets/images/mobile-customers.svg";
 import './customers.scss'
 import {isMobile} from "react-device-detect";
@@ -14,10 +14,6 @@ const returnBasedOneDevice = () => {
         return(
             <div id={'web-all'}>
                 <CustomersWeb id={'web'}/>
-                <div id={'space'}/>
-                <div>
-                    <FooterWeb id={'footer'}/>
-                </div>
             </div>
         )
     }

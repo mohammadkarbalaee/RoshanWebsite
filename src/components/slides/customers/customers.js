@@ -1,9 +1,9 @@
 import React from 'react';
 import {ReactComponent as CustomersWeb} from "../../../assets/images/web-customers.svg";
 import {ReactComponent as CustomersMobile} from "../../../assets/images/mobile-customers.svg";
-import {ReactComponent as FooterWeb} from "../../../assets/images/web-footer.svg";
 import './customers.scss'
 import {isMobile} from "react-device-detect";
+import FooterWeb from "../footer/footer";
 
 const returnBasedOneDevice = () => {
     if(isMobile){
@@ -22,6 +22,7 @@ const returnBasedOneDevice = () => {
         )
     }
 };
+
 function Customers() {
     return (
         <div>

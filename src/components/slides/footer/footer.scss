@@ -1,0 +1,88 @@
+#footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 100vw;
+  flex-direction: column;
+  height: 19.03vh;
+}
+
+#body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#line{
+  width: 100vw;
+  height: 1vh;
+}
+
+#icons-group{
+  height: 4.17vh;
+  width: 7.04vw;
+  display: flex;
+  flex-direction: row;
+  margin-right: 8.6vw;
+  margin-top: 4.17vh;
+  margin-bottom: 11.2vh;
+}
+
+#left{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-right: 42.96vw;
+  margin-left: 10.54vw;
+  width: 31.25vw;
+  height: 8.33vh;
+}
+
+#email-name{
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#links{
+  display: flex;
+  flex: 30%;
+  height: 8.34vh;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: start;
+}
+
+#title{
+  padding-right: 1vw;
+  height: 4.17vh;
+  width: 3.5vw;
+}
+
+#icon{
+  height: 4.17vh;
+  width: 2.11vw;
+}
+
+#contact-us{
+  height: 2.92vh;
+  width: 4.22vw;
+}
+
+#join-us{
+  height: 2.92vh;
+  width: 4.92vw;
+}
+
+#name{
+  width: 15.63vw;
+  height: 2.92vh;
+}
+
+#email{
+  width: 9.45vw;
+  height: 2.92vh;
+}

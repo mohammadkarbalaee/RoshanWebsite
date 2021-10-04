@@ -1,2 +1,0 @@
-#harf #mobile{display:flex;height:100vh}#harf #mobile,#harf #web{justify-content:center;align-items:center}#harf #web{margin-top:32.64vh;flex-direction:row;margin-right:16.4vw;height:35vh;width:68.68vw;display:none}#harf #web #text{display:flex;justify-content:center;height:39.73vh;margin-right:12.75vw;width:33.44vw}#harf #web #image{height:18.34vh;width:23.6vw}@media screen and (min-width:500px){#harf #mobile{display:none}#harf #web{display:flex}}
-/*# sourceMappingURL=6.42da0b4b.chunk.css.map */

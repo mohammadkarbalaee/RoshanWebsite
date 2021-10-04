@@ -1,7 +1,7 @@
 .roshan-title #title{
   width: 3.5vw;
   height: 3.8vh;
-  margin-right: 1.33vw;
+;
 }
 
 .roshan-title #title:hover{
@@ -11,6 +11,7 @@
 
 @media screen and (max-width: 500px){
   .roshan-title #title{
+    margin-right: 1.33vw;
     width: 12.5vw;
     height: 4.18vh;
   }

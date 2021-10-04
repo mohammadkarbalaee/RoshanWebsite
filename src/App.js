@@ -4,7 +4,7 @@ import ProgressIndicator from "./components/progress-indicator";
 import {Fullpage,Slide} from 'fullpage-react';
 import {FullPage as NormalFullPage,Slide as NormalSlide} from 'react-full-page';
 
-import {isMobile,isChrome,isEdge,isFirefox,isSafari} from "react-device-detect";
+import {isMobile,isOpera} from "react-device-detect";
 
 const Header = lazy(() => import("./components/header/header"));
 const Kashf = lazy(() => import("./components/slides/kashf/kashf"));
@@ -33,6 +33,9 @@ class RoshanWebsite extends Component {
 
         fullPageOptions.slides = [
             <Slide>
+                <ProgressIndicator/>
+            </Slide>,
+            <Slide>
                 <Header type={'main'} key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
             </Slide>,
             <Slide>
@@ -60,11 +63,7 @@ class RoshanWebsite extends Component {
         };
 
         const browserChooser = (fullPageOptions,onSlideChangeStart) => {
-            if(isChrome || isEdge || isFirefox || isSafari) {
-                return(
-                    <Fullpage {...fullPageOptions} onSlideChangeStart={onSlideChangeStart}/>
-                )
-            } else {
+            if(isOpera) {
                 return(
                     <NormalFullPage>
                         <NormalSlide>
@@ -86,6 +85,10 @@ class RoshanWebsite extends Component {
                             <Customers key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
                         </NormalSlide>
                     </NormalFullPage>
+                )
+            } else {
+                return(
+                    <Fullpage {...fullPageOptions} onSlideChangeStart={onSlideChangeStart}/>
                 )
             }
         };

@@ -7,3 +7,10 @@
   background-color: #1e252f;
   border-radius: 50px;
 }
+
+@media screen and (max-width: 500px){
+  .join-us #button{
+    height: 5.24vh;
+    width: 28.62vw;
+  }
+}

@@ -1,7 +1,5 @@
 .menu-buttons {
   display: none;
-  width: 60px;
-  height: 50px;
   order:1;
 }
 
@@ -16,11 +14,12 @@
 
 .menu-buttons .icon{
   float: left;
-  height: 50px;
-  padding-left: 10px;
-  padding-top: 10px;
+  width: 8.89vw;
+  height: 4.78vh;
+  padding-left: 8.89vw;
 }
-@media screen and (max-width: 400px){
+
+@media screen and (max-width: 500px){
   .menu-buttons {
     display: flex;
   }

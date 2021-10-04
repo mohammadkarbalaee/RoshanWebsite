@@ -7,3 +7,11 @@
   background-color: #1e252f;
   border-radius: 50px;
 }
+
+@media screen and (max-width: 500px){
+  .contact-us #button{
+    padding-top: 10vh;
+    height: 5.24vh;
+    width: 25vw;
+  }
+}

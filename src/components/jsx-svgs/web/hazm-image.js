@@ -3,7 +3,6 @@ import {flowerAnimation} from "../../../animations/kashf-image";
 import {noneAnimation} from "../../../animations/main-page";
 
 const animationChooser = (scrollQuantity) => {
-
     switch (scrollQuantity) {
         case 4:
             return flowerAnimation;

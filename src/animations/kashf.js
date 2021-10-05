@@ -7,7 +7,7 @@ export const flowerAndFrameAnimation = {
         opacity: 1,
         x:0,
         transition: {
-            delay:3.4,
+            delay:2.9,
             duration: 0.5
         }
     },
@@ -20,7 +20,7 @@ export const backgroundAnimation = {
     visible: {
         opacity: 0.3,
         transition: {
-            delay:5,
+            delay:4,
             duration: 0.7
         }
     },
@@ -33,7 +33,7 @@ export const aboutAnimation = {
     visible: {
         opacity: 1,
         transition: {
-            delay:5,
+            delay:4,
             duration: 0.5
         }
     },
@@ -47,7 +47,7 @@ export const dotAnimation = {
     visible: {
         opacity: 1,
         transition: {
-            delay:2.8,
+            delay:2.3,
             duration: 0.5
         }
     },
@@ -60,7 +60,7 @@ export const mainLineAnimation = {
     visible: {
         pathLength:1,
         transition: {
-            delay:3.4,
+            delay:2.9,
             duration: 0.7
         }
     },
@@ -73,7 +73,7 @@ export const subLineAnimation = {
     visible: {
         pathLength:1,
         transition: {
-            delay:3.7,
+            delay:3.2,
             duration: 0.5
         }
     },
@@ -86,7 +86,7 @@ export const polygonAnimation = {
     visible: {
         pathLength:1,
         transition: {
-            delay:3.2,
+            delay:2.7,
             duration: 0.5
         }
     },
@@ -101,7 +101,7 @@ export const textAnimation = {
         opacity: 1,
         x:0,
         transition: {
-            delay:3.7,
+            delay:3.2,
             duration: 0.3
         }
     },
@@ -114,7 +114,7 @@ export const bottomLineAnimation = {
     visible: {
         pathLength:1,
         transition: {
-            delay:4.4,
+            delay:3.4,
             duration: 0.7
         }
     },
@@ -127,7 +127,7 @@ export const boxAnimation = {
     visible: {
         pathLength:1,
         transition: {
-            delay:4.7,
+            delay:3.7,
             duration: 0.9
         }
     },

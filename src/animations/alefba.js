@@ -19,7 +19,7 @@ export const bottomLineAnimation = {
     visible: {
         pathLength:1,
         transition: {
-            delay:4.4,
+            delay:3.1,
             duration: 0.8
         }
     },
@@ -33,7 +33,7 @@ export const boxAnimation = {
     visible: {
         pathLength:1,
         transition: {
-            delay:5.3,
+            delay:4,
             duration: 1.1
         }
     },
@@ -47,7 +47,7 @@ export const backgroundAnimation = {
     visible: {
         opacity: 0.3,
         transition: {
-            delay:5.9,
+            delay:4.6,
             duration: 0.8
         }
     },
@@ -61,7 +61,7 @@ export const aboutAnimation = {
     visible: {
         opacity: 1,
         transition: {
-            delay:5.9,
+            delay:4.6,
             duration: 0.6
         }
     },
@@ -74,7 +74,7 @@ export const backgroundAnimationMobile = {
     visible: {
         opacity: 0.3,
         transition: {
-            delay:5.4,
+            delay:4.1,
             duration: 0.8
         }
     },
@@ -87,7 +87,7 @@ export const aboutAnimationMobile = {
     visible: {
         opacity: 1,
         transition: {
-            delay:5.9,
+            delay:4.6,
             duration: 0.6
         }
     },
@@ -100,7 +100,7 @@ export const bottomLineAnimationMobile = {
     visible: {
         pathLength:1,
         transition: {
-            delay:4.4,
+            delay:4.1,
             duration: 0.8
         }
     },
@@ -113,7 +113,7 @@ export const boxAnimationMobile = {
     visible: {
         pathLength:1,
         transition: {
-            delay:5.3,
+            delay:4,
             duration: 1.1
         }
     },

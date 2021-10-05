@@ -179,18 +179,9 @@ function KashfMobile(props) {
     />
 
                 <motion.path
+                    d="M85.0237 475.516H141V507.516H1V475.516H78.766L118 443H146"
                     stroke="#7000FF"
-                    d="M85.024 475.516H141v32H34.026m-6.078 0H1v-32h77.766"
                     variants={animationChooser(props.status)['boxAnimation']}
-                    initial={"hidden"}
-                    animate={"visible"}
-                />
-                <motion.path
-                    stroke="#7000FF"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M145.283 442.516H119.02l-39.59 32.927"
-                    variants={animationChooser(props.status)['bottomLineAnimation']}
                     initial={"hidden"}
                     animate={"visible"}
                 />

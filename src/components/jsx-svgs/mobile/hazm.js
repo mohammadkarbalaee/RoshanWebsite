@@ -81,20 +81,11 @@ function HazmMobile(props) {
                       opacity='0.3'
                 />
                 <motion.path
-                      stroke='#0089FF'
-                      variants={animationChooser(props.status)['boxAnimationHazmMobile']}
-                      initial={"hidden"}
-                      animate={"visible"}
-                      d='M30.024 427H142v32h-16.974m-6.078 0H2v-32h21.766'
-                />
-                <motion.path
-                    stroke='#0089FF'
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    variants={animationChooser(props.status)['bottomLineAnimationHazmMobile']}
+                    variants={animationChooser(props.status)['boxAnimationHazmMobile']}
                     initial={"hidden"}
                     animate={"visible"}
-                    d='M96.283 394H70.02l-39.59 32.927'
+                    d="M23.766 426.501H2V458.501H118.948H125.026H142V426.501H30.0237L70 393.5H96.5"
+                    stroke="#0089FF"
                 />
                 <motion.path
                     variants={animationChooser(props.status)['aboutAnimationHazmMobile']}

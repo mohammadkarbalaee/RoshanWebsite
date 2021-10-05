@@ -147,17 +147,8 @@ function AlefbaMobile(props) {
                     variants={animationChooser(props.status)['boxAnimationMobile']}
                     initial={"hidden"}
                     animate={"visible"}
-                      stroke="#FF6200"
-                      d="M29.024 495.501H141v32h-16.974m-6.078 0H1v-32h21.766"
-                />
-                <motion.path
-                    variants={animationChooser(props.status)['bottomLineAnimationMobile']}
-                    initial={"hidden"}
-                    animate={"visible"}
+                    d="M22.766 495.501H1V527.501H117.948H124.026H141V495.501H29.0237L69 462.5H95.5"
                     stroke="#FF6200"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M95.283 462.502H69.02l-39.59 32.927"
                 />
                 <motion.path
                       fill="#fff"

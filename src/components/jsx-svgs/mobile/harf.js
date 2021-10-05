@@ -89,20 +89,11 @@ function HarfMobile(props) {
                       animate={"visible"}
                 />
                 <motion.path
-                      stroke="#26FF7B"
-                      d="M88.024 418.516H144v32H37.026m-6.078 0H4v-32h77.766"
-                      variants={animationChooser(props.status)['boxAnimationHarf']}
-                      initial={"hidden"}
-                      animate={"visible"}
-                />
-                <motion.path
+                    d="M88.0237 418.516H144V450.516H4V418.516H81.766L121 386H149"
                     stroke="#26FF7B"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    variants={animationChooser(props.status)['bottomLineAnimationHarf']}
+                    variants={animationChooser(props.status)['boxAnimationHarf']}
                     initial={"hidden"}
                     animate={"visible"}
-                    d="M148.283 385.516H122.02l-39.59 32.927"
                 />
                 <motion.path
                     variants={animationChooser(props.status)['aboutAnimationHarf']}

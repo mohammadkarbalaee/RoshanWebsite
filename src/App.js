@@ -50,9 +50,6 @@ class RoshanWebsite extends Component {
             </Slide>,
             <Slide>
                 <Customers key={this.state.fake} scrollQuantity={this.state.scrollsQuantity}/>
-            </Slide>,
-            <Slide>
-                <FooterWeb id={'footer'}/>
             </Slide>
         ];
 

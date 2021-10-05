@@ -5,7 +5,7 @@ export const flowerAnimation = {
     visible: {
         opacity: 1,
         transition: {
-            delay: 0.6,
+            delay: 1.1,
             duration: 0.8
         }
     },

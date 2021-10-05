@@ -3,6 +3,7 @@ import CustomersWeb from "../../jsx-svgs/web/customers";
 import {ReactComponent as CustomersMobile} from "../../../assets/images/mobile-customers.svg";
 import './customers.scss'
 import {isMobile} from "react-device-detect";
+import FooterWeb from "../footer/footer";
 
 function shouldRender(scrollQuantity){
     return scrollQuantity === 5;
@@ -27,6 +28,9 @@ function Customers(props) {
         <div>
             <div id={'customers'}>
                 {returnBasedOneDevice(props)}
+                <div id={'footer'}>
+                    <FooterWeb/>
+                </div>
             </div>
         </div>
     )

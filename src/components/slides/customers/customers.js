@@ -4,6 +4,8 @@ import {ReactComponent as CustomersMobile} from "../../../assets/images/mobile-c
 import './customers.scss'
 import {isMobile} from "react-device-detect";
 import FooterWeb from "../footer/footer";
+import $ from "jquery";
+import useWindowDimensions from "./hook";
 
 function shouldRender(scrollQuantity){
     return scrollQuantity === 5;
@@ -24,6 +26,13 @@ const returnBasedOneDevice = (props) => {
 };
 
 function Customers(props) {
+    window.addEventListener("wheel", (event) => {
+        const delta = Math.sign(event.deltaY);
+        if (props.scrollQuantity === 5 && delta === 1) {
+            $('#footer').slideToggle();
+        }
+    });
+
     return (
         <div>
             <div id={'customers'}>

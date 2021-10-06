@@ -4,14 +4,13 @@ import {ReactComponent as Email} from "../../../assets/images/email.svg";
 import {ReactComponent as Name} from "../../../assets/images/sherkat.svg";
 import {ReactComponent as JoinUsText} from "../../../assets/images/join-us-text.svg";
 import {ReactComponent as ContactUsText} from "../../../assets/images/contact-us-text.svg";
-import {Link, useHistory} from "react-router-dom";
+import {Link} from "react-router-dom";
 import {ReactComponent as RoshanSVG} from "../../../assets/images/roshan-icon.svg";
 import {ReactComponent as Title} from "../../../assets/images/roshan-title.svg";
 import useWindowDimensions from "../customers/hook";
 
 export default function FooterWeb() {
     const { height, width } = useWindowDimensions();
-    let history = useHistory();
 
     const scrollToTop = (height,width) => {
         const totalHeight = 5 * height;

@@ -5,7 +5,6 @@ import './customers.scss'
 import {isMobile} from "react-device-detect";
 import FooterWeb from "../footer/footer";
 import $ from "jquery";
-import useWindowDimensions from "./hook";
 
 function shouldRender(scrollQuantity){
     return scrollQuantity === 5;
@@ -25,24 +24,29 @@ const returnBasedOneDevice = (props) => {
     }
 };
 
-function Customers(props) {
-    window.addEventListener("wheel", (event) => {
-        const delta = Math.sign(event.deltaY);
-        if (props.scrollQuantity === 5 && delta === 1) {
-            $('#footer').slideToggle();
-        }
-    });
+class Customers extends React.Component {
 
-    return (
-        <div>
-            <div id={'customers'}>
-                {returnBasedOneDevice(props)}
-                <div id={'footer'}>
-                    <FooterWeb/>
+    render() {
+
+        // window.addEventListener("wheel", (event) => {
+        //     const delta = Math.sign(event.deltaY);
+        //     console.info(delta)
+        //     if (this.props.scrollQuantity === 5 && delta === 1) {
+        //         $('#footer').slideToggle();
+        //     }
+        // });
+
+        return (
+            <div>
+                <div id={'customers'}>
+                    {returnBasedOneDevice(this.props)}
+                    <div id={'footer'}>
+                        <FooterWeb/>
+                    </div>
                 </div>
             </div>
-        </div>
-    )
+        )
+    }
 }
 
 export default Customers;

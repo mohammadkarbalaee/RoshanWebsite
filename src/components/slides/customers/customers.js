@@ -30,13 +30,25 @@ function Customers(props) {
 
     const {height} = useWindowDimensions();
 
-    // window.addEventListener("wheel", (event) => {
-    //     const delta = Math.sign(event.deltaY);
-    //     console.info(delta)
-    //     if (this.props.scrollQuantity === 5 && delta === 1) {
-    //         $('#footer').slideToggle();
-    //     }
-    // });
+    window.addEventListener("wheel", (event) => {
+        const delta = Math.sign(event.deltaY);
+        console.info(delta)
+        if (props.scrollQuantity === 5 && delta === 1) {
+            isClicked = !isClicked;
+            const totalHeight = 5 * height + height;
+            window.scrollTo({
+                top: totalHeight,
+                behavior: 'smooth',
+            })
+        } else if (props.scrollQuantity === 5 && delta === -1){
+            const totalHeight = 5 * height;
+            window.scrollTo({
+                top: totalHeight,
+                behavior: 'smooth',
+            })
+        }
+
+    });
 
     return (
         <div>

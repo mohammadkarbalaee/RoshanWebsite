@@ -4,7 +4,6 @@ import {ReactComponent as CustomersMobile} from "../../../assets/images/mobile-c
 import './customers.scss'
 import {isMobile} from "react-device-detect";
 import useWindowDimensions from "./hook";
-import Arrow from "../../arrow";
 
 function shouldRender(scrollQuantity){
     return scrollQuantity === 5;
@@ -24,8 +23,6 @@ const returnBasedOneDevice = (props) => {
     }
 };
 
-let isClicked = false;
-
 function Customers(props) {
 
     const {height} = useWindowDimensions();
@@ -34,7 +31,6 @@ function Customers(props) {
         const delta = Math.sign(event.deltaY);
         console.info(delta)
         if (props.scrollQuantity === 5 && delta === 1) {
-            isClicked = !isClicked;
             const totalHeight = 5 * height + height;
             window.scrollTo({
                 top: totalHeight,
@@ -54,24 +50,6 @@ function Customers(props) {
         <div>
             <div id={'customers'}>
                 {returnBasedOneDevice(props)}
-                <button onClick={() => {
-                    if(isClicked){
-                        const totalHeight = 5 * height;
-                        window.scrollTo({
-                            top: totalHeight,
-                            behavior: 'smooth',
-                        })
-                    } else {
-                        const totalHeight = 5 * height + height;
-                        window.scrollTo({
-                            top: totalHeight,
-                            behavior: 'smooth',
-                        })
-                    }
-                    isClicked = !isClicked;
-                }}>
-                    <Arrow id={'toggle'} />
-                </button>
             </div>
         </div>
     )

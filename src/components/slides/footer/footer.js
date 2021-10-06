@@ -4,23 +4,77 @@ import {ReactComponent as Email} from "../../../assets/images/email.svg";
 import {ReactComponent as Name} from "../../../assets/images/sherkat.svg";
 import {ReactComponent as JoinUsText} from "../../../assets/images/join-us-text.svg";
 import {ReactComponent as ContactUsText} from "../../../assets/images/contact-us-text.svg";
-import {Link} from "react-router-dom";
+import {Link, useHistory} from "react-router-dom";
 import {ReactComponent as RoshanSVG} from "../../../assets/images/roshan-icon.svg";
 import {ReactComponent as Title} from "../../../assets/images/roshan-title.svg";
+import useWindowDimensions from "../customers/hook";
 
+export default function FooterWeb() {
+    const { height, width } = useWindowDimensions();
+    let history = useHistory();
 
-export default function FooterWeb(){
-    return(
+    const scrollToTop = (height,width) => {
+        const totalHeight = 5 * height;
+        window.scrollTo({
+            top: totalHeight - 1 * height,
+            left: width,
+            behavior:'smooth',
+        });
+        setTimeout(() => {
+            window.scrollTo({
+                top: totalHeight - 2 * height,
+                left: width,
+                behavior:'smooth',
+            });
+        }, 500);
+        setTimeout(() => {
+            window.scrollTo({
+                top: totalHeight - 3 * height,
+                left: width,
+                behavior:'smooth',
+            });
+        }, 1000);
+        setTimeout(() => {
+            window.scrollTo({
+                top: totalHeight - 4 * height,
+                left: width,
+                behavior:'smooth',
+            });
+        }, 1500);
+        setTimeout(() => {
+            window.scrollTo({
+                top: totalHeight - 5 * height,
+                left: width,
+                behavior:'smooth',
+            });
+        }, 2000);
+
+        setTimeout(() => {
+            window.location.reload();
+        }, 2500);
+    };
+
+    return (
         <div id={'footer'}>
             <Line id={'line'}/>
             <div id={'body'}>
                 <div id={'icons-group'}>
-                    <Link to={'/website'}>
+                    <button onClick={() => {
+                        scrollToTop(height,width);
+                    }} style={{
+                        backgroundColor: 'transparent',
+                        borderColor: 'transparent',
+                    }}>
                         <RoshanSVG id={'icon'}/>
-                    </Link>
-                    <Link to={'website'}>
+                    </button>
+                    <button onClick={() => {
+                        scrollToTop(height,width);
+                    }} style={{
+                        backgroundColor: 'transparent',
+                        borderColor: 'transparent',
+                    }}>
                         <Title id={'title'}/>
-                    </Link>
+                    </button>
                 </div>
                 <div id={'left'}>
                     <div id={'links'}>

@@ -24,9 +24,7 @@ const returnBasedOneDevice = (props) => {
 };
 
 function Customers(props) {
-
     const {height} = useWindowDimensions();
-
     window.addEventListener("wheel", (event) => {
         const delta = Math.sign(event.deltaY);
         console.info(delta)
@@ -43,7 +41,15 @@ function Customers(props) {
                 behavior: 'smooth',
             })
         }
-
+    });
+    window.addEventListener("keydown", (event) => {
+        if (props.scrollQuantity === 5) {
+            const totalHeight = 5 * height + height;
+            window.scrollTo({
+                top: totalHeight,
+                behavior: 'smooth',
+            })
+        }
     });
 
     return (

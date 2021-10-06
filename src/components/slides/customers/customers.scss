@@ -1,6 +1,6 @@
 #customers #web {
   display: none;
-  height: 65vh;
+  height: 95vh;
   width: 70vw;
 }
 
@@ -9,6 +9,16 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+button{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#toggle{
+  height: 5vh;
+  width: 10vw;
 }
 
 #customers #mobile {

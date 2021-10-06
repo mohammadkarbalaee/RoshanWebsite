@@ -86,7 +86,10 @@ class RoshanWebsite extends Component {
                 )
             } else {
                 return(
-                    <Fullpage {...fullPageOptions} onSlideChangeStart={onSlideChangeStart}/>
+                    <div>
+                        <Fullpage {...fullPageOptions} onSlideChangeStart={onSlideChangeStart}/>
+                        <FooterWeb/>
+                    </div>
                 )
             }
         };

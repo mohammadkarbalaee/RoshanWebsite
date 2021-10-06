@@ -1,0 +1,11 @@
+.wrapper #arrow{
+  height: 5vh;
+  width:10vw;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

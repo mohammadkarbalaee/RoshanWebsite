@@ -7,43 +7,37 @@ import {ReactComponent as ContactUsText} from "../../../assets/images/contact-us
 import {Link} from "react-router-dom";
 import {ReactComponent as RoshanSVG} from "../../../assets/images/roshan-icon.svg";
 import {ReactComponent as Title} from "../../../assets/images/roshan-title.svg";
-import useWindowDimensions from "../customers/hook";
 
 export default function FooterWeb() {
-    const { height, width } = useWindowDimensions();
+    const height = window.innerHeight;
 
-    const scrollToTop = (height,width) => {
+    const scrollToTop = (height) => {
         const totalHeight = 5 * height;
         window.scrollTo({
             top: totalHeight - 1 * height,
-            left: width,
             behavior:'smooth',
         });
         setTimeout(() => {
             window.scrollTo({
                 top: totalHeight - 2 * height,
-                left: width,
                 behavior:'smooth',
             });
         }, 500);
         setTimeout(() => {
             window.scrollTo({
                 top: totalHeight - 3 * height,
-                left: width,
                 behavior:'smooth',
             });
         }, 1000);
         setTimeout(() => {
             window.scrollTo({
                 top: totalHeight - 4 * height,
-                left: width,
                 behavior:'smooth',
             });
         }, 1500);
         setTimeout(() => {
             window.scrollTo({
                 top: totalHeight - 5 * height,
-                left: width,
                 behavior:'smooth',
             });
         }, 2000);
@@ -59,7 +53,7 @@ export default function FooterWeb() {
             <div id={'body'}>
                 <div id={'icons-group'}>
                     <button onClick={() => {
-                        scrollToTop(height,width);
+                        scrollToTop(height);
                     }} style={{
                         backgroundColor: 'transparent',
                         borderColor: 'transparent',
@@ -67,7 +61,7 @@ export default function FooterWeb() {
                         <RoshanSVG id={'icon'}/>
                     </button>
                     <button onClick={() => {
-                        scrollToTop(height,width);
+                        scrollToTop(height);
                     }} style={{
                         backgroundColor: 'transparent',
                         borderColor: 'transparent',

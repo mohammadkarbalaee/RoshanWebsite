@@ -29,7 +29,7 @@ class RoshanWebsite extends Component {
             touchSensitivity: 0.5,
             scrollSpeed: isMobile ? 500 : 1000,
             hideScrollBars: true,
-            enableArrowKeys: true,
+            enableArrowKeys: false,
         };
 
         fullPageOptions.slides = [

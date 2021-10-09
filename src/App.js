@@ -4,7 +4,7 @@ import ProgressIndicator from "./components/progress-indicator";
 import {Fullpage,Slide} from 'fullpage-react';
 import {FullPage as NormalFullPage,Slide as NormalSlide} from 'react-full-page';
 
-import {isMobile,isOpera} from "react-device-detect";
+import {isOpera} from "react-device-detect";
 import FooterWeb from "./components/slides/footer/footer";
 
 const Header = lazy(() => import("./components/header/header"));
@@ -27,7 +27,7 @@ class RoshanWebsite extends Component {
         const fullPageOptions = {
             scrollSensitivity: 2,
             touchSensitivity: 0.5,
-            scrollSpeed: isMobile ? 500 : 1000,
+            scrollSpeed: 500,
             hideScrollBars: true,
             enableArrowKeys: false,
         };

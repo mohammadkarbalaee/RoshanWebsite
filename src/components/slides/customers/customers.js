@@ -34,12 +34,6 @@ function Customers(props) {
                 top: totalHeight,
                 behavior: 'smooth',
             })
-        } else if (props.scrollQuantity === 5 && delta === -1){
-            const totalHeight = 5 * height;
-            window.scrollTo({
-                top: totalHeight,
-                behavior: 'smooth',
-            })
         }
     });
     window.addEventListener("keydown", (event) => {

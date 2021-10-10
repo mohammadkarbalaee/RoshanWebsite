@@ -1,12 +1,13 @@
 import './contact-us-button.scss';
 import {Link} from 'react-router-dom';
-import {ReactComponent as Text} from "../../../../../assets/images/contact-us-text.svg";
+import ContactUsText from "../../../../jsx-svgs/web/contact-us-text";
+
 
 function ContactUsButton() {
     return (
         <div className='contact-us'>
             <Link to={'/contact-us'}>
-                <Text id={'button'}/>
+                <ContactUsText id={'button'}/>
             </Link>
         </div>
     )

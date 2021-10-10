@@ -79,8 +79,8 @@ export default function FooterWeb() {
                         </Link>
                     </div>
                     <div id={'email-name'}>
-                        <Email id={'email'}/>
                         <Name id={'name'}/>
+                        <Email id={'email'}/>
                     </div>
                 </div>
             </div>

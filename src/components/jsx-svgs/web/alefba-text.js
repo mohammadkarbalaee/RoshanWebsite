@@ -130,6 +130,7 @@ function AlefbaWebText(props) {
                 d="M262.14 62.088a3.5 3.5 0 100-7 3.5 3.5 0 000 7z"
             />
                 <a href={'https://www.roshan-ai.ir/alefba/'}>
+                    <rect id="Hidden Layer" y="218" width="153" height="33" fill="black" fillOpacity="0.01"/>
                         <motion.path
                             fill="#FF6200"
                             variants={animationChooser(props.status)['backgroundAnimation']}

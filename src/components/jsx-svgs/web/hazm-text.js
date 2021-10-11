@@ -117,6 +117,17 @@ function HazmWebText(props) {
                 d="M248.14 62.088a3.5 3.5 0 100-7 3.5 3.5 0 000 7z"
             />
                 <a href={'https://www.sobhe.ir/hazm'}>
+                    <motion.rect
+                        id="Hidden Layer"
+                        y="218"
+                        width="153"
+                        height="33"
+                        fill="black"
+                        fillOpacity="0.01"
+                        variants={animationChooser(props.status)['aboutAnimationHazm']}
+                        initial={"hidden"}
+                        animate={"visible"}
+                    />
                         <motion.path
                             variants={animationChooser(props.status)['backgroundAnimationHazm']}
                             initial={"hidden"}

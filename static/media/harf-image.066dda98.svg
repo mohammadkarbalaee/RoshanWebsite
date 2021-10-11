@@ -1,0 +1,20 @@
+<svg width="304" height="134" viewBox="0 0 304 134" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M303 88.9776C297.991 84.6633 247.987 88.0289 243.353 87.9193C238.719 87.9193 236.077 76.1663 232.577 76.1663C229.078 76.1663 221.282 92.1059 217.252 91.4619C212.027 90.1188 212.027 59.9583 207.282 59.9583C200.789 59.4716 202.261 102.139 196.856 101.784C192.172 101.784 191.275 26.1714 185.43 26.1714C176.769 26.0847 178.269 133.023 168.202 133C157.873 132.787 168.532 2.0246 155.994 1.03689C143.308 -1.15057 145.964 94.6896 130.6 92.5809C118.392 91.0062 114.021 69.1194 106.787 67.8826C101.02 67.02 90.8515 85.0966 61.6433 87.9193C47.445 89.2914 47.2279 89.8506 1 89.5968" stroke="url(#paint0_linearHarf)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1 80L33 80" stroke="url(#paint1_linearHarf)" stroke-width="2" stroke-linecap="round"/>
+<path d="M17 100H33" stroke="url(#paint2_linearHarf)" stroke-width="2" stroke-linecap="round"/>
+<defs>
+<linearGradient id="paint0_linearHarf" x1="303" y1="67" x2="-8.99999" y2="67" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FE274C"/>
+<stop offset="0.500866" stop-color="#3E929A"/>
+<stop offset="1" stop-color="#4AE788"/>
+</linearGradient>
+<linearGradient id="paint1_linearHarf" x1="-nan" y1="-nan" x2="-nan" y2="-nan" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4AE788"/>
+<stop offset="1" stop-color="#46CC8E"/>
+</linearGradient>
+<linearGradient id="paint2_linearHarf" x1="33" y1="100.5" x2="17" y2="100.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#46CD8E"/>
+<stop offset="1" stop-color="#4AE788"/>
+</linearGradient>
+</defs>
+</svg>

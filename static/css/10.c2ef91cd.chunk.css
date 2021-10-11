@@ -1,0 +1,1 @@
+.join-us-page #mobile{height:90vh;width:80vw}.join-us-page #web{display:none}.join-us-page{display:flex;flex-direction:column;justify-content:center;align-items:center}@media screen and (min-width:500px){.join-us-page #mobile{display:none}.join-us-page #web{display:flex;height:90vh;width:80vw}}

@@ -1,0 +1,1 @@
+.contact-us-page #mobile{height:90vh;width:80vw}.contact-us-page #web{display:none}.contact-us-page{display:flex;flex-direction:column;justify-content:center;align-items:center}@media screen and (min-width:500px){.contact-us-page #mobile{display:none}.contact-us-page #web{display:flex;height:90vh;width:80vw}}

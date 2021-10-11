@@ -13,14 +13,17 @@ const returnBasedOneDevice = (props) => {
         )
     }  else {
         return(
-            <div id={'web'}>
-                <div id={'image'}>
-                    <KashfWebImage status={props.scrollQuantity}/>
-                </div>
-                <div id={'space-between'}/>
-                <div id={'text'}>
-                    <KashfWebText status={props.scrollQuantity}/>
-                </div>
+            // <div id={'web'}>
+            //     <div id={'image'}>
+            //         <KashfWebImage status={props.scrollQuantity}/>
+            //     </div>
+            //     <div id={'space-between'}/>
+            //     <div id={'text'}>
+            //         <KashfWebText status={props.scrollQuantity}/>
+            //     </div>
+            // </div>
+            <div id={'mobile'}>
+                <KashfMobile status={props.scrollQuantity}/>
             </div>
         )
     }

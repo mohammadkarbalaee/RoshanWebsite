@@ -1,6 +1,6 @@
 import './main-page.scss'
 import {isMobile} from 'react-device-detect';
-import {ReactComponent as MobileBackground} from "../../../assets/images/web-background.svg";
+import {ReactComponent as MobileBackground} from "../../../assets/images/mobile-background.svg";
 import {ReactComponent as WebBackground} from "../../../assets/images/web-background.svg";
 import {motion} from "framer-motion";
 import {
@@ -28,7 +28,8 @@ const returnBasedOneDevice = (props) => {
       )
   } else {
       return(
-            <WebBackground className='web-background'/>
+            // <WebBackground className='web-background'/>
+          <MobileBackground className='mobile-background'/>
       )
   }
 };

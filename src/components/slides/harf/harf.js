@@ -27,18 +27,21 @@ const returnBasedOneDevice = (props) => {
         )
     } else {
         return(
-            <div id={'web'}>
-                <motion.div
-                    variants={animationChooser(props.scrollQuantity)}
-                    initial={"hidden"}
-                    animate={"visible"}
-                >
-                    <HarfWebImage id={'image'} />
-                </motion.div>
-                <div id={'space-between'} />
-                <div id={'text'}>
-                    <HarfWebText status={props.scrollQuantity}/>
-                </div>
+            // <div id={'web'}>
+            //     <motion.div
+            //         variants={animationChooser(props.scrollQuantity)}
+            //         initial={"hidden"}
+            //         animate={"visible"}
+            //     >
+            //         <HarfWebImage id={'image'} />
+            //     </motion.div>
+            //     <div id={'space-between'} />
+            //     <div id={'text'}>
+            //         <HarfWebText status={props.scrollQuantity}/>
+            //     </div>
+            // </div>
+            <div id={'mobile'}>
+                <HarfMobile status={props.scrollQuantity}/>
             </div>
         )
     }

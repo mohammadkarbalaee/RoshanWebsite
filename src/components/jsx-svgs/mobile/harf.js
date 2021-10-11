@@ -161,7 +161,7 @@ function HarfMobile(props) {
                 variants={animationChooser(props.status)['flowerAnimation']}
                 initial={"hidden"}
                 animate={"visible"}
-    stroke="url(#paint0_linear)"
+    stroke="url(#paint0_linearHarf)"
     strokeLinecap="round"
     strokeLinejoin="round"
     strokeWidth="2"
@@ -171,7 +171,7 @@ function HarfMobile(props) {
                 variants={animationChooser(props.status)['flowerAnimation']}
                 initial={"hidden"}
                 animate={"visible"}
-    stroke="url(#paint1_linear)"
+    stroke="url(#paint1_linearHarf)"
     strokeLinecap="round"
     strokeWidth="2"
     d="M1.06 65.85h26.054"
@@ -180,14 +180,14 @@ function HarfMobile(props) {
                 variants={animationChooser(props.status)['flowerAnimation']}
                 initial={"hidden"}
                 animate={"visible"}
-    stroke="url(#paint2_linear)"
+    stroke="url(#paint2_linearHarf)"
     strokeLinecap="round"
     strokeWidth="2"
     d="M14.087 82.132h13.027"
     />
             <defs>
                 <linearGradient
-                    id="paint0_linear"
+                    id="paint0_linearHarf"
                     x1="246.939"
                     x2="-7.081"
                     y1="55.265"
@@ -199,7 +199,7 @@ function HarfMobile(props) {
                     <stop offset="1" stopColor="#4AE788"/>
                 </linearGradient>
                 <linearGradient
-                    id="paint1_linear"
+                    id="paint1_linearHarf"
                     x1="-nan"
                     x2="-nan"
                     y1="-nan"
@@ -210,7 +210,7 @@ function HarfMobile(props) {
                     <stop offset="1" stopColor="#46CC8E"/>
                 </linearGradient>
                 <linearGradient
-                    id="paint2_linear"
+                    id="paint2_linearHarf"
                     x1="27.114"
                     x2="14.087"
                     y1="82.632"

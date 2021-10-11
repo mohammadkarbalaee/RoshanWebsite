@@ -14,7 +14,6 @@ const Harf = lazy(() => import("./components/slides/harf/harf"));
 const Hazm = lazy(() => import("./components/slides/hazm/hazm"));
 const Customers = lazy(() => import("./components/slides/customers/customers"));
 
-
 class RoshanWebsite extends Component {
 
     state = {

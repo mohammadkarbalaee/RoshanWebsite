@@ -17,7 +17,9 @@ const returnBasedOneDevice = (props) => {
 
 function MainPage(props) {
     return (
-        <div className='all'>
+        <div className='all'
+
+        >
             {returnBasedOneDevice(props)}
         </div>
     )

@@ -28,8 +28,7 @@ const returnBasedOneDevice = (props) => {
       )
   } else {
       return(
-            // <WebBackground className='web-background'/>
-          <MobileBackground className='mobile-background'/>
+            <WebBackground className='web-background'/>
       )
   }
 };

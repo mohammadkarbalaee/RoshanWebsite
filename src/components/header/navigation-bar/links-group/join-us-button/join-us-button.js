@@ -1,12 +1,12 @@
 import './join-us-button.scss'
 import {Link} from 'react-router-dom';
-import {ReactComponent as Text} from "../../../../../assets/images/join-us-text.svg";
+import JoinUsText from "../../../../jsx-svgs/web/join-us-text";
 
 function JoinUsButton() {
     return (
         <div className="join-us">
             <Link to={'/join-us'}>
-                <Text id={'button'}/>
+                <JoinUsText id={'button'}/>
             </Link>
         </div>
     )

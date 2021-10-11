@@ -1,13 +1,12 @@
-import React from 'react';
 import './roshan-title.scss'
 import {Link} from "react-router-dom";
-import {ReactComponent as Title} from "../../../../../assets/images/roshan-title.svg";
+import RoshanText from "../../../../jsx-svgs/web/roshan-text";
 
 function RoshanTitle() {
     return (
         <div className='roshan-title'>
             <Link to={'website'}>
-                <Title id={'title'}/>
+                <RoshanText id={'title'}/>
             </Link>
         </div>
     )

@@ -2,11 +2,11 @@ import './footer.scss';
 import {ReactComponent as Line} from "../../../assets/images/footer-line.svg";
 import {ReactComponent as Email} from "../../../assets/images/email.svg";
 import {ReactComponent as Name} from "../../../assets/images/sherkat.svg";
-import {ReactComponent as JoinUsText} from "../../../assets/images/join-us-text.svg";
-import {ReactComponent as ContactUsText} from "../../../assets/images/contact-us-text.svg";
 import {Link} from "react-router-dom";
 import {ReactComponent as RoshanSVG} from "../../../assets/images/roshan-icon.svg";
-import {ReactComponent as Title} from "../../../assets/images/roshan-title.svg";
+import RoshanText from "../../jsx-svgs/web/roshan-text";
+import ContactUsText from "../../jsx-svgs/web/contact-us-text";
+import JoinUsText from "../../jsx-svgs/web/join-us-text";
 
 export default function FooterWeb() {
     const height = window.innerHeight;
@@ -66,7 +66,7 @@ export default function FooterWeb() {
                         backgroundColor: 'transparent',
                         borderColor: 'transparent',
                     }}>
-                        <Title id={'title'}/>
+                        <RoshanText id={'title'}/>
                     </button>
                 </div>
                 <div id={'left'}>

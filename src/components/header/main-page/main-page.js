@@ -8,6 +8,7 @@ import {
     noneAnimation,
     startingAnimation,
 } from "../../../animations/main-page";
+import {useEffect} from "react";
 
 
 const imageAnimationChooser = (scrollQuantity) => {
@@ -34,6 +35,19 @@ const returnBasedOneDevice = (props) => {
 };
 
 function MainPage(props) {
+
+    useEffect(() => {
+        window.addEventListener("beforeunload", scrollToTop);
+        return () => {
+            window.removeEventListener("beforeunload", scrollToTop);
+        };
+    }, []);
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+        });
+    };
+
     return (
         <motion.div
             className='all'

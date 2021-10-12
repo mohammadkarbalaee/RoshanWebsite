@@ -3,6 +3,12 @@
   width: 5vw;
 }
 
+#button:hover{
+  #text{
+    fill: #7AB8FF
+  }
+}
+
 @media screen and (max-width: 500px){
   .contact-us #button{
     padding-top: 10vh;

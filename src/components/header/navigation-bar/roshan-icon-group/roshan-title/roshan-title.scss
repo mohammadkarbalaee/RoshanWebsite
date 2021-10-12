@@ -4,6 +4,12 @@
 ;
 }
 
+#title:hover{
+  #text{
+    fill: #7AB8FF
+  }
+}
+
 @media screen and (max-width: 500px){
   .roshan-title #title{
     margin-right: 1.33vw;

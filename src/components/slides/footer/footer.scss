@@ -72,9 +72,21 @@
   width: 4.22vw;
 }
 
+#contact-us:hover{
+  #text{
+    fill: #7AB8FF
+  }
+}
+
 #join-us{
   height: 2.92vh;
   width: 4.92vw;
+}
+
+#join-us:hover{
+  #text{
+    fill: #7AB8FF
+  }
 }
 
 #name{
@@ -85,4 +97,10 @@
 #email{
   width: 9.45vw;
   height: 2.92vh;
+}
+
+#title-roshan:hover{
+  #text{
+    fill: #7AB8FF
+  }
 }

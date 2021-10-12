@@ -16,6 +16,7 @@ import {
     aboutAnimationHazm,
 } from '../../../animations/hazm';
 import {noneAnimation, noneAnimationHazm} from "../../../animations/main-page";
+import './buttons.scss';
 
 const animationChooser = (scrollQuantity) => {
 
@@ -116,7 +117,10 @@ function HazmWebText(props) {
                 fill="#0089FF"
                 d="M248.14 62.088a3.5 3.5 0 100-7 3.5 3.5 0 000 7z"
             />
-                <a href={'https://www.sobhe.ir/hazm'}>
+                <a
+                    href={'https://www.sobhe.ir/hazm'}
+                    id={'link-hazm'}
+                >
                     <motion.rect
                         id="Hidden Layer"
                         y="218"
@@ -145,6 +149,7 @@ function HazmWebText(props) {
                         />
                         <motion.path
                             fill="#fff"
+                            id={'text'}
                             variants={animationChooser(props.status)['aboutAnimationHazm']}
                             initial={"hidden"}
                             animate={"visible"}

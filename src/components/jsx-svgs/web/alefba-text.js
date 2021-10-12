@@ -16,6 +16,7 @@ import {
     flowerAndFrameAnimation,
 } from '../../../animations/kashf';
 import {noneAnimation, noneAnimationAlefba} from "../../../animations/main-page";
+import './buttons.scss';
 
 const animationChooser = (scrollQuantity) => {
 
@@ -129,7 +130,10 @@ function AlefbaWebText(props) {
                 fill="#FF6200"
                 d="M262.14 62.088a3.5 3.5 0 100-7 3.5 3.5 0 000 7z"
             />
-                <a href={'https://www.roshan-ai.ir/alefba/'}>
+                <a
+                    href={'https://www.roshan-ai.ir/alefba/'}
+                    id={'link-alefba'}
+                >
                     <rect id="Hidden Layer" y="218" width="153" height="33" fill="black" fillOpacity="0.01"/>
                         <motion.path
                             fill="#FF6200"
@@ -148,6 +152,7 @@ function AlefbaWebText(props) {
                         />
                         <motion.path
                             fill="#fff"
+                            id={'text'}
                             variants={animationChooser(props.status)['aboutAnimation']}
                             initial={"hidden"}
                             animate={"visible"}
